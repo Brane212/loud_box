@@ -1,0 +1,5 @@
+#Start recording tcl command: 6/16/2020 16:16:10
+#Project Location: /home/brane2/LATT_DEMO_PROJ/LOUD_BOX; Project name: LOUD_BOX
+prj_project open "/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/LOUD_BOX.ldf"
+prj_project close
+#Stop recording: 6/16/2020 16:17:42

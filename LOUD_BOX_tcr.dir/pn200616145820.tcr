@@ -1,0 +1,16 @@
+#Start recording tcl command: 6/16/2020 13:23:39
+#Project Location: /home/brane2/LATT_DEMO_PROJ/LOUD_BOX; Project name: LOUD_BOX
+prj_project open "/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/LOUD_BOX.ldf"
+prj_run Export -impl impl1 -task Jedecgen
+prj_run Export -impl impl1 -task Jedecgen
+prj_run Export -impl impl1 -task Jedecgen
+prj_run Export -impl impl1 -task Jedecgen
+prj_run Export -impl impl1 -task Jedecgen -forceAll
+prj_run Export -impl impl1 -task Jedecgen -forceAll
+prj_run Export -impl impl1 -task Jedecgen
+prj_src exclude "/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/LFSR1.ipx"
+prj_src remove "/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/LFSR1.ipx"
+prj_src remove "/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/LFSR1.v"
+prj_src add "/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/LFSR1.lpc"
+prj_src remove "/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/LFSR1.lpc"
+#Stop recording: 6/16/2020 14:58:20

@@ -1,0 +1,11 @@
+#Start recording tcl command: 6/16/2020 15:06:38
+#Project Location: /home/brane2/LATT_DEMO_PROJ/LOUD_BOX; Project name: LOUD_BOX
+prj_project open "/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/LOUD_BOX.ldf"
+prj_src exclude "/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/PLL1.v"
+prj_src enable "/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/PLL1.lpc"
+prj_src exclude "/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/PLL1.lpc"
+prj_src remove "/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/PLL1.lpc"
+prj_src remove "/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/PLL1.v"
+prj_project save
+prj_project close
+#Stop recording: 6/16/2020 15:07:58

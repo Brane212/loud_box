@@ -1,0 +1,18 @@
+Results of NGD DRC are available in shout_1_drc.log.
+Loading NGL library '/usr/local/diamond/3.11_x64/ispfpga/xo2c00a/data/xo2alib.ngl'...
+Loading NGL library '/usr/local/diamond/3.11_x64/ispfpga/xo2c00/data/xo2clib.ngl'...
+Loading NGL library '/usr/local/diamond/3.11_x64/ispfpga/mg5g00/data/mg5glib.ngl'...
+Loading NGL library '/usr/local/diamond/3.11_x64/ispfpga/or5g00/data/orc5glib.ngl'...
+
+
+Running DRC...
+
+WARNING - synthesis: logical net 'clk_in' has no load.
+WARNING - synthesis: input pad net 'clk_in' has no legal load.
+WARNING - synthesis: DRC complete with 2 warnings.
+
+Design Results:
+      6 blocks expanded
+completed the first expansion
+All blocks are expanded and NGD expansion is successful.
+Writing NGD file LOUD_BOX_impl1.ngd.

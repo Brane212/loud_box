@@ -1,0 +1,42 @@
+[Device]
+Family=machxo2
+PartType=LCMXO2-7000HE
+PartName=LCMXO2-7000HE-4TG144C
+SpeedGrade=4
+Package=TQFP144
+OperatingCondition=COM
+Status=S
+
+[IP]
+VendorName=Lattice Semiconductor Corporation
+CoreType=LPM
+CoreStatus=Demo
+CoreName=LFSR
+CoreRevision=3.7
+ModuleName=LFSR1
+SourceFormat=Verilog HDL
+ParameterFileVersion=1.0
+Date=06/18/2020
+Time=10:02:22
+
+[Parameters]
+Verilog=1
+VHDL=0
+EDIF=1
+Destination=Synplicity
+Expression=BusA(0 to 7)
+Order=Big Endian [MSB:LSB]
+IO=0
+Mode=Fibonacci
+Type=Signed
+Gate=XOR
+Number=16
+Poly=b400
+Value=3729
+Para=1
+Reset=0
+Seed=0
+Enable=0
+
+[Command]
+cmd_line= -w -n LFSR1 -lang verilog -synth lse -bus_exp 7 -bb -arch xo2c00 -type lfsr -stage 16 -feedback_poly b400 -init_seed 3729 -parallel_out

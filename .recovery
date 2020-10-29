@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BaliProject version="3.2" title="LOUD_BOX" device="LCMXO2-7000HE-4TG144C" default_implementation="impl1">
+    <Options/>
+    <Implementation title="impl1" dir="impl1" description="impl1" synthesis="lse" default_strategy="Strategy1">
+        <Options def_top="TABLE_3_2" top="top1"/>
+        <Source name="RING_MOD.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="TOP.v" type="Verilog" type_short="Verilog">
+            <Options top_module="top1"/>
+        </Source>
+        <Source name="SHOUT1.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="USB_SHOUT1.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="PLL1.ipx" type="IPX_Module" type_short="IPX">
+            <Options/>
+        </Source>
+        <Source name="LFSR1.v" type="Verilog" type_short="Verilog" excluded="TRUE">
+            <Options/>
+        </Source>
+        <Source name="PLL1.v" type="Verilog" type_short="Verilog" excluded="TRUE">
+            <Options/>
+        </Source>
+        <Source name="LFSR1.lpc" type="LPC_Module" type_short="LPC">
+            <Options/>
+        </Source>
+        <Source name="PS_SHOUT1.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="DIS_SHOUT1.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="PLL2.lpc" type="LPC_Module" type_short="LPC">
+            <Options/>
+        </Source>
+        <Source name="PLL2.v" type="Verilog" type_short="Verilog" excluded="TRUE">
+            <Options/>
+        </Source>
+        <Source name="TABLE_3_1.v" type="Verilog" type_short="Verilog" excluded="TRUE">
+            <Options/>
+        </Source>
+        <Source name="TABLE_3_1.lpc" type="LPC_Module" type_short="LPC">
+            <Options/>
+        </Source>
+        <Source name="TABLE_3_2.lpc" type="LPC_Module" type_short="LPC">
+            <Options/>
+        </Source>
+        <Source name="TABLE_3_2.v" type="Verilog" type_short="Verilog" excluded="TRUE">
+            <Options/>
+        </Source>
+        <Source name="LEDS_DIV12.lpc" type="LPC_Module" type_short="LPC">
+            <Options/>
+        </Source>
+        <Source name="LEDS_DIV12.v" type="Verilog" type_short="Verilog" excluded="TRUE">
+            <Options/>
+        </Source>
+        <Source name="IOT_SHOUT.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="BRAIN_SHOUT.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="LOUD_BOX.lpf" type="Logic Preference" type_short="LPF">
+            <Options/>
+        </Source>
+        <Source name="impl1/impl1.xcf" type="Programming Project File" type_short="Programming">
+            <Options/>
+        </Source>
+    </Implementation>
+    <Strategy name="Strategy1" file="LOUD_BOX1.sty"/>
+</BaliProject>

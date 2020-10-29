@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DiamondModule name="LEDS_DIV12" module="LEDS_DIV12" VendorName="Lattice Semiconductor Corporation" generator="IPexpress" date="2020 06 24 05:01:22.779" version="4.6" type="Module" synthesis="lse" source_format="Verilog HDL">
+  <Package>
+		<File name="LEDS_DIV12.lpc" type="lpc" modified="2020 06 22 18:36:20.000"/>
+		<File name="LEDS_DIV12.v" type="top_level_verilog" modified="2020 06 22 18:36:20.000"/>
+		<File name="LEDS_DIV12_tmpl.v" type="template_verilog" modified="2020 06 22 18:36:20.000"/>
+		<File name="tb_LEDS_DIV12_tmpl.v" type="testbench_verilog" modified="2020 06 22 18:36:20.000"/>
+  </Package>
+</DiamondModule>

@@ -1,0 +1,319 @@
+----------------------------------------------------------------------
+Report for cell top1.TECH
+Register bits:  485 of 7209 (6.728%)
+I/O cells:      65
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                              CCU2D       183          100.0
+                                CU2         6          100.0
+                            EHXPLLJ         2          100.0
+                             FADD2B         1          100.0
+                            FD1P3AX       186          100.0
+                            FD1P3IX       127          100.0
+                            FD1P3JX         9          100.0
+                            FD1S3AX        38          100.0
+                            FD1S3AY         1          100.0
+                            FD1S3IX       108          100.0
+                            FD1S3JX        16          100.0
+                                GSR         1          100.0
+                                 IB         5          100.0
+                                INV         6          100.0
+                               LUT4       870          100.0
+                                 OB        60          100.0
+                               OSCH         1          100.0
+                              PFUMX        49          100.0
+                           ROM16X1A         8          100.0
+SUB MODULES
+                         LEDS_DIV12         1
+                               PLL1         1
+                               PLL2         1
+                          TABLE_3_1         1
+                       TABLE_3_1_U0         1
+                       TABLE_3_1_U1         1
+                       TABLE_3_1_U2         1
+                       TABLE_3_1_U3         1
+                       TABLE_3_1_U4         1
+                       TABLE_3_1_U5         1
+                       TABLE_3_1_U6         1
+                        brain_shout         1
+                    brain_shout_U15         1
+                    brain_shout_U16         1
+                          dis_shout         1
+                      dis_shout_U14         1
+                          iot_shout         1
+                           ps_shout         1
+                       ps_shout_U11         1
+                       ps_shout_U12         1
+                       ps_shout_U13         1
+                           ring_rnd         1
+                         usb1_shout         1
+            usb1_shout(int_speed=1)         1
+        usb1_shout(int_speed=1)_U10         1
+                      usb1_shout_U7         1
+                      usb1_shout_U8         1
+                      usb1_shout_U9         1
+                              TOTAL      1705
+----------------------------------------------------------------------
+Report for cell LEDS_DIV12.v1
+Instance Path : leds_div12
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                                CU2         6          100.0
+                             FADD2B         1          100.0
+                            FD1P3AX        12            6.5
+                              TOTAL        19
+----------------------------------------------------------------------
+Report for cell ring_rnd.v1
+Instance Path : rng1
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                            FD1S3AX         5           13.2
+                                INV         2           33.3
+                               LUT4         6            0.7
+                           ROM16X1A         8          100.0
+SUB MODULES
+                          TABLE_3_1         1
+                       TABLE_3_1_U0         1
+                       TABLE_3_1_U1         1
+                       TABLE_3_1_U2         1
+                       TABLE_3_1_U3         1
+                       TABLE_3_1_U4         1
+                       TABLE_3_1_U5         1
+                       TABLE_3_1_U6         1
+                              TOTAL        29
+----------------------------------------------------------------------
+Report for cell TABLE_3_1.v1
+Instance Path : rng1.r2_c3
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                           ROM16X1A         1           12.5
+                              TOTAL         1
+----------------------------------------------------------------------
+Report for cell TABLE_3_1_U0.v1
+Instance Path : rng1.r2_c2
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                           ROM16X1A         1           12.5
+                              TOTAL         1
+----------------------------------------------------------------------
+Report for cell TABLE_3_1_U1.v1
+Instance Path : rng1.r2_c1
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                           ROM16X1A         1           12.5
+                              TOTAL         1
+----------------------------------------------------------------------
+Report for cell TABLE_3_1_U2.v1
+Instance Path : rng1.r1_c5
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                           ROM16X1A         1           12.5
+                              TOTAL         1
+----------------------------------------------------------------------
+Report for cell TABLE_3_1_U3.v1
+Instance Path : rng1.r1_c4
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                           ROM16X1A         1           12.5
+                              TOTAL         1
+----------------------------------------------------------------------
+Report for cell TABLE_3_1_U4.v1
+Instance Path : rng1.r1_c3
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                           ROM16X1A         1           12.5
+                              TOTAL         1
+----------------------------------------------------------------------
+Report for cell TABLE_3_1_U5.v1
+Instance Path : rng1.r1_c2
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                           ROM16X1A         1           12.5
+                              TOTAL         1
+----------------------------------------------------------------------
+Report for cell TABLE_3_1_U6.v1
+Instance Path : rng1.r1_c1
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                           ROM16X1A         1           12.5
+                              TOTAL         1
+----------------------------------------------------------------------
+Report for cell usb1_shout.v1
+Instance Path : usb_l4
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                              CCU2D         6            3.3
+                            FD1P3AX        18            9.7
+                            FD1P3IX        14           11.0
+                            FD1P3JX         1           11.1
+                               LUT4        96           11.0
+                              PFUMX         7           14.3
+                              TOTAL       142
+----------------------------------------------------------------------
+Report for cell ps_shout.v1
+Instance Path : ps4
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                            FD1P3AX        15            8.1
+                            FD1P3IX         4            3.1
+                               LUT4        35            4.0
+                              PFUMX         1            2.0
+                              TOTAL        55
+----------------------------------------------------------------------
+Report for cell brain_shout_U16.v1
+Instance Path : brain1
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                               LUT4         1            0.1
+                              TOTAL         1
+----------------------------------------------------------------------
+Report for cell brain_shout_U15.v1
+Instance Path : brain2
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                               LUT4         1            0.1
+                              TOTAL         1
+----------------------------------------------------------------------
+Report for cell iot_shout.v1
+Instance Path : iot_100
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                            FD1S3IX         1            0.9
+                            FD1S3JX         4           25.0
+                               LUT4         6            0.7
+                              TOTAL        11
+----------------------------------------------------------------------
+Report for cell dis_shout.v1
+Instance Path : dis2
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                              CCU2D        55           30.1
+                            FD1P3IX        21           16.5
+                            FD1S3IX        24           22.2
+                               LUT4        47            5.4
+                              TOTAL       147
+----------------------------------------------------------------------
+Report for cell ps_shout_U11.v1
+Instance Path : ps3
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                            FD1P3AX        14            7.5
+                            FD1P3JX         1           11.1
+                            FD1S3IX         4            3.7
+                               LUT4        33            3.8
+                              PFUMX         1            2.0
+                              TOTAL        53
+----------------------------------------------------------------------
+Report for cell dis_shout_U14.v1
+Instance Path : dis1
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                              CCU2D        55           30.1
+                            FD1P3IX        21           16.5
+                            FD1S3IX        24           22.2
+                               LUT4        70            8.0
+                              PFUMX         2            4.1
+                              TOTAL       172
+----------------------------------------------------------------------
+Report for cell PLL1.v1
+Instance Path : main_pll
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                            EHXPLLJ         1           50.0
+                              TOTAL         1
+----------------------------------------------------------------------
+Report for cell PLL2.v1
+Instance Path : sec_pll
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                            EHXPLLJ         1           50.0
+                              TOTAL         1
+----------------------------------------------------------------------
+Report for cell ps_shout_U12.v1
+Instance Path : ps2
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                            FD1P3AX        14            7.5
+                            FD1P3JX         1           11.1
+                            FD1S3IX         4            3.7
+                               LUT4        32            3.7
+                              PFUMX         1            2.0
+                              TOTAL        52
+----------------------------------------------------------------------
+Report for cell brain_shout.v1
+Instance Path : brain3
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                               LUT4         1            0.1
+                              TOTAL         1
+----------------------------------------------------------------------
+Report for cell usb1_shout(int_speed=1).v1
+Instance Path : usb_f2
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                              CCU2D         6            3.3
+                            FD1P3AX        20           10.8
+                            FD1P3IX        12            9.4
+                            FD1P3JX         1           11.1
+                               LUT4        90           10.3
+                              PFUMX         7           14.3
+                              TOTAL       136
+----------------------------------------------------------------------
+Report for cell ps_shout_U13.v1
+Instance Path : ps1
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                            FD1P3AX        14            7.5
+                            FD1P3JX         1           11.1
+                            FD1S3IX         4            3.7
+                               LUT4        33            3.8
+                              PFUMX         1            2.0
+                              TOTAL        53
+----------------------------------------------------------------------
+Report for cell usb1_shout_U8.v1
+Instance Path : usb_l2
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                              CCU2D         6            3.3
+                            FD1P3AX        18            9.7
+                            FD1P3IX        14           11.0
+                            FD1P3JX         1           11.1
+                               LUT4        87           10.0
+                              PFUMX         7           14.3
+                              TOTAL       133
+----------------------------------------------------------------------
+Report for cell usb1_shout_U9.v1
+Instance Path : usb_l1
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                              CCU2D         6            3.3
+                            FD1P3AX        19           10.2
+                            FD1P3IX        15           11.8
+                            FD1P3JX         1           11.1
+                               LUT4       111           12.8
+                              PFUMX        10           20.4
+                              TOTAL       162
+----------------------------------------------------------------------
+Report for cell usb1_shout_U7.v1
+Instance Path : usb_l3
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                              CCU2D         6            3.3
+                            FD1P3AX        18            9.7
+                            FD1P3IX        14           11.0
+                            FD1P3JX         1           11.1
+                               LUT4        79            9.1
+                              PFUMX         7           14.3
+                              TOTAL       125
+----------------------------------------------------------------------
+Report for cell usb1_shout(int_speed=1)_U10.v1
+Instance Path : usb_f1
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                              CCU2D         6            3.3
+                            FD1P3AX        20           10.8
+                            FD1P3IX        12            9.4
+                            FD1P3JX         1           11.1
+                               LUT4        73            8.4
+                              PFUMX         5           10.2
+                              TOTAL       117

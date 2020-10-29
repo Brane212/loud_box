@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DiamondModule name="LFSR1" module="LFSR1" VendorName="Lattice Semiconductor Corporation" generator="IPexpress" date="2020 06 24 05:01:00.930" version="3.7" type="Module" synthesis="lse" source_format="Verilog HDL">
+  <Package>
+		<File name="LFSR1.lpc" type="lpc" modified="2020 06 18 10:02:22.000"/>
+		<File name="LFSR1.v" type="top_level_verilog" modified="2020 06 18 10:02:22.000"/>
+		<File name="LFSR1_tmpl.v" type="template_verilog" modified="2020 06 18 10:02:22.000"/>
+		<File name="tb_LFSR1_tmpl.v" type="testbench_verilog" modified="2020 06 18 10:02:22.000"/>
+  </Package>
+</DiamondModule>

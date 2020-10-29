@@ -1,0 +1,239 @@
+<HTML>
+<HEAD><TITLE>Lattice TCL Log</TITLE>
+<STYLE TYPE="text/css">
+<!--
+ body,pre{    font-family:'Courier New', monospace;    color: #000000;    font-size:88%;    background-color: #ffffff;}h1 {    font-weight: bold;    margin-top: 24px;    margin-bottom: 10px;    border-bottom: 3px solid #000;    font-size: 1em;}h2 {    font-weight: bold;    margin-top: 18px;    margin-bottom: 5px;    font-size: 0.90em;}h3 {    font-weight: bold;    margin-top: 12px;    margin-bottom: 5px;    font-size: 0.80em;}p {    font-size:78%;}P.Table {    margin-top: 4px;    margin-bottom: 4px;    margin-right: 4px;    margin-left: 4px;}table{    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    border-collapse: collapse;}th {    font-weight:bold;    padding: 4px;    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    vertical-align:top;    text-align:left;    font-size:78%;}td {    padding: 4px;    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    vertical-align:top;    font-size:78%;}a {    color:#013C9A;    text-decoration:none;}a:visited {    color:#013C9A;}a:hover, a:active {    text-decoration:underline;    color:#5BAFD4;}.pass{background-color: #00ff00;}.fail{background-color: #ff0000;}.comment{    font-size: 90%;    font-style: italic;}
+-->
+</STYLE>
+</HEAD>
+<PRE><A name="pn200616132336"></A><B><U><big>pn200616132336</big></U></B>
+#Start recording tcl command: 6/16/2020 06:33:12
+#Project Location: /home/brane2/LATT_DEMO_PROJ/LOUD_BOX; Project name: LOUD_BOX
+prj_project open "/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/LOUD_BOX.ldf"
+prj_run Export -impl impl1 -task Jedecgen
+prj_run Export -impl impl1 -task Jedecgen
+prj_run Export -impl impl1 -task Jedecgen
+prj_run Export -impl impl1 -task Jedecgen
+prj_run Export -impl impl1 -task Jedecgen
+prj_run Export -impl impl1 -task Jedecgen
+prj_run Export -impl impl1 -task Jedecgen
+prj_run Export -impl impl1 -task Jedecgen
+pgr_project open "/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/impl1/impl1.xcf"
+pgr_program set -cable 
+pgr_program run
+pgr_project save "/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/impl1/impl1.xcf"
+pgr_program run
+prj_run Export -impl impl1 -task Jedecgen
+pgr_program run
+prj_run Export -impl impl1 -task Jedecgen
+pgr_program run
+prj_strgy set_value -strategy Strategy1 lse_opt_goal=Timing
+prj_run Export -impl impl1 -task Jedecgen
+pgr_project save "/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/impl1/impl1.xcf"
+pgr_program run
+prj_run Export -impl impl1 -task Jedecgen
+pgr_project save "/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/impl1/impl1.xcf"
+pgr_program run
+prj_run Export -impl impl1 -task Jedecgen
+pgr_program run
+prj_run Export -impl impl1 -task Jedecgen
+pgr_program run
+prj_run Export -impl impl1 -task Jedecgen
+prj_run Export -impl impl1 -task Jedecgen
+pgr_project save "/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/impl1/impl1.xcf"
+pgr_program run
+prj_run Export -impl impl1 -task Jedecgen
+pgr_project save "/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/impl1/impl1.xcf"
+pgr_program run
+prj_run Export -impl impl1 -task Jedecgen
+prj_strgy set_value -strategy Strategy1 lse_opt_goal=Balanced
+prj_src add "/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/PLL1.v"
+prj_src exclude "/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/PLL1.v"
+prj_src add "/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/PLL1.lpc"
+prj_run Synthesis -impl impl1 -task Lattice_Synthesis
+prj_run Synthesis -impl impl1 -task Lattice_Synthesis
+prj_run Synthesis -impl impl1 -task Lattice_Synthesis
+prj_run Export -impl impl1 -task Jedecgen
+pgr_project save "/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/impl1/impl1.xcf"
+pgr_program run
+prj_run Export -impl impl1 -task Jedecgen
+pgr_program run
+prj_run Synthesis -impl impl1 -task Lattice_Synthesis
+prj_src add "/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/USB_SHOUT1.v"
+prj_src add "/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/LFSR1.v"
+prj_src exclude "/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/LFSR1.v"
+prj_run Synthesis -impl impl1 -task Lattice_Synthesis
+prj_run Synthesis -impl impl1 -task Lattice_Synthesis
+prj_run Map -impl impl1
+prj_run Synthesis -impl impl1 -task Lattice_Synthesis -forceAll
+prj_run Map -impl impl1
+pgr_project save "/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/impl1/impl1.xcf"
+pgr_project close
+prj_run Map -impl impl1 -task MapVHDLSimFile
+prj_run Synthesis -impl impl1 -forceAll
+prj_run Export -impl impl1 -task Jedecgen -forceAll
+prj_run Export -impl impl1 -task Jedecgen -forceAll
+prj_run Export -impl impl1 -task Jedecgen -forceAll
+prj_run Export -impl impl1 -task Jedecgen -forceAll
+prj_run Export -impl impl1 -task Jedecgen
+prj_src enable "/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/PLL1.v"
+prj_run Export -impl impl1 -task Jedecgen
+prj_src exclude "/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/PLL1.lpc"
+prj_run Export -impl impl1 -task Jedecgen
+prj_project save
+prj_project close
+#Stop recording: 6/16/2020 13:23:36
+
+
+
+<A name="pn200616145820"></A><B><U><big>pn200616145820</big></U></B>
+#Start recording tcl command: 6/16/2020 13:23:39
+#Project Location: /home/brane2/LATT_DEMO_PROJ/LOUD_BOX; Project name: LOUD_BOX
+prj_project open "/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/LOUD_BOX.ldf"
+prj_run Export -impl impl1 -task Jedecgen
+prj_run Export -impl impl1 -task Jedecgen
+prj_run Export -impl impl1 -task Jedecgen
+prj_run Export -impl impl1 -task Jedecgen
+prj_run Export -impl impl1 -task Jedecgen -forceAll
+prj_run Export -impl impl1 -task Jedecgen -forceAll
+prj_run Export -impl impl1 -task Jedecgen
+prj_src exclude "/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/LFSR1.ipx"
+prj_src remove "/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/LFSR1.ipx"
+prj_src remove "/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/LFSR1.v"
+prj_src add "/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/LFSR1.lpc"
+prj_src remove "/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/LFSR1.lpc"
+#Stop recording: 6/16/2020 14:58:20
+
+
+
+<A name="pn200616150631"></A><B><U><big>pn200616150631</big></U></B>
+#Start recording tcl command: 6/16/2020 14:58:27
+#Project Location: /home/brane2/LATT_DEMO_PROJ/LOUD_BOX; Project name: LOUD_BOX
+prj_project open "/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/LOUD_BOX.ldf"
+prj_src add "/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/LFSR1.lpc"
+prj_src remove "/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/LFSR1.lpc"
+prj_src add "/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/LFSR1.lpc"
+prj_src remove "/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/LFSR1.lpc"
+#Stop recording: 6/16/2020 15:06:31
+
+
+
+<A name="pn200616150758"></A><B><U><big>pn200616150758</big></U></B>
+#Start recording tcl command: 6/16/2020 15:06:38
+#Project Location: /home/brane2/LATT_DEMO_PROJ/LOUD_BOX; Project name: LOUD_BOX
+prj_project open "/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/LOUD_BOX.ldf"
+prj_src exclude "/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/PLL1.v"
+prj_src enable "/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/PLL1.lpc"
+prj_src exclude "/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/PLL1.lpc"
+prj_src remove "/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/PLL1.lpc"
+prj_src remove "/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/PLL1.v"
+prj_project save
+prj_project close
+#Stop recording: 6/16/2020 15:07:58
+
+
+
+<A name="pn200616151040"></A><B><U><big>pn200616151040</big></U></B>
+#Start recording tcl command: 6/16/2020 15:08:00
+#Project Location: /home/brane2/LATT_DEMO_PROJ/LOUD_BOX; Project name: LOUD_BOX
+prj_project open "/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/LOUD_BOX.ldf"
+prj_project close
+#Stop recording: 6/16/2020 15:10:40
+
+
+
+<A name="pn200616152235"></A><B><U><big>pn200616152235</big></U></B>
+#Start recording tcl command: 6/16/2020 15:10:41
+#Project Location: /home/brane2/LATT_DEMO_PROJ/LOUD_BOX; Project name: LOUD_BOX
+prj_project open "/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/LOUD_BOX.ldf"
+#Stop recording: 6/16/2020 15:22:35
+
+
+
+<A name="pn200616161742"></A><B><U><big>pn200616161742</big></U></B>
+#Start recording tcl command: 6/16/2020 16:16:10
+#Project Location: /home/brane2/LATT_DEMO_PROJ/LOUD_BOX; Project name: LOUD_BOX
+prj_project open "/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/LOUD_BOX.ldf"
+prj_project close
+#Stop recording: 6/16/2020 16:17:42
+
+
+
+<A name="pn200621203855"></A><B><U><big>pn200621203855</big></U></B>
+#Start recording tcl command: 6/21/2020 20:33:59
+#Project Location: /home/brane2/LATT_DEMO_PROJ/LOUD_BOX; Project name: LOUD_BOX
+prj_project open "/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/LOUD_BOX.ldf"
+#Stop recording: 6/21/2020 20:38:55
+
+
+
+<A name="pn200808083112"></A><B><U><big>pn200808083112</big></U></B>
+#Start recording tcl command: 8/8/2020 08:29:37
+#Project Location: /home/brane2/LATT_DEMO_PROJ/LOUD_BOX; Project name: LOUD_BOX
+prj_project open "/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/LOUD_BOX.ldf"
+prj_run Export -impl impl1 -task Jedecgen -forceAll
+#Stop recording: 8/8/2020 08:31:12
+
+
+
+<A name="pn201006062316"></A><B><U><big>pn201006062316</big></U></B>
+#Start recording tcl command: 10/6/2020 05:32:35
+#Project Location: /home/brane2/LATT_DEMO_PROJ/LOUD_BOX; Project name: LOUD_BOX
+prj_project open "/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/LOUD_BOX.ldf"
+#Stop recording: 10/6/2020 06:23:16
+
+
+
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+</PRE></FONT>
+</BODY>
+</HTML>

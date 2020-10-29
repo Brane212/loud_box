@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<userSetting name="/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/promote.xml" version="Diamond (64-bit) 3.11.3.469" date="Wed Oct 28 07:20:05 2020" vendor="Lattice Semiconductor Corporation" >
+  <msg mid="35901116" type="Warning" />
+  <msg mid="35931002" type="Warning" />
+  <msg mid="35901010" type="Error" />
+  <msg mid="35901707" type="Warning" />
+  <msg mid="35901011" type="Error" />
+  <msg mid="35901068" type="Error" />
+  <msg mid="35901038" type="Error" />
+  <msg mid="35901162" type="Error" />
+  <msg mid="35901208" type="Warning" />
+  <msg mid="35901209" type="Warning" />
+  <msg mid="35901221" type="Warning" />
+  <msg mid="35901222" type="Warning" />
+  <msg mid="35901138" type="Error" />
+  <msg mid="35901310" type="Info" />
+  <msg mid="35901875" type="Warning" />
+</userSetting>

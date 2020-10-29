@@ -1,0 +1,306 @@
+(edif LFSR1
+  (edifVersion 2 0 0)
+  (edifLevel 0)
+  (keywordMap (keywordLevel 0))
+  (status
+    (written
+      (timestamp 2020 6 18 10 2 22)
+      (program "SCUBA" (version "Diamond (64-bit) 3.11.2.446"))))
+      (comment "/usr/local/diamond/3.11_x64/ispfpga/bin/lin64/scuba -w -n LFSR1 -lang verilog -synth lse -bus_exp 7 -bb -arch xo2c00 -type lfsr -stage 16 -feedback_poly b400 -init_seed 3729 -parallel_out ")
+  (library ORCLIB
+    (edifLevel 0)
+    (technology
+      (numberDefinition))
+    (cell FD1P3IX
+      (cellType GENERIC)
+      (view view1
+        (viewType NETLIST)
+        (interface
+          (port D
+            (direction INPUT))
+          (port SP
+            (direction INPUT))
+          (port CK
+            (direction INPUT))
+          (port CD
+            (direction INPUT))
+          (port Q
+            (direction OUTPUT)))))
+    (cell FD1P3JX
+      (cellType GENERIC)
+      (view view1
+        (viewType NETLIST)
+        (interface
+          (port D
+            (direction INPUT))
+          (port SP
+            (direction INPUT))
+          (port CK
+            (direction INPUT))
+          (port PD
+            (direction INPUT))
+          (port Q
+            (direction OUTPUT)))))
+    (cell ROM16X1A
+      (cellType GENERIC)
+      (view view1
+        (viewType NETLIST)
+        (interface
+          (port AD3
+            (direction INPUT))
+          (port AD2
+            (direction INPUT))
+          (port AD1
+            (direction INPUT))
+          (port AD0
+            (direction INPUT))
+          (port DO0
+            (direction OUTPUT)))))
+    (cell LFSR1
+      (cellType GENERIC)
+      (view view1
+        (viewType NETLIST)
+        (interface
+          (port Clk
+            (direction INPUT))
+          (port Enb
+            (direction INPUT))
+          (port Rst
+            (direction INPUT))
+          (port (array (rename Dout "Dout(15:0)") 16)
+            (direction OUTPUT)))
+        (property NGD_DRC_MASK (integer 1))
+        (contents
+          (instance LUT4_0
+            (viewRef view1 
+              (cellRef ROM16X1A))
+            (property initval
+              (string "0x6996")))
+          (instance FF_15
+            (viewRef view1 
+              (cellRef FD1P3JX))
+            (property GSR
+              (string "ENABLED")))
+          (instance FF_14
+            (viewRef view1 
+              (cellRef FD1P3IX))
+            (property GSR
+              (string "ENABLED")))
+          (instance FF_13
+            (viewRef view1 
+              (cellRef FD1P3IX))
+            (property GSR
+              (string "ENABLED")))
+          (instance FF_12
+            (viewRef view1 
+              (cellRef FD1P3JX))
+            (property GSR
+              (string "ENABLED")))
+          (instance FF_11
+            (viewRef view1 
+              (cellRef FD1P3IX))
+            (property GSR
+              (string "ENABLED")))
+          (instance FF_10
+            (viewRef view1 
+              (cellRef FD1P3JX))
+            (property GSR
+              (string "ENABLED")))
+          (instance FF_9
+            (viewRef view1 
+              (cellRef FD1P3IX))
+            (property GSR
+              (string "ENABLED")))
+          (instance FF_8
+            (viewRef view1 
+              (cellRef FD1P3IX))
+            (property GSR
+              (string "ENABLED")))
+          (instance FF_7
+            (viewRef view1 
+              (cellRef FD1P3JX))
+            (property GSR
+              (string "ENABLED")))
+          (instance FF_6
+            (viewRef view1 
+              (cellRef FD1P3JX))
+            (property GSR
+              (string "ENABLED")))
+          (instance FF_5
+            (viewRef view1 
+              (cellRef FD1P3JX))
+            (property GSR
+              (string "ENABLED")))
+          (instance FF_4
+            (viewRef view1 
+              (cellRef FD1P3IX))
+            (property GSR
+              (string "ENABLED")))
+          (instance FF_3
+            (viewRef view1 
+              (cellRef FD1P3JX))
+            (property GSR
+              (string "ENABLED")))
+          (instance FF_2
+            (viewRef view1 
+              (cellRef FD1P3JX))
+            (property GSR
+              (string "ENABLED")))
+          (instance FF_1
+            (viewRef view1 
+              (cellRef FD1P3IX))
+            (property GSR
+              (string "ENABLED")))
+          (instance FF_0
+            (viewRef view1 
+              (cellRef FD1P3IX))
+            (property GSR
+              (string "ENABLED")))
+          (net lfsr_oddparity
+            (joined
+              (portRef D (instanceRef FF_15))
+              (portRef DO0 (instanceRef LUT4_0))))
+          (net q15
+            (joined
+              (portRef (member Dout 0))
+              (portRef Q (instanceRef FF_0))
+              (portRef AD0 (instanceRef LUT4_0))))
+          (net q14
+            (joined
+              (portRef (member Dout 1))
+              (portRef D (instanceRef FF_0))
+              (portRef Q (instanceRef FF_1))))
+          (net q13
+            (joined
+              (portRef (member Dout 2))
+              (portRef D (instanceRef FF_1))
+              (portRef AD1 (instanceRef LUT4_0))
+              (portRef Q (instanceRef FF_2))))
+          (net q12
+            (joined
+              (portRef (member Dout 3))
+              (portRef D (instanceRef FF_2))
+              (portRef AD2 (instanceRef LUT4_0))
+              (portRef Q (instanceRef FF_3))))
+          (net q11
+            (joined
+              (portRef (member Dout 4))
+              (portRef D (instanceRef FF_3))
+              (portRef Q (instanceRef FF_4))))
+          (net q10
+            (joined
+              (portRef (member Dout 5))
+              (portRef D (instanceRef FF_4))
+              (portRef AD3 (instanceRef LUT4_0))
+              (portRef Q (instanceRef FF_5))))
+          (net q9
+            (joined
+              (portRef (member Dout 6))
+              (portRef D (instanceRef FF_5))
+              (portRef Q (instanceRef FF_6))))
+          (net q8
+            (joined
+              (portRef (member Dout 7))
+              (portRef D (instanceRef FF_6))
+              (portRef Q (instanceRef FF_7))))
+          (net q7
+            (joined
+              (portRef (member Dout 8))
+              (portRef D (instanceRef FF_7))
+              (portRef Q (instanceRef FF_8))))
+          (net q6
+            (joined
+              (portRef (member Dout 9))
+              (portRef D (instanceRef FF_8))
+              (portRef Q (instanceRef FF_9))))
+          (net q5
+            (joined
+              (portRef (member Dout 10))
+              (portRef D (instanceRef FF_9))
+              (portRef Q (instanceRef FF_10))))
+          (net q4
+            (joined
+              (portRef (member Dout 11))
+              (portRef D (instanceRef FF_10))
+              (portRef Q (instanceRef FF_11))))
+          (net q3
+            (joined
+              (portRef (member Dout 12))
+              (portRef D (instanceRef FF_11))
+              (portRef Q (instanceRef FF_12))))
+          (net q2
+            (joined
+              (portRef (member Dout 13))
+              (portRef D (instanceRef FF_12))
+              (portRef Q (instanceRef FF_13))))
+          (net q1
+            (joined
+              (portRef (member Dout 14))
+              (portRef D (instanceRef FF_13))
+              (portRef Q (instanceRef FF_14))))
+          (net q0
+            (joined
+              (portRef (member Dout 15))
+              (portRef D (instanceRef FF_14))
+              (portRef Q (instanceRef FF_15))))
+          (net clear
+            (joined
+              (portRef Rst)
+              (portRef PD (instanceRef FF_15))
+              (portRef CD (instanceRef FF_14))
+              (portRef CD (instanceRef FF_13))
+              (portRef PD (instanceRef FF_12))
+              (portRef CD (instanceRef FF_11))
+              (portRef PD (instanceRef FF_10))
+              (portRef CD (instanceRef FF_9))
+              (portRef CD (instanceRef FF_8))
+              (portRef PD (instanceRef FF_7))
+              (portRef PD (instanceRef FF_6))
+              (portRef PD (instanceRef FF_5))
+              (portRef CD (instanceRef FF_4))
+              (portRef PD (instanceRef FF_3))
+              (portRef PD (instanceRef FF_2))
+              (portRef CD (instanceRef FF_1))
+              (portRef CD (instanceRef FF_0))))
+          (net enable
+            (joined
+              (portRef Enb)
+              (portRef SP (instanceRef FF_15))
+              (portRef SP (instanceRef FF_14))
+              (portRef SP (instanceRef FF_13))
+              (portRef SP (instanceRef FF_12))
+              (portRef SP (instanceRef FF_11))
+              (portRef SP (instanceRef FF_10))
+              (portRef SP (instanceRef FF_9))
+              (portRef SP (instanceRef FF_8))
+              (portRef SP (instanceRef FF_7))
+              (portRef SP (instanceRef FF_6))
+              (portRef SP (instanceRef FF_5))
+              (portRef SP (instanceRef FF_4))
+              (portRef SP (instanceRef FF_3))
+              (portRef SP (instanceRef FF_2))
+              (portRef SP (instanceRef FF_1))
+              (portRef SP (instanceRef FF_0))))
+          (net clk
+            (joined
+              (portRef Clk)
+              (portRef CK (instanceRef FF_15))
+              (portRef CK (instanceRef FF_14))
+              (portRef CK (instanceRef FF_13))
+              (portRef CK (instanceRef FF_12))
+              (portRef CK (instanceRef FF_11))
+              (portRef CK (instanceRef FF_10))
+              (portRef CK (instanceRef FF_9))
+              (portRef CK (instanceRef FF_8))
+              (portRef CK (instanceRef FF_7))
+              (portRef CK (instanceRef FF_6))
+              (portRef CK (instanceRef FF_5))
+              (portRef CK (instanceRef FF_4))
+              (portRef CK (instanceRef FF_3))
+              (portRef CK (instanceRef FF_2))
+              (portRef CK (instanceRef FF_1))
+              (portRef CK (instanceRef FF_0))))))))
+  (design LFSR1
+    (cellRef LFSR1
+      (libraryRef ORCLIB)))
+)

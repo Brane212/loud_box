@@ -1,0 +1,305 @@
+[ START MERGED ]
+rng1/ref_clk_0__N_622 rng1_clk_0
+rng1/ref_clk_1__N_618 n1435
+clk_in_N_414_adj_732 ps4_ck
+clk_in_N_414_enable_14 reset_N
+clk_in_N_414_adj_729 ps3_ck
+clk_in_N_414_adj_728 ps2_ck
+clk_in_N_414 ps1_ck
+[ END MERGED ]
+[ START CLIPPED ]
+VCC_net
+n21819
+usb_f1/add_2418_1/S0
+usb_f1/add_2418_1/CI
+usb_f1/add_2418_11/S1
+usb_f1/add_2418_11/CO
+usb_l3/add_2420_1/S0
+usb_l3/add_2420_1/CI
+usb_l3/add_2420_11/S1
+usb_l3/add_2420_11/CO
+usb_l1/add_2416_1/S0
+usb_l1/add_2416_1/CI
+usb_l1/add_2416_11/S1
+usb_l1/add_2416_11/CO
+usb_l2/add_2415_1/S0
+usb_l2/add_2415_1/CI
+usb_l2/add_2415_11/S1
+usb_l2/add_2415_11/CO
+usb_f2/add_2417_11/S1
+usb_f2/add_2417_11/CO
+usb_f2/add_2417_1/S0
+usb_f2/add_2417_1/CI
+n1455
+n1453
+n1450
+ps1_div_2446_add_4_1/S0
+ps1_div_2446_add_4_1/CI
+n1444
+dis1/add_12941_10/S1
+dis1/add_12941_10/S0
+dis1/add_12941_12/S1
+dis1/add_12941_12/S0
+dis1/add_12941_14/S1
+dis1/add_12941_14/S0
+dis1/add_12941_16/S1
+dis1/add_12941_16/S0
+dis1/add_12941_18/S0
+dis1/add_12941_18/CO
+dis1/pix_cnt_2470_add_4_1/S0
+dis1/pix_cnt_2470_add_4_1/CI
+dis1/add_53_1/S0
+dis1/add_53_1/CI
+dis1/add_53_21/CO
+dis1/pix_cnt_2470_add_4_21/S1
+dis1/pix_cnt_2470_add_4_21/CO
+dis1/add_12942_2/S1
+dis1/add_12942_2/S0
+dis1/add_12942_2/CI
+dis1/add_12942_4/S1
+dis1/add_12942_4/S0
+dis1/add_12942_6/S1
+dis1/add_12942_6/S0
+dis1/add_12942_8/S1
+dis1/add_12942_8/S0
+dis1/add_12942_10/S1
+dis1/add_12942_10/S0
+dis1/add_12942_12/S1
+dis1/add_12942_12/S0
+dis1/add_12942_14/S1
+dis1/add_12942_14/S0
+dis1/add_12942_16/S1
+dis1/add_12942_16/S0
+dis1/add_12942_18/S1
+dis1/add_12942_18/S0
+dis1/add_12942_20/S1
+dis1/add_12942_20/S0
+dis1/add_12942_22/S1
+dis1/add_12942_22/S0
+dis1/add_12942_cout/S1
+dis1/add_12942_cout/CO
+dis1/add_12943_1/S1
+dis1/add_12943_1/S0
+dis1/add_12943_1/CI
+dis1/add_12943_3/S1
+dis1/add_12943_3/S0
+dis1/add_12943_5/S1
+dis1/add_12943_5/S0
+dis1/add_12943_7/S1
+dis1/add_12943_7/S0
+dis1/add_12943_9/S1
+dis1/add_12943_9/S0
+dis1/add_12943_11/S1
+dis1/add_12943_11/S0
+dis1/add_12943_13/S1
+dis1/add_12943_13/S0
+dis1/add_12943_15/S1
+dis1/add_12943_15/S0
+dis1/add_12943_17/S1
+dis1/add_12943_17/S0
+dis1/add_12943_19/S1
+dis1/add_12943_19/S0
+dis1/add_12943_21/S1
+dis1/add_12943_21/S0
+dis1/add_12943_23/S0
+dis1/add_12943_23/CO
+dis1/add_12941_2/S1
+dis1/add_12941_2/S0
+dis1/add_12941_2/CI
+dis1/add_12941_4/S1
+dis1/add_12941_4/S0
+dis1/add_12941_6/S1
+dis1/add_12941_6/S0
+dis1/add_12941_8/S1
+dis1/add_12941_8/S0
+ps1_div_2446_add_4_9/S1
+ps1_div_2446_add_4_9/CO
+pll1_cnt266_2442_2596_add_4_1/S0
+pll1_cnt266_2442_2596_add_4_1/CI
+ps3_div_2448_add_4_1/S0
+ps3_div_2448_add_4_1/CI
+pll1_cnt266_2442_2596_add_4_5/CO
+ps3_div_2448_add_4_9/S1
+ps3_div_2448_add_4_9/CO
+dis2/add_12940_1/S1
+dis2/add_12940_1/S0
+dis2/add_12940_1/CI
+dis2/add_12940_3/S1
+dis2/add_12940_3/S0
+dis2/add_12939_2/S1
+dis2/add_12939_2/S0
+dis2/add_12939_2/CI
+dis2/add_12939_4/S1
+dis2/add_12939_4/S0
+dis2/add_12939_6/S1
+dis2/add_12939_6/S0
+dis2/add_12939_8/S1
+dis2/add_12939_8/S0
+dis2/add_12939_10/S1
+dis2/add_12939_10/S0
+dis2/add_12939_12/S1
+dis2/add_12939_12/S0
+dis2/add_12940_5/S1
+dis2/add_12940_5/S0
+dis2/add_12940_7/S1
+dis2/add_12940_7/S0
+dis2/add_12939_14/S1
+dis2/add_12939_14/S0
+dis2/add_12939_16/S1
+dis2/add_12939_16/S0
+dis2/add_12940_9/S1
+dis2/add_12940_9/S0
+dis2/add_12939_18/S1
+dis2/add_12939_18/S0
+dis2/add_12939_20/S1
+dis2/add_12939_20/S0
+dis2/add_12939_22/S1
+dis2/add_12939_22/S0
+dis2/add_12940_11/S1
+dis2/add_12940_11/S0
+dis2/add_12939_cout/S1
+dis2/add_12939_cout/CO
+dis2/add_12940_13/S1
+dis2/add_12940_13/S0
+dis2/add_12940_15/S1
+dis2/add_12940_15/S0
+dis2/add_12940_17/S1
+dis2/add_12940_17/S0
+dis2/add_12940_19/S1
+dis2/add_12940_19/S0
+dis2/add_12940_21/S1
+dis2/add_12940_21/S0
+dis2/add_12940_23/S0
+dis2/add_12940_23/CO
+dis2/add_53_1/S0
+dis2/add_53_1/CI
+dis2/add_12938_2/S1
+dis2/add_12938_2/S0
+dis2/add_12938_2/CI
+dis2/add_12938_4/S1
+dis2/add_12938_4/S0
+dis2/add_12938_6/S1
+dis2/add_12938_6/S0
+dis2/add_12938_8/S1
+dis2/add_12938_8/S0
+dis2/add_12938_10/S1
+dis2/add_12938_10/S0
+dis2/add_12938_12/S1
+dis2/add_12938_12/S0
+dis2/add_12938_14/S1
+dis2/add_12938_14/S0
+dis2/add_12938_16/S1
+dis2/add_12938_16/S0
+dis2/add_12938_18/S0
+dis2/add_12938_18/CO
+dis2/pix_cnt_2471_add_4_1/S0
+dis2/pix_cnt_2471_add_4_1/CI
+dis2/add_53_21/CO
+dis2/pix_cnt_2471_add_4_21/S1
+dis2/pix_cnt_2471_add_4_21/CO
+ps4_div_2449_add_4_1/S0
+ps4_div_2449_add_4_1/CI
+ps4_div_2449_add_4_9/S1
+ps4_div_2449_add_4_9/CO
+pll2_cnt240_2443_2591_add_4_1/S0
+pll2_cnt240_2443_2591_add_4_1/CI
+rng1_cnt_2440_2612_add_4_1/S0
+rng1_cnt_2440_2612_add_4_1/CI
+rng1_cnt_2440_2612_add_4_7/S1
+rng1_cnt_2440_2612_add_4_7/CO
+pll2_cnt240_2443_2591_add_4_7/S1
+pll2_cnt240_2443_2591_add_4_7/CO
+pll1_cnt400_2441_2597_add_4_1/S0
+pll1_cnt400_2441_2597_add_4_1/CI
+pll1_cnt400_2441_2597_add_4_7/S1
+pll1_cnt400_2441_2597_add_4_7/CO
+osc_cnt_2444_2590_add_4_1/S0
+osc_cnt_2444_2590_add_4_1/CI
+osc_cnt_2444_2590_add_4_3/CO
+ps2_div_2447_add_4_1/S0
+ps2_div_2447_add_4_1/CI
+ps2_div_2447_add_4_9/S1
+ps2_div_2447_add_4_9/CO
+usb_l4/add_2419_1/S0
+usb_l4/add_2419_1/CI
+usb_l4/add_2419_11/S1
+usb_l4/add_2419_11/CO
+leds_div12/cnt_5/CO
+leds_div12/cnt_cia/S1
+leds_div12/cnt_cia/S0
+[ END CLIPPED ]
+[ START OSC ]
+osc_out 2.08
+[ END OSC ]
+[ START DESIGN PREFS ]
+SCHEMATIC START ;
+# map:  version Diamond (64-bit) 3.11.3.469 -- WARNING: Map write only section -- Thu Oct 29 15:47:12 2020
+
+SYSCONFIG SDM_PORT=DISABLE SLAVE_SPI_PORT=DISABLE I2C_PORT=DISABLE MASTER_SPI_PORT=DISABLE COMPRESS_CONFIG=ON CONFIGURATION=CFG MY_ASSP=OFF ONE_TIME_PROGRAM=OFF CONFIG_SECURE=OFF MCCLK_FREQ=2.08 JTAG_PORT=ENABLE ENABLE_TRANSFR=DISABLE SHAREDEBRINIT=DISABLE MUX_CONFIGURATION_PORTS=DISABLE BACKGROUND_RECONFIG=OFF INBUF=ON ;
+LOCATE COMP "dis2_sync" SITE "41" ;
+LOCATE COMP "dis2_pix" SITE "114" ;
+LOCATE COMP "dis1_sync" SITE "40" ;
+LOCATE COMP "dis1_pix" SITE "110" ;
+LOCATE COMP "led7" SITE "107" ;
+LOCATE COMP "leds[0]" SITE "97" ;
+LOCATE COMP "leds[1]" SITE "98" ;
+LOCATE COMP "leds[2]" SITE "99" ;
+LOCATE COMP "leds[3]" SITE "100" ;
+LOCATE COMP "leds[4]" SITE "104" ;
+LOCATE COMP "leds[5]" SITE "105" ;
+LOCATE COMP "leds[6]" SITE "106" ;
+LOCATE COMP "ps4_c" SITE "81" ;
+LOCATE COMP "ps4_d" SITE "82" ;
+LOCATE COMP "ps3_c" SITE "77" ;
+LOCATE COMP "ps3_d" SITE "78" ;
+LOCATE COMP "ps2_c" SITE "75" ;
+LOCATE COMP "ps2_d" SITE "76" ;
+LOCATE COMP "ps1_c" SITE "73" ;
+LOCATE COMP "ps1_d" SITE "74" ;
+LOCATE COMP "usb6_nout" SITE "67" ;
+LOCATE COMP "usb6_pout" SITE "65" ;
+LOCATE COMP "usb5_nout" SITE "95" ;
+LOCATE COMP "usb5_pout" SITE "96" ;
+LOCATE COMP "usb4_nout" SITE "93" ;
+LOCATE COMP "usb4_pout" SITE "94" ;
+LOCATE COMP "usb3_nout" SITE "91" ;
+LOCATE COMP "usb3_pout" SITE "92" ;
+LOCATE COMP "usb2_nout" SITE "85" ;
+LOCATE COMP "usb2_pout" SITE "86" ;
+LOCATE COMP "usb1_nout" SITE "83" ;
+LOCATE COMP "usb1_pout" SITE "84" ;
+LOCATE COMP "iot_out_400" SITE "15" ;
+LOCATE COMP "iot_out_266" SITE "19" ;
+LOCATE COMP "iot_out_240" SITE "21" ;
+LOCATE COMP "iot_out_200" SITE "23" ;
+LOCATE COMP "iot_out_133" SITE "25" ;
+LOCATE COMP "iot_out_120" SITE "27" ;
+LOCATE COMP "iot_out_114" SITE "32" ;
+LOCATE COMP "iot_out_100" SITE "34" ;
+LOCATE COMP "br1_shout" SITE "139" ;
+LOCATE COMP "br2_shout" SITE "141" ;
+LOCATE COMP "br3_shout" SITE "143" ;
+LOCATE COMP "br4_shout" SITE "107" ;
+LOCATE COMP "br5_shout" SITE "105" ;
+LOCATE COMP "br6_shout" SITE "100" ;
+LOCATE COMP "debug1" SITE "68" ;
+LOCATE COMP "debug2" SITE "69" ;
+LOCATE COMP "debug3" SITE "70" ;
+LOCATE COMP "debug4" SITE "71" ;
+LOCATE COMP "debug5" SITE "143" ;
+LOCATE COMP "debug6" SITE "141" ;
+LOCATE COMP "reset" SITE "1" ;
+LOCATE COMP "br4_shin" SITE "106" ;
+LOCATE COMP "br5_shin" SITE "104" ;
+LOCATE COMP "br6_shin" SITE "99" ;
+LOCATE COMP "clk_in" SITE "5" ;
+FREQUENCY NET "osc_out" 2.080000 MHz ;
+FREQUENCY NET "clk_240_0" 240.000000 MHz ;
+FREQUENCY NET "clk_400" 400.000000 MHz ;
+FREQUENCY NET "clk_266_0" 266.666667 MHz ;
+FREQUENCY NET "clk_in_c" 20.000000 MHz ;
+FREQUENCY NET "clk_114" 114.285714 MHz ;
+FREQUENCY NET "clk_266_1" 266.666667 MHz ;
+FREQUENCY NET "clk_240_2" 240.000000 MHz ;
+SCHEMATIC END ;
+[ END DESIGN PREFS ]

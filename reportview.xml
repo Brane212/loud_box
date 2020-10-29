@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Report>
+<ReportView version="2.0">
+    <Implement name="impl1">
+        <ToolReport id="tooldec" path="" status="0"/>
+        <ToolReport id="toolhle_genhierarchy" path="/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/impl1/hdla_gen_hierarchy.html" status="1"/>
+        <ToolReport id="toolpio" path="/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/impl1/LOUD_BOX_impl1_piodrc.html" status="2"/>
+        <ToolReport id="toolsso" path="/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/sso_rpt.htm" status="2"/>
+    </Implement>
+</ReportView>

@@ -1,0 +1,74 @@
+NOTE Copyright (C), 1992-2010, Lattice Semiconductor Corporation *
+NOTE All Rights Reserved *
+NOTE DATE CREATED: Thu Oct 29 15:48:14 2020 *
+NOTE DESIGN NAME: top1 *
+NOTE DEVICE NAME: LCMXO2-7000HE-4TQFP144 *
+NOTE PIN ASSIGNMENTS *
+NOTE PINS xor_out[5] : 117 : out *
+NOTE PINS xor_out[6] : 122 : out *
+NOTE PINS xor_out[7] : 128 : out *
+NOTE PINS dis2_sync : 41 : out *
+NOTE PINS dis2_pix : 114 : out *
+NOTE PINS dis1_sync : 40 : out *
+NOTE PINS dis1_pix : 110 : out *
+NOTE PINS led7 : 89 : out *
+NOTE PINS leds[0] : 97 : out *
+NOTE PINS leds[1] : 98 : out *
+NOTE PINS leds[2] : 60 : out *
+NOTE PINS leds[3] : 63 : out *
+NOTE PINS leds[4] : 58 : out *
+NOTE PINS leds[5] : 59 : out *
+NOTE PINS leds[6] : 57 : out *
+NOTE PINS ps4_c : 81 : out *
+NOTE PINS ps4_d : 82 : out *
+NOTE PINS ps3_c : 77 : out *
+NOTE PINS ps3_d : 78 : out *
+NOTE PINS ps2_c : 75 : out *
+NOTE PINS ps2_d : 76 : out *
+NOTE PINS ps1_c : 73 : out *
+NOTE PINS ps1_d : 74 : out *
+NOTE PINS usb6_nout : 67 : out *
+NOTE PINS usb6_pout : 65 : out *
+NOTE PINS usb5_nout : 95 : out *
+NOTE PINS usb5_pout : 96 : out *
+NOTE PINS usb4_nout : 93 : out *
+NOTE PINS usb4_pout : 94 : out *
+NOTE PINS xor_out[4] : 52 : out *
+NOTE PINS usb3_nout : 91 : out *
+NOTE PINS usb3_pout : 92 : out *
+NOTE PINS usb2_nout : 85 : out *
+NOTE PINS usb2_pout : 86 : out *
+NOTE PINS usb1_nout : 83 : out *
+NOTE PINS usb1_pout : 84 : out *
+NOTE PINS xor_out[3] : 55 : out *
+NOTE PINS xor_out[2] : 133 : out *
+NOTE PINS xor_out[1] : 49 : out *
+NOTE PINS xor_out[0] : 61 : out *
+NOTE PINS iot_out_400 : 15 : out *
+NOTE PINS iot_out_266 : 19 : out *
+NOTE PINS iot_out_240 : 21 : out *
+NOTE PINS iot_out_200 : 23 : out *
+NOTE PINS iot_out_133 : 25 : out *
+NOTE PINS iot_out_120 : 27 : out *
+NOTE PINS iot_out_114 : 32 : out *
+NOTE PINS iot_out_100 : 34 : out *
+NOTE PINS br1_shout : 139 : out *
+NOTE PINS br2_shout : 126 : out *
+NOTE PINS br3_shout : 120 : out *
+NOTE PINS br4_shout : 107 : out *
+NOTE PINS br5_shout : 105 : out *
+NOTE PINS br6_shout : 100 : out *
+NOTE PINS debug1 : 68 : out *
+NOTE PINS debug2 : 69 : out *
+NOTE PINS debug3 : 70 : out *
+NOTE PINS debug4 : 71 : out *
+NOTE PINS debug5 : 143 : out *
+NOTE PINS debug6 : 141 : out *
+NOTE PINS reset : 1 : in *
+NOTE PINS br4_shin : 106 : in *
+NOTE PINS br5_shin : 104 : in *
+NOTE PINS br6_shin : 99 : in *
+NOTE PINS clk_in : 5 : in *
+NOTE PINS VREF1_BANK_1 : 87 : in *
+NOTE CONFIGURATION MODE: NONE *
+NOTE COMPRESSION: on *

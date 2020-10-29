@@ -1,0 +1,40 @@
+[Device]
+Family=machxo2
+PartType=LCMXO2-7000HE
+PartName=LCMXO2-7000HE-4TG144C
+SpeedGrade=4
+Package=TQFP144
+OperatingCondition=COM
+Status=S
+
+[IP]
+VendorName=Lattice Semiconductor Corporation
+CoreType=LPM
+CoreStatus=Demo
+CoreName=Distributed_ROM
+CoreRevision=2.8
+ModuleName=TABLE_3_1
+SourceFormat=Verilog HDL
+ParameterFileVersion=1.0
+Date=06/20/2020
+Time=17:28:22
+
+[Parameters]
+Verilog=1
+VHDL=0
+EDIF=1
+Destination=Synplicity
+Expression=BusA(0 to 7)
+Order=Big Endian [MSB:LSB]
+IO=0
+Addresses=16
+Data=1
+LUT=0
+MemFile=/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TABLE_3_1.mem
+MemFormat=hex
+
+[FilesGenerated]
+/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TABLE_3_1.mem=mem
+
+[Command]
+cmd_line= -w -n TABLE_3_1 -lang verilog -synth lse -bus_exp 7 -bb -arch xo2c00 -dram -type romblk -addr_width 4 -num_words 16 -data_width 1 -outdata UNREGISTERED -memfile /home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TABLE_3_1.mem -memformat hex

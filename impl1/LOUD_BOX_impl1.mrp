@@ -1,0 +1,1722 @@
+
+             Lattice Mapping Report File for Design Module 'top1'
+
+
+Design Information
+------------------
+
+Command line:   map -a MachXO2 -p LCMXO2-7000HE -t TQFP144 -s 4 -oc Commercial
+     LOUD_BOX_impl1.ngd -o LOUD_BOX_impl1_map.ncd -pr LOUD_BOX_impl1.prf -mp
+     LOUD_BOX_impl1.mrp -lpf
+     /home/brane2/LATT_DEMO_PROJ/LOUD_BOX/impl1/LOUD_BOX_impl1.lpf -lpf
+     /home/brane2/LATT_DEMO_PROJ/LOUD_BOX/LOUD_BOX.lpf -c 0 -gui -msgset
+     /home/brane2/LATT_DEMO_PROJ/LOUD_BOX/promote.xml 
+Target Vendor:  LATTICE
+Target Device:  LCMXO2-7000HETQFP144
+Target Performance:   4
+Mapper:  xo2c00,  version:  Diamond (64-bit) 3.11.3.469
+Mapped on:  10/29/20  15:47:11
+
+Design Summary
+--------------
+
+   Number of registers:    485 out of  7209 (7%)
+      PFU registers:          485 out of  6864 (7%)
+      PIO registers:            0 out of   345 (0%)
+   Number of SLICEs:       638 out of  3432 (19%)
+      SLICEs as Logic/ROM:    638 out of  3432 (19%)
+      SLICEs as RAM:            0 out of  2574 (0%)
+      SLICEs as Carry:        190 out of  3432 (6%)
+   Number of LUT4s:        1254 out of  6864 (18%)
+      Number used as logic LUTs:        874
+      Number used as distributed RAM:     0
+      Number used as ripple logic:      380
+      Number used as shift registers:     0
+   Number of PIO sites used: 88 + 4(JTAG) out of 115 (80%)
+      Number of PIO sites used for single ended IOs: 46
+      Number of PIO sites used for differential IOs: 46 (represented by 23 PIO
+     comps in NCD)
+   Number of block RAMs:  0 out of 26 (0%)
+   Number of GSRs:        1 out of 1 (100%)
+   EFB used :        No
+   JTAG used :       No
+   Readback used :   No
+   Oscillator used : Yes
+   Startup used :    No
+   POR :             On
+   Bandgap :         On
+   Number of Power Controller:  0 out of 1 (0%)
+   Number of Dynamic Bank Controller (BCINRD):  0 out of 6 (0%)
+   Number of Dynamic Bank Controller (BCLVDSO):  0 out of 1 (0%)
+   Number of DCCA:  0 out of 8 (0%)
+   Number of DCMA:  0 out of 2 (0%)
+   Number of PLLs:  2 out of 2 (100%)
+   Number of DQSDLLs:  0 out of 2 (0%)
+   Number of CLKDIVC:  0 out of 4 (0%)
+   Number of ECLKSYNCA:  0 out of 4 (0%)
+   Number of ECLKBRIDGECS:  0 out of 2 (0%)
+   Notes:-
+      1. Total number of LUT4s = (Number of logic LUT4s) + 2*(Number of
+     distributed RAMs) + 2*(Number of ripple logic)
+      2. Number of logic LUT4s does not include count of distributed RAM and
+     ripple logic.
+
+                                    Page 1
+
+
+
+
+Design:  top1                                          Date:  10/29/20  15:47:11
+
+Design Summary (cont)
+---------------------
+   Number of clocks:  22
+     Net leds_div[10]: 5 loads, 5 rising, 0 falling (Driver: leds_div12/FF_1 )
+     Net usb_clkf[2]: 6 loads, 6 rising, 0 falling (Driver: usb_clkf__i3 )
+     Net ps4_ck: 19 loads, 6 rising, 13 falling (Driver: ps4_ck_169 )
+     Net n1435: 2 loads, 1 rising, 1 falling (Driver: rng1/r2_c2/mem_0_0 )
+     Net rng1_clk_0: 6 loads, 5 rising, 1 falling (Driver: rng1/r2_c1/mem_0_0 )
+     Net osc_out: 2 loads, 2 rising, 0 falling (Driver: int_osc )
+     Net usb_l1/clk_in_p: 24 loads, 24 rising, 0 falling (Driver: usb_clo_2__i9
+     )
+     Net clk_240_0: 31 loads, 31 rising, 0 falling (Driver: sec_pll/PLLInst_0 )
+     Net ps3_ck: 14 loads, 0 rising, 14 falling (Driver: ps3_ck_168 )
+     Net clk_400: 5 loads, 5 rising, 0 falling (Driver: main_pll/PLLInst_0 )
+     Net ps2_ck: 14 loads, 0 rising, 14 falling (Driver: ps2_ck_167 )
+     Net usb_l2/clk_in_p: 24 loads, 24 rising, 0 falling (Driver: usb_clo_2__i6
+     )
+     Net ps1_ck: 14 loads, 0 rising, 14 falling (Driver: ps1_ck_166 )
+     Net usb_clo[2][2]: 24 loads, 24 rising, 0 falling (Driver: usb_clo_2__i3 )
+     Net clk60_cnt[1]: 10 loads, 10 rising, 0 falling (Driver:
+     clk60_cnt_2450__i1 )
+     Net debug2_c_0: 27 loads, 27 rising, 0 falling (Driver: usb_clkf__i1 )
+     Net clk_266_0: 29 loads, 29 rising, 0 falling (Driver: main_pll/PLLInst_0 )
+     
+     Net usb_l4/clk_in_p: 25 loads, 25 rising, 0 falling (Driver: usb_clkf__i2 )
+     
+     Net pll1_cnt400[1]: 3 loads, 3 rising, 0 falling (Driver:
+     pll1_cnt400_2441_2597__i2 )
+     Net clk_in_c: 2 loads, 2 rising, 0 falling (Driver: PIO clk_in )
+     Net clk_266_1: 26 loads, 26 rising, 0 falling (Driver: main_pll/PLLInst_0 )
+     
+     Net clk_240_2: 25 loads, 25 rising, 0 falling (Driver: sec_pll/PLLInst_0 )
+   Number of Clock Enables:  108
+     Net reset_N: 16 loads, 16 LSLICEs
+     Net clk_in_p_enable_29: 2 loads, 2 LSLICEs
+     Net usb_l4/clk_in_p_enable_1: 1 loads, 1 LSLICEs
+     Net usb_l4/clk_in_p_enable_21: 3 loads, 3 LSLICEs
+     Net usb_l4/clk_in_p_enable_13: 3 loads, 3 LSLICEs
+     Net usb_l4/clk_in_p_enable_7: 2 loads, 2 LSLICEs
+     Net usb_l4/clk_in_p_enable_30: 3 loads, 3 LSLICEs
+     Net clk_in_p_enable_3: 1 loads, 1 LSLICEs
+     Net usb_l4/clk_in_p_enable_22: 1 loads, 1 LSLICEs
+     Net usb_l4/clk_in_p_enable_17: 1 loads, 1 LSLICEs
+     Net usb_l4/clk_in_p_enable_27: 3 loads, 3 LSLICEs
+     Net usb_l4/clk_in_p_enable_16: 2 loads, 2 LSLICEs
+     Net usb_l4/clk_in_p_enable_32: 1 loads, 1 LSLICEs
+     Net usb_l4/clk_in_p_enable_25: 1 loads, 1 LSLICEs
+     Net usb_l4/clk_in_p_enable_26: 1 loads, 1 LSLICEs
+     Net usb_l4/clk_in_p_enable_31: 1 loads, 1 LSLICEs
+     Net clk_in_p_enable_33: 1 loads, 1 LSLICEs
+     Net ps4/clk_in_N_414_enable_2: 1 loads, 1 LSLICEs
+     Net ps4/clk_dis_N_442: 3 loads, 3 LSLICEs
+     Net ps4/clk_in_N_414_enable_3: 1 loads, 1 LSLICEs
+     Net ps4/clk_in_N_414_enable_8: 1 loads, 1 LSLICEs
+     Net ps4/clk_in_N_414_enable_4: 1 loads, 1 LSLICEs
+     Net ps4/clk_in_N_414_enable_5: 1 loads, 1 LSLICEs
+     Net ps4/clk_in_N_414_enable_10: 2 loads, 2 LSLICEs
+     Net dis2/clk_266_1_keep_enable_21: 11 loads, 11 LSLICEs
+
+                                    Page 2
+
+
+
+
+Design:  top1                                          Date:  10/29/20  15:47:11
+
+Design Summary (cont)
+---------------------
+     Net ps3/clk_in_N_414_enable_10: 3 loads, 3 LSLICEs
+     Net ps3/clk_in_N_414_enable_3: 1 loads, 1 LSLICEs
+     Net ps3/clk_in_N_414_enable_4: 1 loads, 1 LSLICEs
+     Net ps3/clk_in_N_414_enable_5: 1 loads, 1 LSLICEs
+     Net ps3/clk_in_N_414_enable_6: 1 loads, 1 LSLICEs
+     Net ps3/clk_in_N_414_enable_15: 1 loads, 1 LSLICEs
+     Net dis1/clk_266_0_keep_enable_21: 11 loads, 11 LSLICEs
+     Net clk_in_p_enable_5: 1 loads, 1 LSLICEs
+     Net debug2_c_0_enable_32: 1 loads, 1 LSLICEs
+     Net clk_in_p_enable_32: 3 loads, 3 LSLICEs
+     Net clk_in_p_enable_18: 1 loads, 1 LSLICEs
+     Net clk_in_p_enable_28: 1 loads, 1 LSLICEs
+     Net ps2/clk_in_N_414_enable_5: 3 loads, 3 LSLICEs
+     Net ps2/clk_in_N_414_enable_8: 1 loads, 1 LSLICEs
+     Net ps2/clk_in_N_414_enable_7: 1 loads, 1 LSLICEs
+     Net ps2/clk_in_N_414_enable_9: 1 loads, 1 LSLICEs
+     Net ps2/clk_in_N_414_enable_10: 1 loads, 1 LSLICEs
+     Net ps2/clk_in_N_414_enable_15: 1 loads, 1 LSLICEs
+     Net usb_f2/clk_in_p_enable_12: 3 loads, 3 LSLICEs
+     Net usb_f2/clk_in_p_enable_19: 3 loads, 3 LSLICEs
+     Net usb_f2/clk_in_p_enable_3: 2 loads, 2 LSLICEs
+     Net usb_f2/clk_in_p_enable_30: 3 loads, 3 LSLICEs
+     Net usb_f2/clk_in_p_enable_6: 2 loads, 2 LSLICEs
+     Net usb_f2/clk_in_p_enable_13: 1 loads, 1 LSLICEs
+     Net usb_f2/clk_in_p_enable_20: 1 loads, 1 LSLICEs
+     Net usb_f2/clk_in_p_enable_33: 3 loads, 3 LSLICEs
+     Net usb_f2/clk_in_p_enable_26: 3 loads, 3 LSLICEs
+     Net usb_f2/clk_in_p_enable_24: 1 loads, 1 LSLICEs
+     Net usb_f2/clk_in_p_enable_25: 1 loads, 1 LSLICEs
+     Net usb_f2/clk_in_p_enable_27: 1 loads, 1 LSLICEs
+     Net usb_f2/clk_in_p_enable_28: 1 loads, 1 LSLICEs
+     Net ps1/clk_in_N_414_enable_6: 3 loads, 3 LSLICEs
+     Net ps1/clk_in_N_414_enable_8: 1 loads, 1 LSLICEs
+     Net ps1/clk_in_N_414_enable_14_adj_665: 1 loads, 1 LSLICEs
+     Net ps1/clk_in_N_414_enable_13: 1 loads, 1 LSLICEs
+     Net ps1/clk_in_N_414_enable_15: 1 loads, 1 LSLICEs
+     Net ps1/clk_in_N_414_enable_7: 1 loads, 1 LSLICEs
+     Net usb_l2/clk_in_p_enable_20: 3 loads, 3 LSLICEs
+     Net usb_l2/clk_in_p_enable_33: 1 loads, 1 LSLICEs
+     Net clk_in_p_enable_2: 1 loads, 1 LSLICEs
+     Net usb_l2/clk_in_p_enable_25: 3 loads, 3 LSLICEs
+     Net usb_l2/clk_in_p_enable_28: 3 loads, 3 LSLICEs
+     Net usb_l2/clk_in_p_enable_6: 2 loads, 2 LSLICEs
+     Net usb_l2/clk_in_p_enable_12: 3 loads, 3 LSLICEs
+     Net usb_l2/clk_in_p_enable_15: 2 loads, 2 LSLICEs
+     Net usb_l2/clk_in_p_enable_30: 1 loads, 1 LSLICEs
+     Net usb_l2/clk_in_p_enable_21: 1 loads, 1 LSLICEs
+     Net usb_l2/clk_in_p_enable_31: 1 loads, 1 LSLICEs
+     Net clk_in_p_enable_24: 1 loads, 1 LSLICEs
+     Net usb_l2/clk_in_p_enable_29: 1 loads, 1 LSLICEs
+     Net usb_l2/clk_in_p_enable_32: 1 loads, 1 LSLICEs
+     Net usb_l1/clk_in_p_enable_1: 1 loads, 1 LSLICEs
+     Net usb_l1/clk_in_p_enable_19: 1 loads, 1 LSLICEs
+     Net clk_in_p_enable_20: 1 loads, 1 LSLICEs
+     Net usb_l1/clk_in_p_enable_6: 1 loads, 1 LSLICEs
+     Net clk_in_p_enable_33_adj_725: 4 loads, 4 LSLICEs
+
+                                    Page 3
+
+
+
+
+Design:  top1                                          Date:  10/29/20  15:47:11
+
+Design Summary (cont)
+---------------------
+     Net usb_l1/clk_in_p_enable_33_adj_651: 2 loads, 2 LSLICEs
+     Net usb_l1/clk_in_p_enable_32: 1 loads, 1 LSLICEs
+     Net usb_l1/clk_in_p_enable_17: 2 loads, 2 LSLICEs
+     Net usb_l1/clk_in_p_enable_34: 1 loads, 1 LSLICEs
+     Net usb_l1/clk_in_p_enable_23: 3 loads, 3 LSLICEs
+     Net usb_l1/clk_in_p_enable_28: 4 loads, 4 LSLICEs
+     Net usb_l1/clk_in_p_enable_14: 3 loads, 3 LSLICEs
+     Net usb_l1/clk_in_p_enable_30: 1 loads, 1 LSLICEs
+     Net usb_l1/clk_in_p_enable_35: 1 loads, 1 LSLICEs
+     Net clk_in_p_enable_25: 2 loads, 2 LSLICEs
+     Net debug2_c_0_enable_23: 1 loads, 1 LSLICEs
+     Net usb_l3/debug2_c_0_enable_20: 3 loads, 3 LSLICEs
+     Net usb_l3/debug2_c_0_enable_33: 1 loads, 1 LSLICEs
+     Net usb_l3/debug2_c_0_enable_29: 3 loads, 3 LSLICEs
+     Net usb_l3/debug2_c_0_enable_28: 5 loads, 5 LSLICEs
+     Net usb_l3/debug2_c_0_enable_6: 2 loads, 2 LSLICEs
+     Net usb_l3/debug2_c_0_enable_12: 3 loads, 3 LSLICEs
+     Net usb_l3/debug2_c_0_enable_30: 1 loads, 1 LSLICEs
+     Net usb_l3/debug2_c_0_enable_15: 2 loads, 2 LSLICEs
+     Net usb_l3/debug2_c_0_enable_31: 1 loads, 1 LSLICEs
+     Net usb_l3/debug2_c_0_enable_22: 1 loads, 1 LSLICEs
+     Net usb_f1/clk_in_p_enable_24: 3 loads, 3 LSLICEs
+     Net usb_f1/clk_in_p_enable_27: 2 loads, 2 LSLICEs
+     Net usb_f1/clk_in_p_enable_10: 2 loads, 2 LSLICEs
+     Net usb_f1/clk_in_p_enable_16: 3 loads, 3 LSLICEs
+     Net usb_f1/clk_in_p_enable_19: 1 loads, 1 LSLICEs
+     Net usb_f1/clk_in_p_enable_17: 1 loads, 1 LSLICEs
+   Number of LSRs:  16
+     Net reset_N: 111 loads, 111 LSLICEs
+     Net n6056: 2 loads, 2 LSLICEs
+     Net n2274: 5 loads, 5 LSLICEs
+     Net n8218: 2 loads, 2 LSLICEs
+     Net ps4/n10836: 2 loads, 2 LSLICEs
+     Net n2276: 5 loads, 5 LSLICEs
+     Net n2278: 5 loads, 5 LSLICEs
+     Net n2280: 5 loads, 5 LSLICEs
+     Net n8619: 1 loads, 1 LSLICEs
+     Net n10808: 3 loads, 3 LSLICEs
+     Net dis2/clk_266_1_keep_enable_21: 11 loads, 11 LSLICEs
+     Net dis2/n18897: 1 loads, 1 LSLICEs
+     Net dis2/pix_cnt_5: 1 loads, 1 LSLICEs
+     Net dis1/clk_266_0_keep_enable_21: 11 loads, 11 LSLICEs
+     Net dis1/pix_cnt_5: 1 loads, 1 LSLICEs
+     Net dis1/n18896: 1 loads, 1 LSLICEs
+   Number of nets driven by tri-state buffers:  0
+   Top 10 highest fanout non-clock nets:
+     Net reset_N: 285 loads
+     Net state_0: 51 loads
+     Net state_0_adj_709: 49 loads
+     Net state_0_adj_716: 47 loads
+     Net state_0_adj_719: 46 loads
+     Net state_0_adj_724: 46 loads
+     Net state_0_adj_712: 42 loads
+     Net state_1: 33 loads
+     Net state_1_adj_715: 28 loads
+     Net state_1_adj_718: 28 loads
+
+                                    Page 4
+
+
+
+
+Design:  top1                                          Date:  10/29/20  15:47:11
+
+
+
+
+
+   Number of warnings:  35
+   Number of errors:    0
+     
+
+Design Errors/Warnings
+----------------------
+
+WARNING - map: /home/brane2/LATT_DEMO_PROJ/LOUD_BOX/LOUD_BOX.lpf(6): Semantic
+     error in "IOBUF PORT "clk_in2" IO_TYPE=LVCMOS33 PULLMODE=NONE ;": Port
+     "clk_in2" does not exist in the design. This preference has been disabled.
+WARNING - map: /home/brane2/LATT_DEMO_PROJ/LOUD_BOX/LOUD_BOX.lpf(54): Semantic
+     error in "IOBUF PORT "key1" IO_TYPE=LVCMOS33 PULLMODE=UP ;": Port "key1"
+     does not exist in the design. This preference has been disabled.
+WARNING - map: /home/brane2/LATT_DEMO_PROJ/LOUD_BOX/LOUD_BOX.lpf(55): Semantic
+     error in "IOBUF PORT "key2" IO_TYPE=LVCMOS33 PULLMODE=UP ;": Port "key2"
+     does not exist in the design. This preference has been disabled.
+WARNING - map: /home/brane2/LATT_DEMO_PROJ/LOUD_BOX/LOUD_BOX.lpf(56): Semantic
+     error in "IOBUF PORT "leds" IO_TYPE=LVCMOS33 PULLMODE=NONE ;": Port "leds"
+     does not exist in the design. This preference has been disabled.
+WARNING - map: /home/brane2/LATT_DEMO_PROJ/LOUD_BOX/LOUD_BOX.lpf(57): Semantic
+     error in "LOCATE COMP "leds" BANK 0 ;": COMP "leds" cannot be found in
+     design. This preference has been disabled.
+WARNING - map: /home/brane2/LATT_DEMO_PROJ/LOUD_BOX/LOUD_BOX.lpf(65): Semantic
+     error in "IOBUF PORT "leds[7]" IO_TYPE=LVCMOS33 PULLMODE=NONE CLAMP=ON ;":
+     Port "leds[7]" does not exist in the design. This preference has been
+     disabled.
+WARNING - map: /home/brane2/LATT_DEMO_PROJ/LOUD_BOX/LOUD_BOX.lpf(86): Semantic
+     error in "IOBUF PORT "test1[0]" IO_TYPE=LVCMOS33 ;": Port "test1[0]" does
+     not exist in the design. This preference has been disabled.
+WARNING - map: /home/brane2/LATT_DEMO_PROJ/LOUD_BOX/LOUD_BOX.lpf(87): Semantic
+     error in "IOBUF PORT "test1[1]" IO_TYPE=LVCMOS33 ;": Port "test1[1]" does
+     not exist in the design. This preference has been disabled.
+WARNING - map: /home/brane2/LATT_DEMO_PROJ/LOUD_BOX/LOUD_BOX.lpf(88): Semantic
+     error in "IOBUF PORT "test1[2]" IO_TYPE=LVCMOS33 ;": Port "test1[2]" does
+     not exist in the design. This preference has been disabled.
+WARNING - map: /home/brane2/LATT_DEMO_PROJ/LOUD_BOX/LOUD_BOX.lpf(89): Semantic
+     error in "IOBUF PORT "test1[3]" IO_TYPE=LVCMOS33 ;": Port "test1[3]" does
+     not exist in the design. This preference has been disabled.
+WARNING - map: /home/brane2/LATT_DEMO_PROJ/LOUD_BOX/LOUD_BOX.lpf(90): Semantic
+     error in "IOBUF PORT "test1[4]" IO_TYPE=LVCMOS33 ;": Port "test1[4]" does
+     not exist in the design. This preference has been disabled.
+WARNING - map: /home/brane2/LATT_DEMO_PROJ/LOUD_BOX/LOUD_BOX.lpf(91): Semantic
+     error in "IOBUF PORT "test1[5]" IO_TYPE=LVCMOS33 ;": Port "test1[5]" does
+     not exist in the design. This preference has been disabled.
+WARNING - map: /home/brane2/LATT_DEMO_PROJ/LOUD_BOX/LOUD_BOX.lpf(92): Semantic
+     error in "IOBUF PORT "test1[6]" IO_TYPE=LVCMOS33 ;": Port "test1[6]" does
+     not exist in the design. This preference has been disabled.
+WARNING - map: /home/brane2/LATT_DEMO_PROJ/LOUD_BOX/LOUD_BOX.lpf(93): Semantic
+     error in "IOBUF PORT "test1[7]" IO_TYPE=LVCMOS33 ;": Port "test1[7]" does
+     not exist in the design. This preference has been disabled.
+WARNING - map: /home/brane2/LATT_DEMO_PROJ/LOUD_BOX/LOUD_BOX.lpf(95): Semantic
+     error in "LOCATE COMP "leds[7]" BANK 0 ;": COMP "leds[7]" cannot be found
+     in design. This preference has been disabled.
+WARNING - map: input pad net 'key1' has no legal load.
+
+                                    Page 5
+
+
+
+
+Design:  top1                                          Date:  10/29/20  15:47:11
+
+Design Errors/Warnings (cont)
+-----------------------------
+WARNING - map: input pad net 'key2' has no legal load.
+WARNING - map: IO buffer missing for top level port key1...logic will be
+     discarded.
+WARNING - map: IO buffer missing for top level port key2...logic will be
+     discarded.
+WARNING - map: Multiple comps assigned to site "107". Only one comp will be
+     assigned to this location.
+WARNING - map: Multiple comps assigned to site "105". Only one comp will be
+     assigned to this location.
+WARNING - map: Multiple comps assigned to site "100". Only one comp will be
+     assigned to this location.
+WARNING - map: Multiple comps assigned to site "143". Only one comp will be
+     assigned to this location.
+WARNING - map: Multiple comps assigned to site "141". Only one comp will be
+     assigned to this location.
+WARNING - map: Multiple comps assigned to site "106". Only one comp will be
+     assigned to this location.
+WARNING - map: Multiple comps assigned to site "104". Only one comp will be
+     assigned to this location.
+WARNING - map: Multiple comps assigned to site "99". Only one comp will be
+     assigned to this location.
+WARNING - map: Pref conflict: Multi-locate on site. Ignoring LOCATE COMP "led7"
+     SITE "107" ;
+        Keeping LOCATE COMP "br4_shout" SITE "107" ;
+     .
+WARNING - map: Pref conflict: Multi-locate on site. Ignoring LOCATE COMP
+     "leds[2]" SITE "99" ;
+        Keeping LOCATE COMP "br6_shin" SITE "99" ;
+     .
+WARNING - map: Pref conflict: Multi-locate on site. Ignoring LOCATE COMP
+     "leds[3]" SITE "100" ;
+        Keeping LOCATE COMP "br6_shout" SITE "100" ;
+     .
+WARNING - map: Pref conflict: Multi-locate on site. Ignoring LOCATE COMP
+     "leds[4]" SITE "104" ;
+        Keeping LOCATE COMP "br5_shin" SITE "104" ;
+     .
+WARNING - map: Pref conflict: Multi-locate on site. Ignoring LOCATE COMP
+     "leds[5]" SITE "105" ;
+        Keeping LOCATE COMP "br5_shout" SITE "105" ;
+     .
+WARNING - map: Pref conflict: Multi-locate on site. Ignoring LOCATE COMP
+     "leds[6]" SITE "106" ;
+        Keeping LOCATE COMP "br4_shin" SITE "106" ;
+     .
+WARNING - map: Pref conflict: Multi-locate on site. Ignoring LOCATE COMP
+     "br2_shout" SITE "141" ;
+        Keeping LOCATE COMP "debug6" SITE "141" ;
+     .
+WARNING - map: Pref conflict: Multi-locate on site. Ignoring LOCATE COMP
+     "br3_shout" SITE "143" ;
+        Keeping LOCATE COMP "debug5" SITE "143" ;
+     .
+
+
+
+
+                                    Page 6
+
+
+
+
+Design:  top1                                          Date:  10/29/20  15:47:11
+
+IO (PIO) Attributes
+-------------------
+
++---------------------+-----------+-----------+------------+
+| IO Name             | Direction | Levelmode | IO         |
+|                     |           |  IO_TYPE  | Register   |
++---------------------+-----------+-----------+------------+
+| xor_out[5]          | OUTPUT    | LVCMOS33D |            |
++---------------------+-----------+-----------+------------+
+| xor_out[6]          | OUTPUT    | LVCMOS33D |            |
++---------------------+-----------+-----------+------------+
+| xor_out[7]          | OUTPUT    | LVCMOS33D |            |
++---------------------+-----------+-----------+------------+
+| dis2_sync           | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| dis2_pix            | OUTPUT    | LVCMOS33D |            |
++---------------------+-----------+-----------+------------+
+| dis1_sync           | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| dis1_pix            | OUTPUT    | LVCMOS33D |            |
++---------------------+-----------+-----------+------------+
+| led7                | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| leds[0]             | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| leds[1]             | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| leds[2]             | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| leds[3]             | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| leds[4]             | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| leds[5]             | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| leds[6]             | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| ps4_c               | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| ps4_d               | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| ps3_c               | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| ps3_d               | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| ps2_c               | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| ps2_d               | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| ps1_c               | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| ps1_d               | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| usb6_nout           | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| usb6_pout           | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| usb5_nout           | OUTPUT    | LVCMOS33  |            |
+
+                                    Page 7
+
+
+
+
+Design:  top1                                          Date:  10/29/20  15:47:11
+
+IO (PIO) Attributes (cont)
+--------------------------
++---------------------+-----------+-----------+------------+
+| usb5_pout           | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| usb4_nout           | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| usb4_pout           | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| xor_out[4]          | OUTPUT    | LVCMOS33D |            |
++---------------------+-----------+-----------+------------+
+| usb3_nout           | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| usb3_pout           | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| usb2_nout           | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| usb2_pout           | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| usb1_nout           | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| usb1_pout           | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| xor_out[3]          | OUTPUT    | LVCMOS33D |            |
++---------------------+-----------+-----------+------------+
+| xor_out[2]          | OUTPUT    | LVCMOS33D |            |
++---------------------+-----------+-----------+------------+
+| xor_out[1]          | OUTPUT    | LVCMOS33D |            |
++---------------------+-----------+-----------+------------+
+| xor_out[0]          | OUTPUT    | LVCMOS33D |            |
++---------------------+-----------+-----------+------------+
+| iot_out_400         | OUTPUT    | LVCMOS33D |            |
++---------------------+-----------+-----------+------------+
+| iot_out_266         | OUTPUT    | LVCMOS33D |            |
++---------------------+-----------+-----------+------------+
+| iot_out_240         | OUTPUT    | LVCMOS33D |            |
++---------------------+-----------+-----------+------------+
+| iot_out_200         | OUTPUT    | LVCMOS33D |            |
++---------------------+-----------+-----------+------------+
+| iot_out_133         | OUTPUT    | LVCMOS33D |            |
++---------------------+-----------+-----------+------------+
+| iot_out_120         | OUTPUT    | LVCMOS33D |            |
++---------------------+-----------+-----------+------------+
+| iot_out_114         | OUTPUT    | LVCMOS33D |            |
++---------------------+-----------+-----------+------------+
+| iot_out_100         | OUTPUT    | LVCMOS33D |            |
++---------------------+-----------+-----------+------------+
+| br1_shout           | OUTPUT    | LVCMOS33D |            |
++---------------------+-----------+-----------+------------+
+| br2_shout           | OUTPUT    | LVCMOS33D |            |
++---------------------+-----------+-----------+------------+
+| br3_shout           | OUTPUT    | LVCMOS33D |            |
++---------------------+-----------+-----------+------------+
+| br4_shout           | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| br5_shout           | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| br6_shout           | OUTPUT    | LVCMOS33  |            |
+
+                                    Page 8
+
+
+
+
+Design:  top1                                          Date:  10/29/20  15:47:11
+
+IO (PIO) Attributes (cont)
+--------------------------
++---------------------+-----------+-----------+------------+
+| debug1              | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| debug2              | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| debug3              | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| debug4              | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| debug5              | OUTPUT    | LVCMOS33D |            |
++---------------------+-----------+-----------+------------+
+| debug6              | OUTPUT    | LVCMOS33D |            |
++---------------------+-----------+-----------+------------+
+| reset               | INPUT     | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| br4_shin            | INPUT     | LVCMOS25R33|            |
++---------------------+-----------+-----------+------------+
+| br5_shin            | INPUT     | LVCMOS25R33|            |
++---------------------+-----------+-----------+------------+
+| br6_shin            | INPUT     | LVCMOS25R33|            |
++---------------------+-----------+-----------+------------+
+| clk_in              | INPUT     | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+
+Removed logic
+-------------
+
+Signal clk_in_N_414 was merged into signal ps1_ck
+Signal clk_in_N_414_adj_728 was merged into signal ps2_ck
+Signal clk_in_N_414_adj_729 was merged into signal ps3_ck
+Signal clk_in_N_414_adj_732 was merged into signal ps4_ck
+Signal clk_in_N_414_enable_14 was merged into signal reset_N
+Signal rng1/ref_clk_0__N_622 was merged into signal rng1_clk_0
+Signal rng1/ref_clk_1__N_618 was merged into signal n1435
+Signal VCC_net undriven or does not drive anything - clipped.
+Signal n21819 undriven or does not drive anything - clipped.
+Signal usb_f1/add_2418_1/S0 undriven or does not drive anything - clipped.
+Signal usb_f1/add_2418_1/CI undriven or does not drive anything - clipped.
+Signal usb_f1/add_2418_11/S1 undriven or does not drive anything - clipped.
+Signal usb_f1/add_2418_11/CO undriven or does not drive anything - clipped.
+Signal usb_l3/add_2420_1/S0 undriven or does not drive anything - clipped.
+Signal usb_l3/add_2420_1/CI undriven or does not drive anything - clipped.
+Signal usb_l3/add_2420_11/S1 undriven or does not drive anything - clipped.
+Signal usb_l3/add_2420_11/CO undriven or does not drive anything - clipped.
+Signal usb_l1/add_2416_1/S0 undriven or does not drive anything - clipped.
+Signal usb_l1/add_2416_1/CI undriven or does not drive anything - clipped.
+Signal usb_l1/add_2416_11/S1 undriven or does not drive anything - clipped.
+Signal usb_l1/add_2416_11/CO undriven or does not drive anything - clipped.
+Signal usb_l2/add_2415_1/S0 undriven or does not drive anything - clipped.
+Signal usb_l2/add_2415_1/CI undriven or does not drive anything - clipped.
+Signal usb_l2/add_2415_11/S1 undriven or does not drive anything - clipped.
+Signal usb_l2/add_2415_11/CO undriven or does not drive anything - clipped.
+Signal usb_f2/add_2417_11/S1 undriven or does not drive anything - clipped.
+Signal usb_f2/add_2417_11/CO undriven or does not drive anything - clipped.
+Signal usb_f2/add_2417_1/S0 undriven or does not drive anything - clipped.
+Signal usb_f2/add_2417_1/CI undriven or does not drive anything - clipped.
+
+                                    Page 9
+
+
+
+
+Design:  top1                                          Date:  10/29/20  15:47:11
+
+Removed logic (cont)
+--------------------
+Signal n1455 undriven or does not drive anything - clipped.
+Signal n1453 undriven or does not drive anything - clipped.
+Signal n1450 undriven or does not drive anything - clipped.
+Signal ps1_div_2446_add_4_1/S0 undriven or does not drive anything - clipped.
+Signal ps1_div_2446_add_4_1/CI undriven or does not drive anything - clipped.
+Signal n1444 undriven or does not drive anything - clipped.
+Signal dis1/add_12941_10/S1 undriven or does not drive anything - clipped.
+Signal dis1/add_12941_10/S0 undriven or does not drive anything - clipped.
+Signal dis1/add_12941_12/S1 undriven or does not drive anything - clipped.
+Signal dis1/add_12941_12/S0 undriven or does not drive anything - clipped.
+Signal dis1/add_12941_14/S1 undriven or does not drive anything - clipped.
+Signal dis1/add_12941_14/S0 undriven or does not drive anything - clipped.
+Signal dis1/add_12941_16/S1 undriven or does not drive anything - clipped.
+Signal dis1/add_12941_16/S0 undriven or does not drive anything - clipped.
+Signal dis1/add_12941_18/S0 undriven or does not drive anything - clipped.
+Signal dis1/add_12941_18/CO undriven or does not drive anything - clipped.
+Signal dis1/pix_cnt_2470_add_4_1/S0 undriven or does not drive anything -
+     clipped.
+Signal dis1/pix_cnt_2470_add_4_1/CI undriven or does not drive anything -
+     clipped.
+Signal dis1/add_53_1/S0 undriven or does not drive anything - clipped.
+Signal dis1/add_53_1/CI undriven or does not drive anything - clipped.
+Signal dis1/add_53_21/CO undriven or does not drive anything - clipped.
+Signal dis1/pix_cnt_2470_add_4_21/S1 undriven or does not drive anything -
+     clipped.
+Signal dis1/pix_cnt_2470_add_4_21/CO undriven or does not drive anything -
+     clipped.
+Signal dis1/add_12942_2/S1 undriven or does not drive anything - clipped.
+Signal dis1/add_12942_2/S0 undriven or does not drive anything - clipped.
+Signal dis1/add_12942_2/CI undriven or does not drive anything - clipped.
+Signal dis1/add_12942_4/S1 undriven or does not drive anything - clipped.
+Signal dis1/add_12942_4/S0 undriven or does not drive anything - clipped.
+Signal dis1/add_12942_6/S1 undriven or does not drive anything - clipped.
+Signal dis1/add_12942_6/S0 undriven or does not drive anything - clipped.
+Signal dis1/add_12942_8/S1 undriven or does not drive anything - clipped.
+Signal dis1/add_12942_8/S0 undriven or does not drive anything - clipped.
+Signal dis1/add_12942_10/S1 undriven or does not drive anything - clipped.
+Signal dis1/add_12942_10/S0 undriven or does not drive anything - clipped.
+Signal dis1/add_12942_12/S1 undriven or does not drive anything - clipped.
+Signal dis1/add_12942_12/S0 undriven or does not drive anything - clipped.
+Signal dis1/add_12942_14/S1 undriven or does not drive anything - clipped.
+Signal dis1/add_12942_14/S0 undriven or does not drive anything - clipped.
+Signal dis1/add_12942_16/S1 undriven or does not drive anything - clipped.
+Signal dis1/add_12942_16/S0 undriven or does not drive anything - clipped.
+Signal dis1/add_12942_18/S1 undriven or does not drive anything - clipped.
+Signal dis1/add_12942_18/S0 undriven or does not drive anything - clipped.
+Signal dis1/add_12942_20/S1 undriven or does not drive anything - clipped.
+Signal dis1/add_12942_20/S0 undriven or does not drive anything - clipped.
+Signal dis1/add_12942_22/S1 undriven or does not drive anything - clipped.
+Signal dis1/add_12942_22/S0 undriven or does not drive anything - clipped.
+Signal dis1/add_12942_cout/S1 undriven or does not drive anything - clipped.
+Signal dis1/add_12942_cout/CO undriven or does not drive anything - clipped.
+Signal dis1/add_12943_1/S1 undriven or does not drive anything - clipped.
+Signal dis1/add_12943_1/S0 undriven or does not drive anything - clipped.
+Signal dis1/add_12943_1/CI undriven or does not drive anything - clipped.
+Signal dis1/add_12943_3/S1 undriven or does not drive anything - clipped.
+
+                                   Page 10
+
+
+
+
+Design:  top1                                          Date:  10/29/20  15:47:11
+
+Removed logic (cont)
+--------------------
+Signal dis1/add_12943_3/S0 undriven or does not drive anything - clipped.
+Signal dis1/add_12943_5/S1 undriven or does not drive anything - clipped.
+Signal dis1/add_12943_5/S0 undriven or does not drive anything - clipped.
+Signal dis1/add_12943_7/S1 undriven or does not drive anything - clipped.
+Signal dis1/add_12943_7/S0 undriven or does not drive anything - clipped.
+Signal dis1/add_12943_9/S1 undriven or does not drive anything - clipped.
+Signal dis1/add_12943_9/S0 undriven or does not drive anything - clipped.
+Signal dis1/add_12943_11/S1 undriven or does not drive anything - clipped.
+Signal dis1/add_12943_11/S0 undriven or does not drive anything - clipped.
+Signal dis1/add_12943_13/S1 undriven or does not drive anything - clipped.
+Signal dis1/add_12943_13/S0 undriven or does not drive anything - clipped.
+Signal dis1/add_12943_15/S1 undriven or does not drive anything - clipped.
+Signal dis1/add_12943_15/S0 undriven or does not drive anything - clipped.
+Signal dis1/add_12943_17/S1 undriven or does not drive anything - clipped.
+Signal dis1/add_12943_17/S0 undriven or does not drive anything - clipped.
+Signal dis1/add_12943_19/S1 undriven or does not drive anything - clipped.
+Signal dis1/add_12943_19/S0 undriven or does not drive anything - clipped.
+Signal dis1/add_12943_21/S1 undriven or does not drive anything - clipped.
+Signal dis1/add_12943_21/S0 undriven or does not drive anything - clipped.
+Signal dis1/add_12943_23/S0 undriven or does not drive anything - clipped.
+Signal dis1/add_12943_23/CO undriven or does not drive anything - clipped.
+Signal dis1/add_12941_2/S1 undriven or does not drive anything - clipped.
+Signal dis1/add_12941_2/S0 undriven or does not drive anything - clipped.
+Signal dis1/add_12941_2/CI undriven or does not drive anything - clipped.
+Signal dis1/add_12941_4/S1 undriven or does not drive anything - clipped.
+Signal dis1/add_12941_4/S0 undriven or does not drive anything - clipped.
+Signal dis1/add_12941_6/S1 undriven or does not drive anything - clipped.
+Signal dis1/add_12941_6/S0 undriven or does not drive anything - clipped.
+Signal dis1/add_12941_8/S1 undriven or does not drive anything - clipped.
+Signal dis1/add_12941_8/S0 undriven or does not drive anything - clipped.
+Signal ps1_div_2446_add_4_9/S1 undriven or does not drive anything - clipped.
+Signal ps1_div_2446_add_4_9/CO undriven or does not drive anything - clipped.
+Signal pll1_cnt266_2442_2596_add_4_1/S0 undriven or does not drive anything -
+     clipped.
+Signal pll1_cnt266_2442_2596_add_4_1/CI undriven or does not drive anything -
+     clipped.
+Signal ps3_div_2448_add_4_1/S0 undriven or does not drive anything - clipped.
+Signal ps3_div_2448_add_4_1/CI undriven or does not drive anything - clipped.
+Signal pll1_cnt266_2442_2596_add_4_5/CO undriven or does not drive anything -
+     clipped.
+Signal ps3_div_2448_add_4_9/S1 undriven or does not drive anything - clipped.
+Signal ps3_div_2448_add_4_9/CO undriven or does not drive anything - clipped.
+Signal dis2/add_12940_1/S1 undriven or does not drive anything - clipped.
+Signal dis2/add_12940_1/S0 undriven or does not drive anything - clipped.
+Signal dis2/add_12940_1/CI undriven or does not drive anything - clipped.
+Signal dis2/add_12940_3/S1 undriven or does not drive anything - clipped.
+Signal dis2/add_12940_3/S0 undriven or does not drive anything - clipped.
+Signal dis2/add_12939_2/S1 undriven or does not drive anything - clipped.
+Signal dis2/add_12939_2/S0 undriven or does not drive anything - clipped.
+Signal dis2/add_12939_2/CI undriven or does not drive anything - clipped.
+Signal dis2/add_12939_4/S1 undriven or does not drive anything - clipped.
+Signal dis2/add_12939_4/S0 undriven or does not drive anything - clipped.
+Signal dis2/add_12939_6/S1 undriven or does not drive anything - clipped.
+Signal dis2/add_12939_6/S0 undriven or does not drive anything - clipped.
+Signal dis2/add_12939_8/S1 undriven or does not drive anything - clipped.
+Signal dis2/add_12939_8/S0 undriven or does not drive anything - clipped.
+
+                                   Page 11
+
+
+
+
+Design:  top1                                          Date:  10/29/20  15:47:11
+
+Removed logic (cont)
+--------------------
+Signal dis2/add_12939_10/S1 undriven or does not drive anything - clipped.
+Signal dis2/add_12939_10/S0 undriven or does not drive anything - clipped.
+Signal dis2/add_12939_12/S1 undriven or does not drive anything - clipped.
+Signal dis2/add_12939_12/S0 undriven or does not drive anything - clipped.
+Signal dis2/add_12940_5/S1 undriven or does not drive anything - clipped.
+Signal dis2/add_12940_5/S0 undriven or does not drive anything - clipped.
+Signal dis2/add_12940_7/S1 undriven or does not drive anything - clipped.
+Signal dis2/add_12940_7/S0 undriven or does not drive anything - clipped.
+Signal dis2/add_12939_14/S1 undriven or does not drive anything - clipped.
+Signal dis2/add_12939_14/S0 undriven or does not drive anything - clipped.
+Signal dis2/add_12939_16/S1 undriven or does not drive anything - clipped.
+Signal dis2/add_12939_16/S0 undriven or does not drive anything - clipped.
+Signal dis2/add_12940_9/S1 undriven or does not drive anything - clipped.
+Signal dis2/add_12940_9/S0 undriven or does not drive anything - clipped.
+Signal dis2/add_12939_18/S1 undriven or does not drive anything - clipped.
+Signal dis2/add_12939_18/S0 undriven or does not drive anything - clipped.
+Signal dis2/add_12939_20/S1 undriven or does not drive anything - clipped.
+Signal dis2/add_12939_20/S0 undriven or does not drive anything - clipped.
+Signal dis2/add_12939_22/S1 undriven or does not drive anything - clipped.
+Signal dis2/add_12939_22/S0 undriven or does not drive anything - clipped.
+Signal dis2/add_12940_11/S1 undriven or does not drive anything - clipped.
+Signal dis2/add_12940_11/S0 undriven or does not drive anything - clipped.
+Signal dis2/add_12939_cout/S1 undriven or does not drive anything - clipped.
+Signal dis2/add_12939_cout/CO undriven or does not drive anything - clipped.
+Signal dis2/add_12940_13/S1 undriven or does not drive anything - clipped.
+Signal dis2/add_12940_13/S0 undriven or does not drive anything - clipped.
+Signal dis2/add_12940_15/S1 undriven or does not drive anything - clipped.
+Signal dis2/add_12940_15/S0 undriven or does not drive anything - clipped.
+Signal dis2/add_12940_17/S1 undriven or does not drive anything - clipped.
+Signal dis2/add_12940_17/S0 undriven or does not drive anything - clipped.
+Signal dis2/add_12940_19/S1 undriven or does not drive anything - clipped.
+Signal dis2/add_12940_19/S0 undriven or does not drive anything - clipped.
+Signal dis2/add_12940_21/S1 undriven or does not drive anything - clipped.
+Signal dis2/add_12940_21/S0 undriven or does not drive anything - clipped.
+Signal dis2/add_12940_23/S0 undriven or does not drive anything - clipped.
+Signal dis2/add_12940_23/CO undriven or does not drive anything - clipped.
+Signal dis2/add_53_1/S0 undriven or does not drive anything - clipped.
+Signal dis2/add_53_1/CI undriven or does not drive anything - clipped.
+Signal dis2/add_12938_2/S1 undriven or does not drive anything - clipped.
+Signal dis2/add_12938_2/S0 undriven or does not drive anything - clipped.
+Signal dis2/add_12938_2/CI undriven or does not drive anything - clipped.
+Signal dis2/add_12938_4/S1 undriven or does not drive anything - clipped.
+Signal dis2/add_12938_4/S0 undriven or does not drive anything - clipped.
+Signal dis2/add_12938_6/S1 undriven or does not drive anything - clipped.
+Signal dis2/add_12938_6/S0 undriven or does not drive anything - clipped.
+Signal dis2/add_12938_8/S1 undriven or does not drive anything - clipped.
+Signal dis2/add_12938_8/S0 undriven or does not drive anything - clipped.
+Signal dis2/add_12938_10/S1 undriven or does not drive anything - clipped.
+Signal dis2/add_12938_10/S0 undriven or does not drive anything - clipped.
+Signal dis2/add_12938_12/S1 undriven or does not drive anything - clipped.
+Signal dis2/add_12938_12/S0 undriven or does not drive anything - clipped.
+Signal dis2/add_12938_14/S1 undriven or does not drive anything - clipped.
+Signal dis2/add_12938_14/S0 undriven or does not drive anything - clipped.
+Signal dis2/add_12938_16/S1 undriven or does not drive anything - clipped.
+Signal dis2/add_12938_16/S0 undriven or does not drive anything - clipped.
+Signal dis2/add_12938_18/S0 undriven or does not drive anything - clipped.
+
+                                   Page 12
+
+
+
+
+Design:  top1                                          Date:  10/29/20  15:47:11
+
+Removed logic (cont)
+--------------------
+Signal dis2/add_12938_18/CO undriven or does not drive anything - clipped.
+Signal dis2/pix_cnt_2471_add_4_1/S0 undriven or does not drive anything -
+     clipped.
+Signal dis2/pix_cnt_2471_add_4_1/CI undriven or does not drive anything -
+     clipped.
+Signal dis2/add_53_21/CO undriven or does not drive anything - clipped.
+Signal dis2/pix_cnt_2471_add_4_21/S1 undriven or does not drive anything -
+     clipped.
+Signal dis2/pix_cnt_2471_add_4_21/CO undriven or does not drive anything -
+     clipped.
+Signal ps4_div_2449_add_4_1/S0 undriven or does not drive anything - clipped.
+Signal ps4_div_2449_add_4_1/CI undriven or does not drive anything - clipped.
+Signal ps4_div_2449_add_4_9/S1 undriven or does not drive anything - clipped.
+Signal ps4_div_2449_add_4_9/CO undriven or does not drive anything - clipped.
+Signal pll2_cnt240_2443_2591_add_4_1/S0 undriven or does not drive anything -
+     clipped.
+Signal pll2_cnt240_2443_2591_add_4_1/CI undriven or does not drive anything -
+     clipped.
+Signal rng1_cnt_2440_2612_add_4_1/S0 undriven or does not drive anything -
+     clipped.
+Signal rng1_cnt_2440_2612_add_4_1/CI undriven or does not drive anything -
+     clipped.
+Signal rng1_cnt_2440_2612_add_4_7/S1 undriven or does not drive anything -
+     clipped.
+Signal rng1_cnt_2440_2612_add_4_7/CO undriven or does not drive anything -
+     clipped.
+Signal pll2_cnt240_2443_2591_add_4_7/S1 undriven or does not drive anything -
+     clipped.
+Signal pll2_cnt240_2443_2591_add_4_7/CO undriven or does not drive anything -
+     clipped.
+Signal pll1_cnt400_2441_2597_add_4_1/S0 undriven or does not drive anything -
+     clipped.
+Signal pll1_cnt400_2441_2597_add_4_1/CI undriven or does not drive anything -
+     clipped.
+Signal pll1_cnt400_2441_2597_add_4_7/S1 undriven or does not drive anything -
+     clipped.
+Signal pll1_cnt400_2441_2597_add_4_7/CO undriven or does not drive anything -
+     clipped.
+Signal osc_cnt_2444_2590_add_4_1/S0 undriven or does not drive anything -
+     clipped.
+Signal osc_cnt_2444_2590_add_4_1/CI undriven or does not drive anything -
+     clipped.
+Signal osc_cnt_2444_2590_add_4_3/CO undriven or does not drive anything -
+     clipped.
+Signal ps2_div_2447_add_4_1/S0 undriven or does not drive anything - clipped.
+Signal ps2_div_2447_add_4_1/CI undriven or does not drive anything - clipped.
+Signal ps2_div_2447_add_4_9/S1 undriven or does not drive anything - clipped.
+Signal ps2_div_2447_add_4_9/CO undriven or does not drive anything - clipped.
+Signal usb_l4/add_2419_1/S0 undriven or does not drive anything - clipped.
+Signal usb_l4/add_2419_1/CI undriven or does not drive anything - clipped.
+Signal usb_l4/add_2419_11/S1 undriven or does not drive anything - clipped.
+Signal usb_l4/add_2419_11/CO undriven or does not drive anything - clipped.
+Signal leds_div12/cnt_5/CO undriven or does not drive anything - clipped.
+Signal leds_div12/cnt_cia/S1 undriven or does not drive anything - clipped.
+Signal leds_div12/cnt_cia/S0 undriven or does not drive anything - clipped.
+Block i16093 was optimized away.
+
+                                   Page 13
+
+
+
+
+Design:  top1                                          Date:  10/29/20  15:47:11
+
+Removed logic (cont)
+--------------------
+Block i16092 was optimized away.
+Block i16096 was optimized away.
+Block i16091 was optimized away.
+Block usb_l1/i11_1_lut_rep_284 was optimized away.
+Block rng1/i16095 was optimized away.
+Block rng1/i16094 was optimized away.
+Block i2 was optimized away.
+Block m0_lut was optimized away.
+
+     
+
+PLL/DLL Summary
+---------------
+
+PLL 1:                                     Pin/Node Value
+  PLL Instance Name:                                main_pll/PLLInst_0
+  PLL Type:                                         EHXPLLJ
+  Input Clock:                             PIN      clk_in_c
+  Output Clock(P):                         NODE     clk_400
+  Output Clock(S):                         NODE     clk_266_0
+  Output Clock(S2):                        NODE     clk_266_1
+  Output Clock(S3):                        NODE     clk_114
+  Feedback Signal:                         NODE     clk_400
+  Reset Signal:                                     NONE
+  M Divider Reset Signal:                           NONE
+  C Divider Reset Signal:                           NONE
+  D Divider Reset Signal:                           NONE
+  Standby Signal:                                   NONE
+  PLL LOCK signal:                                  NONE
+  PLL Data bus CLK Signal:                          NONE
+  PLL Data bus Strobe Signal:                       NONE
+  PLL Data bus Reset Signal:                        NONE
+  PLL Data bus Write Enable Signal:                 NONE
+  PLL Data bus Address0:                            NONE
+  PLL Data bus Address1:                            NONE
+  PLL Data bus Address2:                            NONE
+  PLL Data bus Address3:                            NONE
+  PLL Data bus Address4:                            NONE
+  PLL Data In bus Data0:                            NONE
+  PLL Data In bus Data1:                            NONE
+  PLL Data In bus Data2:                            NONE
+  PLL Data In bus Data3:                            NONE
+  PLL Data In bus Data4:                            NONE
+  PLL Data In bus Data5:                            NONE
+  PLL Data In bus Data6:                            NONE
+  PLL Data In bus Data7:                            NONE
+  PLL Data bus Acknowledge:                         NONE
+  PLL Data Out bus Data0:                           NONE
+  PLL Data Out bus Data1:                           NONE
+  PLL Data Out bus Data2:                           NONE
+  PLL Data Out bus Data3:                           NONE
+  PLL Data Out bus Data4:                           NONE
+  PLL Data Out bus Data5:                           NONE
+  PLL Data Out bus Data6:                           NONE
+  PLL Data Out bus Data7:                           NONE
+  Input Clock Frequency (MHz):                      20.0000
+
+                                   Page 14
+
+
+
+
+Design:  top1                                          Date:  10/29/20  15:47:11
+
+PLL/DLL Summary (cont)
+----------------------
+  Output Clock(P) Frequency (MHz):                  400.0000
+  Output Clock(S) Frequency (MHz):                  266.6667
+  Output Clock(S2) Frequency (MHz):                 266.6667
+  Output Clock(S3) Frequency (MHz):                 114.2857
+  CLKOP Post Divider A Input:                       DIVA
+  CLKOS Post Divider B Input:                       DIVB
+  CLKOS2 Post Divider C Input:                      DIVC
+  CLKOS3 Post Divider D Input:                      DIVD
+  Pre Divider A Input:                              VCO_PHASE
+  Pre Divider B Input:                              VCO_PHASE
+  Pre Divider C Input:                              VCO_PHASE
+  Pre Divider D Input:                              VCO_PHASE
+  VCO Bypass A Input:                               VCO_PHASE
+  VCO Bypass B Input:                               VCO_PHASE
+  VCO Bypass C Input:                               VCO_PHASE
+  VCO Bypass D Input:                               VCO_PHASE
+  FB_MODE:                                          CLKOP
+  CLKI Divider:                                     1
+  CLKFB Divider:                                    20
+  CLKOP Divider:                                    2
+  CLKOS Divider:                                    3
+  CLKOS2 Divider:                                   3
+  CLKOS3 Divider:                                   7
+  Fractional N Divider:                             0
+  CLKOP Desired Phase Shift(degree):                0
+  CLKOP Trim Option Rising/Falling:                 RISING
+  CLKOP Trim Option Delay:                          0
+  CLKOS Desired Phase Shift(degree):                90
+  CLKOS Trim Option Rising/Falling:                 RISING
+  CLKOS Trim Option Delay:                          0
+  CLKOS2 Desired Phase Shift(degree):               0
+  CLKOS3 Desired Phase Shift(degree):               0
+PLL 2:                                     Pin/Node Value
+  PLL Instance Name:                                sec_pll/PLLInst_0
+  PLL Type:                                         EHXPLLJ
+  Input Clock:                             PIN      clk_in_c
+  Output Clock(P):                         NODE     clk_240_0
+  Output Clock(S):                                  NONE
+  Output Clock(S2):                        NODE     clk_240_2
+  Output Clock(S3):                                 NONE
+  Feedback Signal:                         NODE     clk_240_0
+  Reset Signal:                                     NONE
+  M Divider Reset Signal:                           NONE
+  C Divider Reset Signal:                           NONE
+  D Divider Reset Signal:                           NONE
+  Standby Signal:                                   NONE
+  PLL LOCK signal:                                  NONE
+  PLL Data bus CLK Signal:                          NONE
+  PLL Data bus Strobe Signal:                       NONE
+  PLL Data bus Reset Signal:                        NONE
+  PLL Data bus Write Enable Signal:                 NONE
+  PLL Data bus Address0:                            NONE
+  PLL Data bus Address1:                            NONE
+  PLL Data bus Address2:                            NONE
+  PLL Data bus Address3:                            NONE
+  PLL Data bus Address4:                            NONE
+
+                                   Page 15
+
+
+
+
+Design:  top1                                          Date:  10/29/20  15:47:11
+
+PLL/DLL Summary (cont)
+----------------------
+  PLL Data In bus Data0:                            NONE
+  PLL Data In bus Data1:                            NONE
+  PLL Data In bus Data2:                            NONE
+  PLL Data In bus Data3:                            NONE
+  PLL Data In bus Data4:                            NONE
+  PLL Data In bus Data5:                            NONE
+  PLL Data In bus Data6:                            NONE
+  PLL Data In bus Data7:                            NONE
+  PLL Data bus Acknowledge:                         NONE
+  PLL Data Out bus Data0:                           NONE
+  PLL Data Out bus Data1:                           NONE
+  PLL Data Out bus Data2:                           NONE
+  PLL Data Out bus Data3:                           NONE
+  PLL Data Out bus Data4:                           NONE
+  PLL Data Out bus Data5:                           NONE
+  PLL Data Out bus Data6:                           NONE
+  PLL Data Out bus Data7:                           NONE
+  Input Clock Frequency (MHz):                      20.0000
+  Output Clock(P) Frequency (MHz):                  240.0000
+  Output Clock(S) Frequency (MHz):                  NA
+  Output Clock(S2) Frequency (MHz):                 240.0000
+  Output Clock(S3) Frequency (MHz):                 NA
+  CLKOP Post Divider A Input:                       DIVA
+  CLKOS Post Divider B Input:                       DIVB
+  CLKOS2 Post Divider C Input:                      DIVC
+  CLKOS3 Post Divider D Input:                      DIVD
+  Pre Divider A Input:                              VCO_PHASE
+  Pre Divider B Input:                              VCO_PHASE
+  Pre Divider C Input:                              VCO_PHASE
+  Pre Divider D Input:                              VCO_PHASE
+  VCO Bypass A Input:                               VCO_PHASE
+  VCO Bypass B Input:                               VCO_PHASE
+  VCO Bypass C Input:                               VCO_PHASE
+  VCO Bypass D Input:                               VCO_PHASE
+  FB_MODE:                                          CLKOP
+  CLKI Divider:                                     1
+  CLKFB Divider:                                    12
+  CLKOP Divider:                                    2
+  CLKOS Divider:                                    2
+  CLKOS2 Divider:                                   2
+  CLKOS3 Divider:                                   2
+  Fractional N Divider:                             0
+  CLKOP Desired Phase Shift(degree):                0
+  CLKOP Trim Option Rising/Falling:                 RISING
+  CLKOP Trim Option Delay:                          0
+  CLKOS Desired Phase Shift(degree):                45
+  CLKOS Trim Option Rising/Falling:                 RISING
+  CLKOS Trim Option Delay:                          0
+  CLKOS2 Desired Phase Shift(degree):               90
+  CLKOS3 Desired Phase Shift(degree):               135
+
+OSC Summary
+-----------
+
+OSC 1:                                     Pin/Node Value
+  OSC Instance Name:                                int_osc
+
+                                   Page 16
+
+
+
+
+Design:  top1                                          Date:  10/29/20  15:47:11
+
+OSC Summary (cont)
+------------------
+  OSC Type:                                         OSCH
+  STDBY Input:                                      NONE
+  OSC Output:                              NODE     osc_out
+  OSC Nominal Frequency (MHz):                      2.08
+
+ASIC Components
+---------------
+
+Instance Name: int_osc
+         Type: OSCH
+Instance Name: main_pll/PLLInst_0
+         Type: EHXPLLJ
+Instance Name: sec_pll/PLLInst_0
+         Type: EHXPLLJ
+
+GSR Usage
+---------
+
+GSR Component:
+   The Global Set Reset (GSR) resource has been used to implement a global reset
+        of the design. The reset signal used for GSR control is 'reset_N'.
+        
+
+     GSR Property:
+   The design components with GSR property set to ENABLED will respond to global
+        set reset while the components with GSR property set to DISABLED will
+        not.
+        
+
+     Components with disabled GSR Property
+-------------------------------------
+
+     These components have the GSR property set to DISABLED. The components will
+     not respond to the reset signal 'reset_N' via the GSR component.
+
+     Type and number of components of the type: 
+   Register = 465 
+
+     Type and instance name of component: 
+   Register : usb_clo_2__i1
+   Register : rng1/rng_out_1__20
+   Register : rng1/rng_out_2__21
+   Register : rng1/rng_out_3__22
+   Register : rng1/rng_out_4__23
+   Register : rng1/rng_out_0__19
+   Register : usb_clo_2__i9
+   Register : pll2_cnt240_2443_2591__i0
+   Register : usb_clo_2__i8
+   Register : usb_clo_2__i7
+   Register : pll1_cnt400_2441_2597__i1
+   Register : osc_cnt_2444_2590__i1
+   Register : usb_clo_2__i6
+   Register : usb_clo_2__i5
+   Register : usb_clo_2__i4
+   Register : usb_clo_2__i3
+   Register : usb_clo_2__i2
+
+                                   Page 17
+
+
+
+
+Design:  top1                                          Date:  10/29/20  15:47:11
+
+GSR Usage (cont)
+----------------
+   Register : usb_ccnt_3__i12
+   Register : usb_ccnt_3__i11
+   Register : dbg1_reg_2445__i0
+   Register : ps1_div_2446__i0
+   Register : usb_ccnt_3__i10
+   Register : pll1_cnt266_2442_2596__i0
+   Register : usb_clkf__i1
+   Register : usb_ccnt_3__i8
+   Register : usb_ccnt_3__i7
+   Register : debug1_158
+   Register : usb_l4/data_size_i10
+   Register : usb_l4/rnd_reg_i0_i0
+   Register : usb_l4/bit_cnt_2475__i0
+   Register : usb_l4/state_2461__i0
+   Register : usb_l4/wait_cnt_2462__i0
+   Register : usb_l4/data_size_i9
+   Register : usb_l4/data_size_i7
+   Register : usb_l4/data_size_i6
+   Register : usb_l4/data_size_i5
+   Register : usb_l4/data_size_i4
+   Register : usb_l4/data_size_i3
+   Register : usb_l4/data_size_i2
+   Register : usb_l4/data_size_i1
+   Register : usb_l4/st_cnt_i4
+   Register : usb_l4/st_cnt_i3
+   Register : usb_l4/st_cnt_i2
+   Register : usb_l4/dout_r_i2
+   Register : usb_l4/rnd_reg_i0_i4
+   Register : usb_l4/rnd_reg_i0_i3
+   Register : usb_l4/rnd_reg_i0_i2
+   Register : usb_l4/rnd_reg_i0_i1
+   Register : usb_l4/wait_cnt_2462__i4
+   Register : usb_l4/state_2461__i2
+   Register : usb_l4/st_cnt_i0
+   Register : usb_l4/dout_r_i0
+   Register : usb_l4/bit_cnt_2475__i1
+   Register : usb_l4/state_2461__i1
+   Register : usb_l4/wait_cnt_2462__i1
+   Register : usb_l4/wait_cnt_2462__i2
+   Register : usb_l4/wait_cnt_2462__i3
+   Register : usb_l4/dout_r_i1
+   Register : usb_l4/st_cnt_i1
+   Register : usb_l4/data_size_i8
+   Register : ps4/rnd_del_i0
+   Register : ps4/rnd_reg_i0_i0
+   Register : ps4/data_out_57
+   Register : ps4/parity_58
+   Register : ps4/l_out_59
+   Register : ps4/answer_60
+   Register : ps4/rnd_del_i1
+   Register : ps4/rnd_del_i2
+   Register : ps4/rnd_del_i3
+   Register : ps4/rnd_del_i4
+   Register : ps4/bit_clk_2469__i0
+   Register : ps4/bit_clk_2469__i3
+   Register : ps4/clk_dis_54
+
+                                   Page 18
+
+
+
+
+Design:  top1                                          Date:  10/29/20  15:47:11
+
+GSR Usage (cont)
+----------------
+   Register : ps4/bit_clk_2469__i2
+   Register : ps4/bit_clk_2469__i1
+   Register : ps4/rnd_reg_i0_i1
+   Register : ps4/rnd_reg_i0_i2
+   Register : ps4/rnd_reg_i0_i3
+   Register : ps4/rnd_reg_i0_i4
+   Register : ps2_div_2447__i0
+   Register : ps3_div_2448__i0
+   Register : ps4_div_2449__i0
+   Register : usb_ccnt_3__i5
+   Register : usb_ccnt_3__i4
+   Register : clk60_cnt_2450__i0
+   Register : pll1_cnt266_2442_2596__i4
+   Register : pll1_cnt266_2442_2596__i3
+   Register : pll1_cnt266_2442_2596__i2
+   Register : pll1_cnt266_2442_2596__i1
+   Register : rng1_cnt_2440_2612__i1
+   Register : ps1_div_2446__i7
+   Register : ps1_div_2446__i6
+   Register : ps1_div_2446__i5
+   Register : ps1_div_2446__i4
+   Register : ps1_div_2446__i3
+   Register : ps1_div_2446__i2
+   Register : ps1_div_2446__i1
+   Register : ps4_ck_169
+   Register : ps3_ck_168
+   Register : ps2_ck_167
+   Register : ps1_ck_166
+   Register : dbg1_reg_2445__i2
+   Register : dbg1_reg_2445__i1
+   Register : osc_cnt_2444_2590__i3
+   Register : osc_cnt_2444_2590__i2
+   Register : pll1_cnt400_2441_2597__i6
+   Register : pll1_cnt400_2441_2597__i5
+   Register : pll1_cnt400_2441_2597__i4
+   Register : pll1_cnt400_2441_2597__i3
+   Register : pll1_cnt400_2441_2597__i2
+   Register : pll2_cnt240_2443_2591__i5
+   Register : pll2_cnt240_2443_2591__i4
+   Register : pll2_cnt240_2443_2591__i3
+   Register : pll2_cnt240_2443_2591__i2
+   Register : pll2_cnt240_2443_2591__i1
+   Register : usb_clkf__i2
+   Register : usb_clkf__i3
+   Register : ps2_div_2447__i1
+   Register : ps2_div_2447__i2
+   Register : ps2_div_2447__i3
+   Register : ps2_div_2447__i4
+   Register : ps2_div_2447__i5
+   Register : ps2_div_2447__i6
+   Register : ps2_div_2447__i7
+   Register : ps3_div_2448__i1
+   Register : ps3_div_2448__i2
+   Register : ps3_div_2448__i3
+   Register : ps3_div_2448__i4
+   Register : ps3_div_2448__i5
+
+                                   Page 19
+
+
+
+
+Design:  top1                                          Date:  10/29/20  15:47:11
+
+GSR Usage (cont)
+----------------
+   Register : ps3_div_2448__i6
+   Register : ps3_div_2448__i7
+   Register : ps4_div_2449__i1
+   Register : usb_ccnt_3__i6
+   Register : usb_ccnt_3__i9
+   Register : ps4_div_2449__i2
+   Register : ps4_div_2449__i3
+   Register : ps4_div_2449__i4
+   Register : ps4_div_2449__i5
+   Register : ps4_div_2449__i6
+   Register : ps4_div_2449__i7
+   Register : clk60_cnt_2450__i1
+   Register : rng1_cnt_2440_2612__i2
+   Register : rng1_cnt_2440_2612__i3
+   Register : rng1_cnt_2440_2612__i4
+   Register : rng1_cnt_2440_2612__i5
+   Register : rng1_cnt_2440_2612__i6
+   Register : iot_100/pulse_cnt_i0
+   Register : iot_100/shout_r_28
+   Register : iot_100/pulse_cnt_i1
+   Register : iot_100/pulse_cnt_i2
+   Register : iot_100/pulse_cnt_i3
+   Register : dis2/pix_cnt_2471__i0
+   Register : dis2/line_cnt__i20
+   Register : dis2/line_cnt__i19
+   Register : dis2/line_cnt__i18
+   Register : dis2/line_cnt__i17
+   Register : dis2/line_cnt__i16
+   Register : dis2/line_cnt__i15
+   Register : dis2/line_cnt__i14
+   Register : dis2/line_cnt__i13
+   Register : dis2/line_cnt__i12
+   Register : dis2/line_cnt__i11
+   Register : dis2/line_cnt__i10
+   Register : dis2/line_cnt__i9
+   Register : dis2/line_cnt__i8
+   Register : dis2/line_cnt__i7
+   Register : dis2/line_cnt__i6
+   Register : dis2/line_cnt__i5
+   Register : dis2/line_cnt__i4
+   Register : dis2/line_cnt__i3
+   Register : dis2/line_cnt__i2
+   Register : dis2/line_cnt__i1
+   Register : dis2/line_cnt__i0
+   Register : dis2/vs_42
+   Register : dis2/h_den_43
+   Register : dis2/v_den_44
+   Register : dis2/pix_cnt_2471__i19
+   Register : dis2/pix_cnt_2471__i18
+   Register : dis2/pix_cnt_2471__i17
+   Register : dis2/pix_cnt_2471__i16
+   Register : dis2/pix_cnt_2471__i15
+   Register : dis2/pix_cnt_2471__i14
+   Register : dis2/pix_cnt_2471__i13
+   Register : dis2/pix_cnt_2471__i12
+   Register : dis2/pix_cnt_2471__i11
+
+                                   Page 20
+
+
+
+
+Design:  top1                                          Date:  10/29/20  15:47:11
+
+GSR Usage (cont)
+----------------
+   Register : dis2/pix_cnt_2471__i10
+   Register : dis2/pix_cnt_2471__i9
+   Register : dis2/pix_cnt_2471__i8
+   Register : dis2/pix_cnt_2471__i7
+   Register : dis2/pix_cnt_2471__i6
+   Register : dis2/pix_cnt_2471__i5
+   Register : dis2/pix_cnt_2471__i4
+   Register : dis2/pix_cnt_2471__i3
+   Register : dis2/pix_cnt_2471__i2
+   Register : dis2/pix_cnt_2471__i1
+   Register : dis2/hs_41
+   Register : ps3/bit_clk__2730__i0
+   Register : ps3/rnd_del_i0
+   Register : ps3/rnd_reg_i0_i0
+   Register : ps3/data_out_57
+   Register : ps3/parity_58
+   Register : ps3/l_out_59
+   Register : ps3/answer_60
+   Register : ps3/bit_clk__2730__i3
+   Register : ps3/bit_clk__2730__i2
+   Register : ps3/bit_clk__2730__i1
+   Register : ps3/rnd_del_i1
+   Register : ps3/rnd_del_i2
+   Register : ps3/rnd_del_i3
+   Register : ps3/rnd_del_i4
+   Register : ps3/rnd_reg_i0_i1
+   Register : ps3/rnd_reg_i0_i2
+   Register : ps3/rnd_reg_i0_i3
+   Register : ps3/rnd_reg_i0_i4
+   Register : ps3/clk_dis_54
+   Register : dis1/line_cnt__i18
+   Register : dis1/line_cnt__i17
+   Register : dis1/line_cnt__i16
+   Register : dis1/line_cnt__i15
+   Register : dis1/line_cnt__i14
+   Register : dis1/line_cnt__i13
+   Register : dis1/line_cnt__i12
+   Register : dis1/line_cnt__i11
+   Register : dis1/line_cnt__i10
+   Register : dis1/line_cnt__i9
+   Register : dis1/line_cnt__i8
+   Register : dis1/line_cnt__i7
+   Register : dis1/line_cnt__i6
+   Register : dis1/line_cnt__i5
+   Register : dis1/line_cnt__i4
+   Register : dis1/line_cnt__i3
+   Register : dis1/line_cnt__i2
+   Register : dis1/line_cnt__i1
+   Register : dis1/line_cnt__i0
+   Register : dis1/vs_42
+   Register : dis1/pix_cnt_2470__i0
+   Register : dis1/h_den_43
+   Register : dis1/v_den_44
+   Register : dis1/line_cnt__i19
+   Register : dis1/line_cnt__i20
+   Register : dis1/hs_41
+
+                                   Page 21
+
+
+
+
+Design:  top1                                          Date:  10/29/20  15:47:11
+
+GSR Usage (cont)
+----------------
+   Register : dis1/pix_cnt_2470__i1
+   Register : dis1/pix_cnt_2470__i2
+   Register : dis1/pix_cnt_2470__i3
+   Register : dis1/pix_cnt_2470__i4
+   Register : dis1/pix_cnt_2470__i5
+   Register : dis1/pix_cnt_2470__i6
+   Register : dis1/pix_cnt_2470__i7
+   Register : dis1/pix_cnt_2470__i8
+   Register : dis1/pix_cnt_2470__i9
+   Register : dis1/pix_cnt_2470__i10
+   Register : dis1/pix_cnt_2470__i11
+   Register : dis1/pix_cnt_2470__i12
+   Register : dis1/pix_cnt_2470__i13
+   Register : dis1/pix_cnt_2470__i14
+   Register : dis1/pix_cnt_2470__i15
+   Register : dis1/pix_cnt_2470__i16
+   Register : dis1/pix_cnt_2470__i17
+   Register : dis1/pix_cnt_2470__i18
+   Register : dis1/pix_cnt_2470__i19
+   Register : ps2/rnd_del_i4
+   Register : ps2/rnd_del_i3
+   Register : ps2/rnd_del_i2
+   Register : ps2/rnd_del_i1
+   Register : ps2/rnd_del_i0
+   Register : ps2/rnd_reg_i0_i0
+   Register : ps2/answer_60
+   Register : ps2/bit_clk__2728__i0
+   Register : ps2/data_out_57
+   Register : ps2/parity_58
+   Register : ps2/l_out_59
+   Register : ps2/rnd_reg_i0_i1
+   Register : ps2/rnd_reg_i0_i2
+   Register : ps2/rnd_reg_i0_i3
+   Register : ps2/rnd_reg_i0_i4
+   Register : ps2/clk_dis_54
+   Register : ps2/bit_clk__2728__i1
+   Register : ps2/bit_clk__2728__i2
+   Register : ps2/bit_clk__2728__i3
+   Register : usb_f2/rnd_reg_i0_i0
+   Register : usb_f2/bit_cnt_2473__i0
+   Register : usb_f2/bit_cnt_2473__i1
+   Register : usb_f2/data_size_i9
+   Register : usb_f2/state_2467__i0
+   Register : usb_f2/data_size_i7
+   Register : usb_f2/data_size_i6
+   Register : usb_f2/data_size_i5
+   Register : usb_f2/data_size_i4
+   Register : usb_f2/data_size_i3
+   Register : usb_f2/data_size_i2
+   Register : usb_f2/data_size_i1
+   Register : usb_f2/st_cnt_i4
+   Register : usb_f2/dout_r_i2
+   Register : usb_f2/wait_cnt_2468__i0
+   Register : usb_f2/rnd_reg_i0_i4
+   Register : usb_f2/rnd_reg_i0_i3
+   Register : usb_f2/rnd_reg_i0_i2
+
+                                   Page 22
+
+
+
+
+Design:  top1                                          Date:  10/29/20  15:47:11
+
+GSR Usage (cont)
+----------------
+   Register : usb_f2/rnd_reg_i0_i1
+   Register : usb_f2/dout_r_i1
+   Register : usb_f2/st_cnt_i1
+   Register : usb_f2/st_cnt_i2
+   Register : usb_f2/st_cnt_i3
+   Register : usb_f2/data_size_i8
+   Register : usb_f2/data_size_i10
+   Register : usb_f2/st_cnt_i0
+   Register : usb_f2/dout_r_i0
+   Register : usb_f2/wait_cnt_2468__i4
+   Register : usb_f2/state_2467__i2
+   Register : usb_f2/state_2467__i1
+   Register : usb_f2/wait_cnt_2468__i1
+   Register : usb_f2/wait_cnt_2468__i2
+   Register : usb_f2/wait_cnt_2468__i3
+   Register : ps1/rnd_reg_i0_i0
+   Register : ps1/rnd_del_i0
+   Register : ps1/rnd_del_i4
+   Register : ps1/rnd_del_i3
+   Register : ps1/rnd_del_i2
+   Register : ps1/rnd_del_i1
+   Register : ps1/bit_clk__2726__i0
+   Register : ps1/parity_58
+   Register : ps1/data_out_57
+   Register : ps1/rnd_reg_i0_i4
+   Register : ps1/rnd_reg_i0_i3
+   Register : ps1/rnd_reg_i0_i2
+   Register : ps1/rnd_reg_i0_i1
+   Register : ps1/answer_60
+   Register : ps1/l_out_59
+   Register : ps1/clk_dis_54
+   Register : ps1/bit_clk__2726__i1
+   Register : ps1/bit_clk__2726__i2
+   Register : ps1/bit_clk__2726__i3
+   Register : usb_l2/rnd_reg_i0_i0
+   Register : usb_l2/bit_cnt_2477__i0
+   Register : usb_l2/state_2455__i0
+   Register : usb_l2/wait_cnt_2456__i0
+   Register : usb_l2/data_size_i9
+   Register : usb_l2/data_size_i7
+   Register : usb_l2/data_size_i6
+   Register : usb_l2/data_size_i5
+   Register : usb_l2/data_size_i4
+   Register : usb_l2/data_size_i3
+   Register : usb_l2/data_size_i2
+   Register : usb_l2/data_size_i1
+   Register : usb_l2/st_cnt_i4
+   Register : usb_l2/st_cnt_i3
+   Register : usb_l2/st_cnt_i2
+   Register : usb_l2/dout_r_i2
+   Register : usb_l2/rnd_reg_i0_i4
+   Register : usb_l2/rnd_reg_i0_i3
+   Register : usb_l2/rnd_reg_i0_i2
+   Register : usb_l2/rnd_reg_i0_i1
+   Register : usb_l2/wait_cnt_2456__i4
+   Register : usb_l2/state_2455__i2
+
+                                   Page 23
+
+
+
+
+Design:  top1                                          Date:  10/29/20  15:47:11
+
+GSR Usage (cont)
+----------------
+   Register : usb_l2/st_cnt_i0
+   Register : usb_l2/bit_cnt_2477__i1
+   Register : usb_l2/state_2455__i1
+   Register : usb_l2/wait_cnt_2456__i1
+   Register : usb_l2/wait_cnt_2456__i2
+   Register : usb_l2/wait_cnt_2456__i3
+   Register : usb_l2/dout_r_i0
+   Register : usb_l2/dout_r_i1
+   Register : usb_l2/st_cnt_i1
+   Register : usb_l2/data_size_i8
+   Register : usb_l2/data_size_i10
+   Register : usb_l1/bit_cnt_2472__i0
+   Register : usb_l1/rnd_reg_i0_i0
+   Register : usb_l1/state_2452__i0
+   Register : usb_l1/wait_cnt_2453__i0
+   Register : usb_l1/dbg_r_110
+   Register : usb_l1/bit_cnt_2472__i1
+   Register : usb_l1/data_size_i9
+   Register : usb_l1/data_size_i7
+   Register : usb_l1/data_size_i6
+   Register : usb_l1/data_size_i5
+   Register : usb_l1/data_size_i4
+   Register : usb_l1/data_size_i3
+   Register : usb_l1/data_size_i2
+   Register : usb_l1/data_size_i1
+   Register : usb_l1/st_cnt_i4
+   Register : usb_l1/st_cnt_i3
+   Register : usb_l1/st_cnt_i2
+   Register : usb_l1/dout_r_i2
+   Register : usb_l1/dbg2_r_108
+   Register : usb_l1/rnd_reg_i0_i1
+   Register : usb_l1/rnd_reg_i0_i2
+   Register : usb_l1/rnd_reg_i0_i3
+   Register : usb_l1/rnd_reg_i0_i4
+   Register : usb_l1/state_2452__i1
+   Register : usb_l1/wait_cnt_2453__i1
+   Register : usb_l1/wait_cnt_2453__i2
+   Register : usb_l1/wait_cnt_2453__i3
+   Register : usb_l1/wait_cnt_2453__i4
+   Register : usb_l1/state_2452__i2
+   Register : usb_l1/dout_r_i1
+   Register : usb_l1/st_cnt_i1
+   Register : usb_l1/data_size_i8
+   Register : usb_l1/data_size_i10
+   Register : usb_l1/st_cnt_i0
+   Register : usb_l1/dout_r_i0
+   Register : usb_l3/rnd_reg_i0_i0
+   Register : usb_l3/bit_cnt_2476__i0
+   Register : usb_l3/state_2458__i0
+   Register : usb_l3/wait_cnt_2459__i0
+   Register : usb_l3/data_size_i9
+   Register : usb_l3/data_size_i7
+   Register : usb_l3/data_size_i6
+   Register : usb_l3/data_size_i5
+   Register : usb_l3/data_size_i4
+   Register : usb_l3/data_size_i3
+
+                                   Page 24
+
+
+
+
+Design:  top1                                          Date:  10/29/20  15:47:11
+
+GSR Usage (cont)
+----------------
+   Register : usb_l3/data_size_i2
+   Register : usb_l3/data_size_i1
+   Register : usb_l3/st_cnt_i4
+   Register : usb_l3/st_cnt_i3
+   Register : usb_l3/st_cnt_i2
+   Register : usb_l3/dout_r_i2
+   Register : usb_l3/rnd_reg_i0_i4
+   Register : usb_l3/rnd_reg_i0_i3
+   Register : usb_l3/rnd_reg_i0_i2
+   Register : usb_l3/rnd_reg_i0_i1
+   Register : usb_l3/st_cnt_i0
+   Register : usb_l3/dout_r_i0
+   Register : usb_l3/bit_cnt_2476__i1
+   Register : usb_l3/state_2458__i1
+   Register : usb_l3/wait_cnt_2459__i1
+   Register : usb_l3/wait_cnt_2459__i2
+   Register : usb_l3/wait_cnt_2459__i3
+   Register : usb_l3/wait_cnt_2459__i4
+   Register : usb_l3/state_2458__i2
+   Register : usb_l3/dout_r_i1
+   Register : usb_l3/st_cnt_i1
+   Register : usb_l3/data_size_i8
+   Register : usb_l3/data_size_i10
+   Register : usb_f1/dout_r_i1
+   Register : usb_f1/rnd_reg_i0_i0
+   Register : usb_f1/st_cnt_i1
+   Register : usb_f1/st_cnt_i2
+   Register : usb_f1/bit_cnt_2474__i0
+   Register : usb_f1/st_cnt_i3
+   Register : usb_f1/wait_cnt_2465__i0
+   Register : usb_f1/state_2464__i0
+   Register : usb_f1/data_size_i9
+   Register : usb_f1/data_size_i7
+   Register : usb_f1/data_size_i6
+   Register : usb_f1/data_size_i5
+   Register : usb_f1/data_size_i4
+   Register : usb_f1/data_size_i3
+   Register : usb_f1/data_size_i2
+   Register : usb_f1/data_size_i1
+   Register : usb_f1/st_cnt_i4
+   Register : usb_f1/dout_r_i2
+   Register : usb_f1/data_size_i8
+   Register : usb_f1/data_size_i10
+   Register : usb_f1/rnd_reg_i0_i4
+   Register : usb_f1/rnd_reg_i0_i3
+   Register : usb_f1/rnd_reg_i0_i2
+   Register : usb_f1/rnd_reg_i0_i1
+   Register : usb_f1/bit_cnt_2474__i1
+   Register : usb_f1/state_2464__i2
+   Register : usb_f1/st_cnt_i0
+   Register : usb_f1/dout_r_i0
+   Register : usb_f1/wait_cnt_2465__i1
+   Register : usb_f1/wait_cnt_2465__i2
+   Register : usb_f1/wait_cnt_2465__i3
+   Register : usb_f1/state_2464__i1
+   Register : usb_f1/wait_cnt_2465__i4
+
+                                   Page 25
+
+
+
+
+Design:  top1                                          Date:  10/29/20  15:47:11
+
+GSR Usage (cont)
+----------------
+
+     Components with synchronous local reset also reset by asynchronous GSR
+----------------------------------------------------------------------
+
+     These components have the GSR property set to ENABLED and the local reset
+     is synchronous. The components will respond to the synchronous local reset
+     and to the unrelated asynchronous reset signal 'reset_N' via the GSR
+     component.
+
+     Type and number of components of the type: 
+   Register = 6 
+
+     Type and instance name of component: 
+   Register : leds_i6
+   Register : leds_i5
+   Register : leds_i4
+   Register : leds_i3
+   Register : leds_i2
+   Register : leds_i1
+
+Run Time and Memory Usage
+-------------------------
+
+   Total CPU Time: 0 secs  
+   Total REAL Time: 0 secs  
+   Peak Memory Usage: 192 MB
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                   Page 26
+
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+     Copyright (c) 1995 AT&T Corp.   All rights reserved.
+     Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+     Copyright (c) 2001 Agere Systems   All rights reserved.
+     Copyright (c) 2002-2020 Lattice Semiconductor Corporation,  All rights
+     reserved.
