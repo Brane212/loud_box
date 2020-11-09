@@ -59,74 +59,98 @@
         <Message>
             <ID>1100644</ID>
             <Severity>Warning</Severity>
-            <Dynamic>/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/LOUD_BOX.lpf(86): Semantic error in &quot;IOBUF PORT &quot;test1[0]&quot; IO_TYPE=LVCMOS33 ;&quot;: </Dynamic>
+            <Dynamic>/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/LOUD_BOX.lpf(81): Semantic error in &quot;IOBUF PORT &quot;test1[0]&quot; IO_TYPE=LVCMOS33 ;&quot;: </Dynamic>
             <Dynamic>test1[0]</Dynamic>
+            <Navigation>/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/LOUD_BOX.lpf</Navigation>
+            <Navigation>81</Navigation>
+        </Message>
+        <Message>
+            <ID>1100644</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/LOUD_BOX.lpf(82): Semantic error in &quot;IOBUF PORT &quot;test1[1]&quot; IO_TYPE=LVCMOS33 ;&quot;: </Dynamic>
+            <Dynamic>test1[1]</Dynamic>
+            <Navigation>/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/LOUD_BOX.lpf</Navigation>
+            <Navigation>82</Navigation>
+        </Message>
+        <Message>
+            <ID>1100644</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/LOUD_BOX.lpf(83): Semantic error in &quot;IOBUF PORT &quot;test1[2]&quot; IO_TYPE=LVCMOS33 ;&quot;: </Dynamic>
+            <Dynamic>test1[2]</Dynamic>
+            <Navigation>/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/LOUD_BOX.lpf</Navigation>
+            <Navigation>83</Navigation>
+        </Message>
+        <Message>
+            <ID>1100644</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/LOUD_BOX.lpf(84): Semantic error in &quot;IOBUF PORT &quot;test1[3]&quot; IO_TYPE=LVCMOS33 ;&quot;: </Dynamic>
+            <Dynamic>test1[3]</Dynamic>
+            <Navigation>/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/LOUD_BOX.lpf</Navigation>
+            <Navigation>84</Navigation>
+        </Message>
+        <Message>
+            <ID>1100644</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/LOUD_BOX.lpf(85): Semantic error in &quot;IOBUF PORT &quot;test1[4]&quot; IO_TYPE=LVCMOS33 ;&quot;: </Dynamic>
+            <Dynamic>test1[4]</Dynamic>
+            <Navigation>/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/LOUD_BOX.lpf</Navigation>
+            <Navigation>85</Navigation>
+        </Message>
+        <Message>
+            <ID>1100644</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/LOUD_BOX.lpf(86): Semantic error in &quot;IOBUF PORT &quot;test1[5]&quot; IO_TYPE=LVCMOS33 ;&quot;: </Dynamic>
+            <Dynamic>test1[5]</Dynamic>
             <Navigation>/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/LOUD_BOX.lpf</Navigation>
             <Navigation>86</Navigation>
         </Message>
         <Message>
             <ID>1100644</ID>
             <Severity>Warning</Severity>
-            <Dynamic>/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/LOUD_BOX.lpf(87): Semantic error in &quot;IOBUF PORT &quot;test1[1]&quot; IO_TYPE=LVCMOS33 ;&quot;: </Dynamic>
-            <Dynamic>test1[1]</Dynamic>
+            <Dynamic>/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/LOUD_BOX.lpf(87): Semantic error in &quot;IOBUF PORT &quot;test1[6]&quot; IO_TYPE=LVCMOS33 ;&quot;: </Dynamic>
+            <Dynamic>test1[6]</Dynamic>
             <Navigation>/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/LOUD_BOX.lpf</Navigation>
             <Navigation>87</Navigation>
         </Message>
         <Message>
             <ID>1100644</ID>
             <Severity>Warning</Severity>
-            <Dynamic>/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/LOUD_BOX.lpf(88): Semantic error in &quot;IOBUF PORT &quot;test1[2]&quot; IO_TYPE=LVCMOS33 ;&quot;: </Dynamic>
-            <Dynamic>test1[2]</Dynamic>
+            <Dynamic>/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/LOUD_BOX.lpf(88): Semantic error in &quot;IOBUF PORT &quot;test1[7]&quot; IO_TYPE=LVCMOS33 ;&quot;: </Dynamic>
+            <Dynamic>test1[7]</Dynamic>
             <Navigation>/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/LOUD_BOX.lpf</Navigation>
             <Navigation>88</Navigation>
         </Message>
         <Message>
-            <ID>1100644</ID>
+            <ID>1100679</ID>
             <Severity>Warning</Severity>
-            <Dynamic>/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/LOUD_BOX.lpf(89): Semantic error in &quot;IOBUF PORT &quot;test1[3]&quot; IO_TYPE=LVCMOS33 ;&quot;: </Dynamic>
-            <Dynamic>test1[3]</Dynamic>
-            <Navigation>/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/LOUD_BOX.lpf</Navigation>
-            <Navigation>89</Navigation>
-        </Message>
-        <Message>
-            <ID>1100644</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/LOUD_BOX.lpf(90): Semantic error in &quot;IOBUF PORT &quot;test1[4]&quot; IO_TYPE=LVCMOS33 ;&quot;: </Dynamic>
-            <Dynamic>test1[4]</Dynamic>
+            <Dynamic>/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/LOUD_BOX.lpf(90): Semantic error in &quot;LOCATE COMP &quot;leds[7]&quot; BANK 0 ;&quot;: </Dynamic>
+            <Dynamic>leds[7]</Dynamic>
             <Navigation>/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/LOUD_BOX.lpf</Navigation>
             <Navigation>90</Navigation>
         </Message>
         <Message>
             <ID>1100644</ID>
             <Severity>Warning</Severity>
-            <Dynamic>/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/LOUD_BOX.lpf(91): Semantic error in &quot;IOBUF PORT &quot;test1[5]&quot; IO_TYPE=LVCMOS33 ;&quot;: </Dynamic>
-            <Dynamic>test1[5]</Dynamic>
+            <Dynamic>/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/LOUD_BOX.lpf(132): Semantic error in &quot;IOBUF PORT &quot;br4_shin&quot; IO_TYPE=LVCMOS25R33 PULLMODE=NONE DIFFRESISTOR=OFF ;&quot;: </Dynamic>
+            <Dynamic>br4_shin</Dynamic>
             <Navigation>/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/LOUD_BOX.lpf</Navigation>
-            <Navigation>91</Navigation>
+            <Navigation>132</Navigation>
         </Message>
         <Message>
             <ID>1100644</ID>
             <Severity>Warning</Severity>
-            <Dynamic>/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/LOUD_BOX.lpf(92): Semantic error in &quot;IOBUF PORT &quot;test1[6]&quot; IO_TYPE=LVCMOS33 ;&quot;: </Dynamic>
-            <Dynamic>test1[6]</Dynamic>
+            <Dynamic>/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/LOUD_BOX.lpf(133): Semantic error in &quot;IOBUF PORT &quot;br5_shin&quot; IO_TYPE=LVCMOS25R33 PULLMODE=NONE ;&quot;: </Dynamic>
+            <Dynamic>br5_shin</Dynamic>
             <Navigation>/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/LOUD_BOX.lpf</Navigation>
-            <Navigation>92</Navigation>
+            <Navigation>133</Navigation>
         </Message>
         <Message>
             <ID>1100644</ID>
             <Severity>Warning</Severity>
-            <Dynamic>/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/LOUD_BOX.lpf(93): Semantic error in &quot;IOBUF PORT &quot;test1[7]&quot; IO_TYPE=LVCMOS33 ;&quot;: </Dynamic>
-            <Dynamic>test1[7]</Dynamic>
+            <Dynamic>/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/LOUD_BOX.lpf(134): Semantic error in &quot;IOBUF PORT &quot;br6_shin&quot; IO_TYPE=LVCMOS25R33 PULLMODE=NONE ;&quot;: </Dynamic>
+            <Dynamic>br6_shin</Dynamic>
             <Navigation>/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/LOUD_BOX.lpf</Navigation>
-            <Navigation>93</Navigation>
-        </Message>
-        <Message>
-            <ID>1100679</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/LOUD_BOX.lpf(95): Semantic error in &quot;LOCATE COMP &quot;leds[7]&quot; BANK 0 ;&quot;: </Dynamic>
-            <Dynamic>leds[7]</Dynamic>
-            <Navigation>/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/LOUD_BOX.lpf</Navigation>
-            <Navigation>95</Navigation>
+            <Navigation>134</Navigation>
         </Message>
         <Message>
             <ID>1166064</ID>
@@ -141,6 +165,24 @@
             <Dynamic>key2</Dynamic>
         </Message>
         <Message>
+            <ID>1166064</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>input</Dynamic>
+            <Dynamic>br4_shin</Dynamic>
+        </Message>
+        <Message>
+            <ID>1166064</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>input</Dynamic>
+            <Dynamic>br5_shin</Dynamic>
+        </Message>
+        <Message>
+            <ID>1166064</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>input</Dynamic>
+            <Dynamic>br6_shin</Dynamic>
+        </Message>
+        <Message>
             <ID>51001046</ID>
             <Severity>Warning</Severity>
             <Dynamic>key1</Dynamic>
@@ -149,21 +191,26 @@
             <ID>51001046</ID>
             <Severity>Warning</Severity>
             <Dynamic>key2</Dynamic>
+        </Message>
+        <Message>
+            <ID>51001046</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>br4_shin</Dynamic>
+        </Message>
+        <Message>
+            <ID>51001046</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>br5_shin</Dynamic>
+        </Message>
+        <Message>
+            <ID>51001046</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>br6_shin</Dynamic>
         </Message>
         <Message>
             <ID>51001104</ID>
             <Severity>Warning</Severity>
             <Dynamic>107</Dynamic>
-        </Message>
-        <Message>
-            <ID>51001104</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>105</Dynamic>
-        </Message>
-        <Message>
-            <ID>51001104</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>100</Dynamic>
         </Message>
         <Message>
             <ID>51001104</ID>
@@ -176,72 +223,12 @@
             <Dynamic>141</Dynamic>
         </Message>
         <Message>
-            <ID>51001104</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>106</Dynamic>
-        </Message>
-        <Message>
-            <ID>51001104</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>104</Dynamic>
-        </Message>
-        <Message>
-            <ID>51001104</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>99</Dynamic>
-        </Message>
-        <Message>
             <ID>1103737</ID>
             <Severity>Warning</Severity>
             <Dynamic></Dynamic>
             <Dynamic>LOCATE COMP &quot;led7&quot; SITE &quot;107&quot; ;
 </Dynamic>
             <Dynamic>LOCATE COMP &quot;br4_shout&quot; SITE &quot;107&quot; ;
-</Dynamic>
-        </Message>
-        <Message>
-            <ID>1103737</ID>
-            <Severity>Warning</Severity>
-            <Dynamic></Dynamic>
-            <Dynamic>LOCATE COMP &quot;leds[2]&quot; SITE &quot;99&quot; ;
-</Dynamic>
-            <Dynamic>LOCATE COMP &quot;br6_shin&quot; SITE &quot;99&quot; ;
-</Dynamic>
-        </Message>
-        <Message>
-            <ID>1103737</ID>
-            <Severity>Warning</Severity>
-            <Dynamic></Dynamic>
-            <Dynamic>LOCATE COMP &quot;leds[3]&quot; SITE &quot;100&quot; ;
-</Dynamic>
-            <Dynamic>LOCATE COMP &quot;br6_shout&quot; SITE &quot;100&quot; ;
-</Dynamic>
-        </Message>
-        <Message>
-            <ID>1103737</ID>
-            <Severity>Warning</Severity>
-            <Dynamic></Dynamic>
-            <Dynamic>LOCATE COMP &quot;leds[4]&quot; SITE &quot;104&quot; ;
-</Dynamic>
-            <Dynamic>LOCATE COMP &quot;br5_shin&quot; SITE &quot;104&quot; ;
-</Dynamic>
-        </Message>
-        <Message>
-            <ID>1103737</ID>
-            <Severity>Warning</Severity>
-            <Dynamic></Dynamic>
-            <Dynamic>LOCATE COMP &quot;leds[5]&quot; SITE &quot;105&quot; ;
-</Dynamic>
-            <Dynamic>LOCATE COMP &quot;br5_shout&quot; SITE &quot;105&quot; ;
-</Dynamic>
-        </Message>
-        <Message>
-            <ID>1103737</ID>
-            <Severity>Warning</Severity>
-            <Dynamic></Dynamic>
-            <Dynamic>LOCATE COMP &quot;leds[6]&quot; SITE &quot;106&quot; ;
-</Dynamic>
-            <Dynamic>LOCATE COMP &quot;br4_shin&quot; SITE &quot;106&quot; ;
 </Dynamic>
         </Message>
         <Message>
@@ -299,58 +286,66 @@
         <Message>
             <ID>35901372</ID>
             <Severity>Warning</Severity>
-            <Dynamic>/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v(33): </Dynamic>
+            <Dynamic>/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v(31): </Dynamic>
             <Dynamic>reset</Dynamic>
             <Navigation>/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v</Navigation>
-            <Navigation>33</Navigation>
+            <Navigation>31</Navigation>
         </Message>
         <Message>
             <ID>35901372</ID>
             <Severity>Warning</Severity>
-            <Dynamic>/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v(37): </Dynamic>
+            <Dynamic>/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v(35): </Dynamic>
             <Dynamic>leds</Dynamic>
             <Navigation>/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v</Navigation>
-            <Navigation>37</Navigation>
+            <Navigation>35</Navigation>
         </Message>
         <Message>
             <ID>35901372</ID>
             <Severity>Warning</Severity>
-            <Dynamic>/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v(38): </Dynamic>
+            <Dynamic>/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v(36): </Dynamic>
             <Dynamic>led7</Dynamic>
             <Navigation>/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v</Navigation>
-            <Navigation>38</Navigation>
+            <Navigation>36</Navigation>
         </Message>
         <Message>
             <ID>35901116</ID>
             <Severity>Warning</Severity>
-            <Dynamic>/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v(63): </Dynamic>
-            <Dynamic>clk_120</Dynamic>
-            <Navigation>/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v</Navigation>
-            <Navigation>63</Navigation>
-        </Message>
-        <Message>
-            <ID>35901329</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v(63): </Dynamic>
-            <Dynamic>clk_120</Dynamic>
-            <Navigation>/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v</Navigation>
-            <Navigation>63</Navigation>
-        </Message>
-        <Message>
-            <ID>35901310</ID>
-            <Severity>Info</Severity>
             <Dynamic>/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v(61): </Dynamic>
             <Dynamic>clk_120</Dynamic>
             <Navigation>/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v</Navigation>
             <Navigation>61</Navigation>
         </Message>
         <Message>
+            <ID>35901329</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v(61): </Dynamic>
+            <Dynamic>clk_120</Dynamic>
+            <Navigation>/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v</Navigation>
+            <Navigation>61</Navigation>
+        </Message>
+        <Message>
+            <ID>35901310</ID>
+            <Severity>Info</Severity>
+            <Dynamic>/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v(59): </Dynamic>
+            <Dynamic>clk_120</Dynamic>
+            <Navigation>/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v</Navigation>
+            <Navigation>59</Navigation>
+        </Message>
+        <Message>
             <ID>35901372</ID>
             <Severity>Warning</Severity>
-            <Dynamic>/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v(117): </Dynamic>
+            <Dynamic>/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v(115): </Dynamic>
             <Dynamic>debug1</Dynamic>
             <Navigation>/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v</Navigation>
-            <Navigation>117</Navigation>
+            <Navigation>115</Navigation>
+        </Message>
+        <Message>
+            <ID>35901208</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v(128): </Dynamic>
+            <Dynamic>2</Dynamic>
+            <Navigation>/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v</Navigation>
+            <Navigation>128</Navigation>
         </Message>
         <Message>
             <ID>35901208</ID>
@@ -361,36 +356,28 @@
             <Navigation>130</Navigation>
         </Message>
         <Message>
-            <ID>35901208</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v(132): </Dynamic>
-            <Dynamic>2</Dynamic>
-            <Navigation>/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v</Navigation>
-            <Navigation>132</Navigation>
-        </Message>
-        <Message>
             <ID>35901875</ID>
             <Severity>Warning</Severity>
-            <Dynamic>/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v(46): </Dynamic>
+            <Dynamic>/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v(44): </Dynamic>
             <Dynamic>clk_240_0</Dynamic>
             <Navigation>/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v</Navigation>
-            <Navigation>46</Navigation>
+            <Navigation>44</Navigation>
         </Message>
         <Message>
             <ID>35901875</ID>
             <Severity>Warning</Severity>
-            <Dynamic>/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v(118): </Dynamic>
+            <Dynamic>/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v(116): </Dynamic>
             <Dynamic>usb_clkf</Dynamic>
             <Navigation>/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v</Navigation>
-            <Navigation>118</Navigation>
+            <Navigation>116</Navigation>
         </Message>
         <Message>
             <ID>35901875</ID>
             <Severity>Warning</Severity>
-            <Dynamic>/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v(126): </Dynamic>
+            <Dynamic>/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v(124): </Dynamic>
             <Dynamic>usb_clkf</Dynamic>
             <Navigation>/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v</Navigation>
-            <Navigation>126</Navigation>
+            <Navigation>124</Navigation>
         </Message>
         <Message>
             <ID>35901372</ID>
@@ -499,105 +486,123 @@
         <Message>
             <ID>35901209</ID>
             <Severity>Warning</Severity>
-            <Dynamic>/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v(47): </Dynamic>
+            <Dynamic>/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v(45): </Dynamic>
             <Dynamic>32</Dynamic>
             <Dynamic>2</Dynamic>
             <Navigation>/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v</Navigation>
-            <Navigation>47</Navigation>
+            <Navigation>45</Navigation>
         </Message>
         <Message>
             <ID>35901209</ID>
             <Severity>Warning</Severity>
-            <Dynamic>/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v(83): </Dynamic>
+            <Dynamic>/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v(81): </Dynamic>
             <Dynamic>32</Dynamic>
             <Dynamic>8</Dynamic>
             <Navigation>/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v</Navigation>
-            <Navigation>83</Navigation>
+            <Navigation>81</Navigation>
         </Message>
         <Message>
             <ID>35901209</ID>
             <Severity>Warning</Severity>
-            <Dynamic>/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v(86): </Dynamic>
+            <Dynamic>/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v(84): </Dynamic>
             <Dynamic>32</Dynamic>
             <Dynamic>16</Dynamic>
             <Navigation>/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v</Navigation>
-            <Navigation>86</Navigation>
+            <Navigation>84</Navigation>
         </Message>
         <Message>
             <ID>35901209</ID>
             <Severity>Warning</Severity>
-            <Dynamic>/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v(89): </Dynamic>
+            <Dynamic>/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v(87): </Dynamic>
             <Dynamic>32</Dynamic>
             <Dynamic>8</Dynamic>
             <Navigation>/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v</Navigation>
-            <Navigation>89</Navigation>
+            <Navigation>87</Navigation>
         </Message>
         <Message>
             <ID>35901209</ID>
             <Severity>Warning</Severity>
-            <Dynamic>/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v(92): </Dynamic>
+            <Dynamic>/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v(90): </Dynamic>
             <Dynamic>32</Dynamic>
             <Dynamic>8</Dynamic>
             <Navigation>/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v</Navigation>
-            <Navigation>92</Navigation>
+            <Navigation>90</Navigation>
         </Message>
         <Message>
             <ID>35901209</ID>
             <Severity>Warning</Severity>
-            <Dynamic>/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v(95): </Dynamic>
+            <Dynamic>/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v(93): </Dynamic>
             <Dynamic>32</Dynamic>
             <Dynamic>8</Dynamic>
             <Navigation>/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v</Navigation>
-            <Navigation>95</Navigation>
+            <Navigation>93</Navigation>
         </Message>
         <Message>
             <ID>35901209</ID>
             <Severity>Warning</Severity>
-            <Dynamic>/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v(98): </Dynamic>
+            <Dynamic>/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v(96): </Dynamic>
             <Dynamic>32</Dynamic>
             <Dynamic>8</Dynamic>
             <Navigation>/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v</Navigation>
-            <Navigation>98</Navigation>
+            <Navigation>96</Navigation>
         </Message>
         <Message>
             <ID>35901209</ID>
             <Severity>Warning</Severity>
-            <Dynamic>/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v(101): </Dynamic>
+            <Dynamic>/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v(99): </Dynamic>
             <Dynamic>32</Dynamic>
             <Dynamic>8</Dynamic>
             <Navigation>/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v</Navigation>
-            <Navigation>101</Navigation>
+            <Navigation>99</Navigation>
         </Message>
         <Message>
             <ID>35908216</ID>
             <Severity>Warning</Severity>
-            <Dynamic>/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v(114): </Dynamic>
+            <Dynamic>/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v(112): </Dynamic>
             <Dynamic>8</Dynamic>
             <Dynamic>7</Dynamic>
             <Dynamic>0</Dynamic>
             <Dynamic>xor_out</Dynamic>
             <Navigation>/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v</Navigation>
-            <Navigation>114</Navigation>
+            <Navigation>112</Navigation>
         </Message>
         <Message>
             <ID>35908216</ID>
             <Severity>Warning</Severity>
-            <Dynamic>/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v(115): </Dynamic>
+            <Dynamic>/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v(113): </Dynamic>
             <Dynamic>9</Dynamic>
             <Dynamic>7</Dynamic>
             <Dynamic>0</Dynamic>
             <Dynamic>xor_out</Dynamic>
             <Navigation>/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v</Navigation>
-            <Navigation>115</Navigation>
+            <Navigation>113</Navigation>
         </Message>
         <Message>
             <ID>35901209</ID>
             <Severity>Warning</Severity>
-            <Dynamic>/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v(127): </Dynamic>
+            <Dynamic>/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v(125): </Dynamic>
             <Dynamic>32</Dynamic>
             <Dynamic>3</Dynamic>
             <Navigation>/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v</Navigation>
-            <Navigation>127</Navigation>
+            <Navigation>125</Navigation>
+        </Message>
+        <Message>
+            <ID>35901209</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v(193): </Dynamic>
+            <Dynamic>32</Dynamic>
+            <Dynamic>8</Dynamic>
+            <Navigation>/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v</Navigation>
+            <Navigation>193</Navigation>
+        </Message>
+        <Message>
+            <ID>35901209</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v(194): </Dynamic>
+            <Dynamic>32</Dynamic>
+            <Dynamic>8</Dynamic>
+            <Navigation>/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v</Navigation>
+            <Navigation>194</Navigation>
         </Message>
         <Message>
             <ID>35901209</ID>
@@ -620,56 +625,56 @@
         <Message>
             <ID>35901209</ID>
             <Severity>Warning</Severity>
-            <Dynamic>/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v(197): </Dynamic>
-            <Dynamic>32</Dynamic>
-            <Dynamic>8</Dynamic>
-            <Navigation>/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v</Navigation>
-            <Navigation>197</Navigation>
-        </Message>
-        <Message>
-            <ID>35901209</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v(198): </Dynamic>
-            <Dynamic>32</Dynamic>
-            <Dynamic>8</Dynamic>
-            <Navigation>/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v</Navigation>
-            <Navigation>198</Navigation>
-        </Message>
-        <Message>
-            <ID>35901209</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v(236): </Dynamic>
+            <Dynamic>/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v(234): </Dynamic>
             <Dynamic>32</Dynamic>
             <Dynamic>3</Dynamic>
             <Navigation>/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v</Navigation>
-            <Navigation>236</Navigation>
+            <Navigation>234</Navigation>
         </Message>
         <Message>
             <ID>35901209</ID>
             <Severity>Warning</Severity>
-            <Dynamic>/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v(242): </Dynamic>
+            <Dynamic>/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v(240): </Dynamic>
             <Dynamic>32</Dynamic>
             <Dynamic>3</Dynamic>
             <Navigation>/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v</Navigation>
-            <Navigation>242</Navigation>
+            <Navigation>240</Navigation>
         </Message>
         <Message>
             <ID>35901209</ID>
             <Severity>Warning</Severity>
-            <Dynamic>/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v(248): </Dynamic>
+            <Dynamic>/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v(246): </Dynamic>
             <Dynamic>32</Dynamic>
             <Dynamic>3</Dynamic>
             <Navigation>/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v</Navigation>
-            <Navigation>248</Navigation>
+            <Navigation>246</Navigation>
         </Message>
         <Message>
             <ID>35901209</ID>
             <Severity>Warning</Severity>
-            <Dynamic>/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v(254): </Dynamic>
+            <Dynamic>/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v(252): </Dynamic>
             <Dynamic>32</Dynamic>
             <Dynamic>3</Dynamic>
             <Navigation>/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v</Navigation>
-            <Navigation>254</Navigation>
+            <Navigation>252</Navigation>
+        </Message>
+        <Message>
+            <ID>35901209</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v(264): </Dynamic>
+            <Dynamic>32</Dynamic>
+            <Dynamic>3</Dynamic>
+            <Navigation>/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v</Navigation>
+            <Navigation>264</Navigation>
+        </Message>
+        <Message>
+            <ID>35901209</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v(265): </Dynamic>
+            <Dynamic>32</Dynamic>
+            <Dynamic>3</Dynamic>
+            <Navigation>/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v</Navigation>
+            <Navigation>265</Navigation>
         </Message>
         <Message>
             <ID>35901209</ID>
@@ -679,24 +684,6 @@
             <Dynamic>3</Dynamic>
             <Navigation>/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v</Navigation>
             <Navigation>266</Navigation>
-        </Message>
-        <Message>
-            <ID>35901209</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v(267): </Dynamic>
-            <Dynamic>32</Dynamic>
-            <Dynamic>3</Dynamic>
-            <Navigation>/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v</Navigation>
-            <Navigation>267</Navigation>
-        </Message>
-        <Message>
-            <ID>35901209</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v(268): </Dynamic>
-            <Dynamic>32</Dynamic>
-            <Dynamic>3</Dynamic>
-            <Navigation>/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v</Navigation>
-            <Navigation>268</Navigation>
         </Message>
         <Message>
             <ID>35901018</ID>
@@ -799,12 +786,12 @@
         <Message>
             <ID>35901330</ID>
             <Severity>Warning</Severity>
-            <Dynamic>/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v(280): </Dynamic>
+            <Dynamic>/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v(278): </Dynamic>
             <Dynamic>2</Dynamic>
             <Dynamic>4</Dynamic>
             <Dynamic>debug1</Dynamic>
             <Navigation>/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v</Navigation>
-            <Navigation>280</Navigation>
+            <Navigation>278</Navigation>
         </Message>
         <Message>
             <ID>35901018</ID>
@@ -1219,12 +1206,39 @@
             <Navigation>1</Navigation>
         </Message>
         <Message>
+            <ID>35908216</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v(322): </Dynamic>
+            <Dynamic>11</Dynamic>
+            <Dynamic>7</Dynamic>
+            <Dynamic>0</Dynamic>
+            <Dynamic>rng1_cnt</Dynamic>
+            <Navigation>/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v</Navigation>
+            <Navigation>322</Navigation>
+        </Message>
+        <Message>
             <ID>35931002</ID>
             <Severity>Warning</Severity>
-            <Dynamic>/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v(58): </Dynamic>
+            <Dynamic>/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v(56): </Dynamic>
             <Dynamic>clk100_r</Dynamic>
             <Navigation>/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v</Navigation>
-            <Navigation>58</Navigation>
+            <Navigation>56</Navigation>
+        </Message>
+        <Message>
+            <ID>35931013</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v(278): </Dynamic>
+            <Dynamic>clk_pol</Dynamic>
+            <Navigation>/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v</Navigation>
+            <Navigation>278</Navigation>
+        </Message>
+        <Message>
+            <ID>35931013</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v(279): </Dynamic>
+            <Dynamic>clk_pol</Dynamic>
+            <Navigation>/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v</Navigation>
+            <Navigation>279</Navigation>
         </Message>
         <Message>
             <ID>35931013</ID>
@@ -1259,22 +1273,6 @@
             <Navigation>283</Navigation>
         </Message>
         <Message>
-            <ID>35931013</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v(284): </Dynamic>
-            <Dynamic>clk_pol</Dynamic>
-            <Navigation>/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v</Navigation>
-            <Navigation>284</Navigation>
-        </Message>
-        <Message>
-            <ID>35931013</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v(285): </Dynamic>
-            <Dynamic>clk_pol</Dynamic>
-            <Navigation>/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v</Navigation>
-            <Navigation>285</Navigation>
-        </Message>
-        <Message>
             <ID>35002005</ID>
             <Severity>Warning</Severity>
             <Dynamic>key1</Dynamic>
@@ -1283,6 +1281,21 @@
             <ID>35002005</ID>
             <Severity>Warning</Severity>
             <Dynamic>key2</Dynamic>
+        </Message>
+        <Message>
+            <ID>35002005</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>br4_shin</Dynamic>
+        </Message>
+        <Message>
+            <ID>35002005</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>br5_shin</Dynamic>
+        </Message>
+        <Message>
+            <ID>35002005</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>br6_shin</Dynamic>
         </Message>
         <Message>
             <ID>35002005</ID>
@@ -1319,6 +1332,21 @@
             <ID>35002005</ID>
             <Severity>Warning</Severity>
             <Dynamic>key2</Dynamic>
+        </Message>
+        <Message>
+            <ID>35002005</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>br4_shin</Dynamic>
+        </Message>
+        <Message>
+            <ID>35002005</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>br5_shin</Dynamic>
+        </Message>
+        <Message>
+            <ID>35002005</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>br6_shin</Dynamic>
         </Message>
         <Message>
             <ID>35935013</ID>
@@ -1362,34 +1390,73 @@
             <ID>1166052</ID>
             <Severity>Warning</Severity>
             <Dynamic>logical</Dynamic>
-            <Dynamic>n1444</Dynamic>
-            <Navigation>n1444</Navigation>
+            <Dynamic>br4_shin</Dynamic>
+            <Navigation>br4_shin</Navigation>
+        </Message>
+        <Message>
+            <ID>1166064</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>input</Dynamic>
+            <Dynamic>br4_shin</Dynamic>
         </Message>
         <Message>
             <ID>1166052</ID>
             <Severity>Warning</Severity>
             <Dynamic>logical</Dynamic>
-            <Dynamic>n1450</Dynamic>
-            <Navigation>n1450</Navigation>
+            <Dynamic>br5_shin</Dynamic>
+            <Navigation>br5_shin</Navigation>
+        </Message>
+        <Message>
+            <ID>1166064</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>input</Dynamic>
+            <Dynamic>br5_shin</Dynamic>
         </Message>
         <Message>
             <ID>1166052</ID>
             <Severity>Warning</Severity>
             <Dynamic>logical</Dynamic>
-            <Dynamic>n1453</Dynamic>
-            <Navigation>n1453</Navigation>
+            <Dynamic>br6_shin</Dynamic>
+            <Navigation>br6_shin</Navigation>
+        </Message>
+        <Message>
+            <ID>1166064</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>input</Dynamic>
+            <Dynamic>br6_shin</Dynamic>
         </Message>
         <Message>
             <ID>1166052</ID>
             <Severity>Warning</Severity>
             <Dynamic>logical</Dynamic>
-            <Dynamic>n1455</Dynamic>
-            <Navigation>n1455</Navigation>
+            <Dynamic>n1482</Dynamic>
+            <Navigation>n1482</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>n1485</Dynamic>
+            <Navigation>n1485</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>n1487</Dynamic>
+            <Navigation>n1487</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>n1476</Dynamic>
+            <Navigation>n1476</Navigation>
         </Message>
         <Message>
             <ID>1163101</ID>
             <Severity>Warning</Severity>
-            <Dynamic>8</Dynamic>
+            <Dynamic>14</Dynamic>
         </Message>
     </Task>
     <Task name="PAR">
@@ -1405,7 +1472,7 @@
             <ID>61091050</ID>
             <Severity>Warning</Severity>
             <Dynamic>clk_in</Dynamic>
-            <Dynamic>main_pll/PLLInst_0</Dynamic>
+            <Dynamic>sec_pll/PLLInst_0</Dynamic>
             <Dynamic>5</Dynamic>
             <Dynamic>PL6A</Dynamic>
         </Message>
@@ -1413,7 +1480,7 @@
             <ID>61091050</ID>
             <Severity>Warning</Severity>
             <Dynamic>clk_in</Dynamic>
-            <Dynamic>sec_pll/PLLInst_0</Dynamic>
+            <Dynamic>main_pll/PLLInst_0</Dynamic>
             <Dynamic>5</Dynamic>
             <Dynamic>PL6A</Dynamic>
         </Message>
@@ -1442,24 +1509,32 @@
             <ID>66011008</ID>
             <Severity>Warning</Severity>
             <Dynamic>
+   Signal=rng1_out[0] loads=24 clock_loads=2
    Signal=leds_div[10] loads=6 clock_loads=5
    Signal=usb_clkf[2] loads=7 clock_loads=6
-   Signal=n1435 loads=3 clock_loads=2
-   Signal=rng1_clk_0 loads=8 clock_loads=6
-   Signal=osc_out loads=3 clock_loads=2
+   Signal=n1467 loads=3 clock_loads=2
+   Signal=rng1_clk_0 loads=9 clock_loads=7
+   Signal=osc_out loads=5 clock_loads=4
    Signal=clk60_cnt[1] loads=11 clock_loads=10
+   Signal=n8254 loads=   ....   lock_loads=3
+   Signal=rng1_cnt[7] loads=10 clock_loads=9
+   Signal=brain1/shout_N_658_derived_1 loads=3 clock_loads=1
    Signal=pll1_cnt400[1] loads=4 clock_loads=3</Dynamic>
         </Message>
         <Message>
             <ID>66011008</ID>
             <Severity>Warning</Severity>
             <Dynamic>
+   Signal=rng1_out[0] loads=24 clock_loads=2
    Signal=leds_div[10] loads=6 clock_loads=5
    Signal=usb_clkf[2] loads=7 clock_loads=6
-   Signal=n1435 loads=3 clock_loads=2
-   Signal=rng1_clk_0 loads=8 clock_loads=6
-   Signal=osc_out loads=3 clock_loads=2
+   Signal=n1467 loads=3 clock_loads=2
+   Signal=rng1_clk_0 loads=9 clock_loads=7
+   Signal=osc_out loads=5 clock_loads=4
    Signal=clk60_cnt[1] loads=11 clock_loads=10
+   Signal=n8254 loads=   ....   lock_loads=3
+   Signal=rng1_cnt[7] loads=10 clock_loads=9
+   Signal=brain1/shout_N_658_derived_1 loads=3 clock_loads=1
    Signal=pll1_cnt400[1] loads=4 clock_loads=3</Dynamic>
         </Message>
     </Task>

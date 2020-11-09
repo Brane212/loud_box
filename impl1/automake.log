@@ -7,7 +7,7 @@ Copyright (c) 1995 AT&T Corp.   All rights reserved.
 Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
 Copyright (c) 2001 Agere Systems   All rights reserved.
 Copyright (c) 2002-2020 Lattice Semiconductor Corporation,  All rights reserved.
-Thu Oct 29 15:47:07 2020
+Mon Nov  9 03:09:21 2020
 
 
 Command Line:  synthesis -f LOUD_BOX_impl1_lattice.synproj -gui -msgset /home/brane2/LATT_DEMO_PROJ/LOUD_BOX/promote.xml 
@@ -97,18 +97,18 @@ Analyzing Verilog file /home/brane2/LATT_DEMO_PROJ/LOUD_BOX/RING_MOD.v. VERI-148
     <postMsg mid="35901372" type="Warning" dynamic="2" navigation="2" arg0="/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/RING_MOD.v(20): " arg1="rng_out" arg2="/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/RING_MOD.v" arg3="20"  />
 Analyzing Verilog file /home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v. VERI-1482
     <postMsg mid="35901372" type="Warning" dynamic="2" navigation="2" arg0="/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v(28): " arg1="xor_out" arg2="/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v" arg3="28"  />
-    <postMsg mid="35901372" type="Warning" dynamic="2" navigation="2" arg0="/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v(33): " arg1="reset" arg2="/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v" arg3="33"  />
-    <postMsg mid="35901372" type="Warning" dynamic="2" navigation="2" arg0="/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v(37): " arg1="leds" arg2="/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v" arg3="37"  />
-    <postMsg mid="35901372" type="Warning" dynamic="2" navigation="2" arg0="/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v(38): " arg1="led7" arg2="/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v" arg3="38"  />
-    <postMsg mid="35901116" type="Warning" dynamic="2" navigation="2" arg0="/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v(63): " arg1="clk_120" arg2="/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v" arg3="63"  />
-    <postMsg mid="35901329" type="Warning" dynamic="2" navigation="2" arg0="/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v(63): " arg1="clk_120" arg2="/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v" arg3="63"  />
-    <postMsg mid="35901310" type="Info"    dynamic="2" navigation="2" arg0="/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v(61): " arg1="clk_120" arg2="/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v" arg3="61"  />
-    <postMsg mid="35901372" type="Warning" dynamic="2" navigation="2" arg0="/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v(117): " arg1="debug1" arg2="/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v" arg3="117"  />
+    <postMsg mid="35901372" type="Warning" dynamic="2" navigation="2" arg0="/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v(31): " arg1="reset" arg2="/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v" arg3="31"  />
+    <postMsg mid="35901372" type="Warning" dynamic="2" navigation="2" arg0="/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v(35): " arg1="leds" arg2="/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v" arg3="35"  />
+    <postMsg mid="35901372" type="Warning" dynamic="2" navigation="2" arg0="/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v(36): " arg1="led7" arg2="/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v" arg3="36"  />
+    <postMsg mid="35901116" type="Warning" dynamic="2" navigation="2" arg0="/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v(61): " arg1="clk_120" arg2="/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v" arg3="61"  />
+    <postMsg mid="35901329" type="Warning" dynamic="2" navigation="2" arg0="/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v(61): " arg1="clk_120" arg2="/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v" arg3="61"  />
+    <postMsg mid="35901310" type="Info"    dynamic="2" navigation="2" arg0="/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v(59): " arg1="clk_120" arg2="/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v" arg3="59"  />
+    <postMsg mid="35901372" type="Warning" dynamic="2" navigation="2" arg0="/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v(115): " arg1="debug1" arg2="/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v" arg3="115"  />
+    <postMsg mid="35901208" type="Warning" dynamic="2" navigation="2" arg0="/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v(128): " arg1="2" arg2="/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v" arg3="128"  />
     <postMsg mid="35901208" type="Warning" dynamic="2" navigation="2" arg0="/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v(130): " arg1="2" arg2="/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v" arg3="130"  />
-    <postMsg mid="35901208" type="Warning" dynamic="2" navigation="2" arg0="/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v(132): " arg1="2" arg2="/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v" arg3="132"  />
-    <postMsg mid="35901875" type="Warning" dynamic="2" navigation="2" arg0="/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v(46): " arg1="clk_240_0" arg2="/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v" arg3="46"  />
-    <postMsg mid="35901875" type="Warning" dynamic="2" navigation="2" arg0="/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v(118): " arg1="usb_clkf" arg2="/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v" arg3="118"  />
-    <postMsg mid="35901875" type="Warning" dynamic="2" navigation="2" arg0="/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v(126): " arg1="usb_clkf" arg2="/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v" arg3="126"  />
+    <postMsg mid="35901875" type="Warning" dynamic="2" navigation="2" arg0="/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v(44): " arg1="clk_240_0" arg2="/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v" arg3="44"  />
+    <postMsg mid="35901875" type="Warning" dynamic="2" navigation="2" arg0="/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v(116): " arg1="usb_clkf" arg2="/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v" arg3="116"  />
+    <postMsg mid="35901875" type="Warning" dynamic="2" navigation="2" arg0="/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v(124): " arg1="usb_clkf" arg2="/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v" arg3="124"  />
 Analyzing Verilog file /home/brane2/LATT_DEMO_PROJ/LOUD_BOX/SHOUT1.v. VERI-1482
 Analyzing Verilog file /home/brane2/LATT_DEMO_PROJ/LOUD_BOX/USB_SHOUT1.v. VERI-1482
     <postMsg mid="35901372" type="Warning" dynamic="2" navigation="2" arg0="/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/USB_SHOUT1.v(20): " arg1="debug1" arg2="/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/USB_SHOUT1.v" arg3="20"  />
@@ -136,28 +136,28 @@ Analyzing Verilog file /home/brane2/LATT_DEMO_PROJ/LOUD_BOX/BRAIN_SHOUT.v. VERI-
 Analyzing Verilog file /usr/local/diamond/3.11_x64/ispfpga/userware/unix/SYNTHESIS_HEADERS/machxo2.v. VERI-1482
 Top module name (Verilog): top1
     <postMsg mid="35901018" type="Info"    dynamic="2" navigation="2" arg0="/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v(1): " arg1="top1" arg2="/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v" arg3="1"  />
-    <postMsg mid="35901209" type="Warning" dynamic="3" navigation="2" arg0="/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v(47): " arg1="32" arg2="2" arg3="/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v" arg4="47"  />
-    <postMsg mid="35901209" type="Warning" dynamic="3" navigation="2" arg0="/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v(83): " arg1="32" arg2="8" arg3="/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v" arg4="83"  />
-    <postMsg mid="35901209" type="Warning" dynamic="3" navigation="2" arg0="/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v(86): " arg1="32" arg2="16" arg3="/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v" arg4="86"  />
-    <postMsg mid="35901209" type="Warning" dynamic="3" navigation="2" arg0="/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v(89): " arg1="32" arg2="8" arg3="/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v" arg4="89"  />
-    <postMsg mid="35901209" type="Warning" dynamic="3" navigation="2" arg0="/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v(92): " arg1="32" arg2="8" arg3="/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v" arg4="92"  />
-    <postMsg mid="35901209" type="Warning" dynamic="3" navigation="2" arg0="/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v(95): " arg1="32" arg2="8" arg3="/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v" arg4="95"  />
-    <postMsg mid="35901209" type="Warning" dynamic="3" navigation="2" arg0="/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v(98): " arg1="32" arg2="8" arg3="/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v" arg4="98"  />
-    <postMsg mid="35901209" type="Warning" dynamic="3" navigation="2" arg0="/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v(101): " arg1="32" arg2="8" arg3="/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v" arg4="101"  />
-    <postMsg mid="35908216" type="Warning" dynamic="5" navigation="2" arg0="/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v(114): " arg1="8" arg2="7" arg3="0" arg4="xor_out" arg5="/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v" arg6="114"  />
-    <postMsg mid="35908216" type="Warning" dynamic="5" navigation="2" arg0="/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v(115): " arg1="9" arg2="7" arg3="0" arg4="xor_out" arg5="/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v" arg6="115"  />
-    <postMsg mid="35901209" type="Warning" dynamic="3" navigation="2" arg0="/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v(127): " arg1="32" arg2="3" arg3="/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v" arg4="127"  />
+    <postMsg mid="35901209" type="Warning" dynamic="3" navigation="2" arg0="/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v(45): " arg1="32" arg2="2" arg3="/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v" arg4="45"  />
+    <postMsg mid="35901209" type="Warning" dynamic="3" navigation="2" arg0="/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v(81): " arg1="32" arg2="8" arg3="/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v" arg4="81"  />
+    <postMsg mid="35901209" type="Warning" dynamic="3" navigation="2" arg0="/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v(84): " arg1="32" arg2="16" arg3="/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v" arg4="84"  />
+    <postMsg mid="35901209" type="Warning" dynamic="3" navigation="2" arg0="/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v(87): " arg1="32" arg2="8" arg3="/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v" arg4="87"  />
+    <postMsg mid="35901209" type="Warning" dynamic="3" navigation="2" arg0="/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v(90): " arg1="32" arg2="8" arg3="/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v" arg4="90"  />
+    <postMsg mid="35901209" type="Warning" dynamic="3" navigation="2" arg0="/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v(93): " arg1="32" arg2="8" arg3="/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v" arg4="93"  />
+    <postMsg mid="35901209" type="Warning" dynamic="3" navigation="2" arg0="/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v(96): " arg1="32" arg2="8" arg3="/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v" arg4="96"  />
+    <postMsg mid="35901209" type="Warning" dynamic="3" navigation="2" arg0="/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v(99): " arg1="32" arg2="8" arg3="/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v" arg4="99"  />
+    <postMsg mid="35908216" type="Warning" dynamic="5" navigation="2" arg0="/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v(112): " arg1="8" arg2="7" arg3="0" arg4="xor_out" arg5="/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v" arg6="112"  />
+    <postMsg mid="35908216" type="Warning" dynamic="5" navigation="2" arg0="/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v(113): " arg1="9" arg2="7" arg3="0" arg4="xor_out" arg5="/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v" arg6="113"  />
+    <postMsg mid="35901209" type="Warning" dynamic="3" navigation="2" arg0="/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v(125): " arg1="32" arg2="3" arg3="/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v" arg4="125"  />
+    <postMsg mid="35901209" type="Warning" dynamic="3" navigation="2" arg0="/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v(193): " arg1="32" arg2="8" arg3="/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v" arg4="193"  />
+    <postMsg mid="35901209" type="Warning" dynamic="3" navigation="2" arg0="/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v(194): " arg1="32" arg2="8" arg3="/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v" arg4="194"  />
     <postMsg mid="35901209" type="Warning" dynamic="3" navigation="2" arg0="/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v(195): " arg1="32" arg2="8" arg3="/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v" arg4="195"  />
     <postMsg mid="35901209" type="Warning" dynamic="3" navigation="2" arg0="/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v(196): " arg1="32" arg2="8" arg3="/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v" arg4="196"  />
-    <postMsg mid="35901209" type="Warning" dynamic="3" navigation="2" arg0="/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v(197): " arg1="32" arg2="8" arg3="/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v" arg4="197"  />
-    <postMsg mid="35901209" type="Warning" dynamic="3" navigation="2" arg0="/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v(198): " arg1="32" arg2="8" arg3="/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v" arg4="198"  />
-    <postMsg mid="35901209" type="Warning" dynamic="3" navigation="2" arg0="/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v(236): " arg1="32" arg2="3" arg3="/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v" arg4="236"  />
-    <postMsg mid="35901209" type="Warning" dynamic="3" navigation="2" arg0="/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v(242): " arg1="32" arg2="3" arg3="/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v" arg4="242"  />
-    <postMsg mid="35901209" type="Warning" dynamic="3" navigation="2" arg0="/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v(248): " arg1="32" arg2="3" arg3="/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v" arg4="248"  />
-    <postMsg mid="35901209" type="Warning" dynamic="3" navigation="2" arg0="/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v(254): " arg1="32" arg2="3" arg3="/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v" arg4="254"  />
+    <postMsg mid="35901209" type="Warning" dynamic="3" navigation="2" arg0="/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v(234): " arg1="32" arg2="3" arg3="/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v" arg4="234"  />
+    <postMsg mid="35901209" type="Warning" dynamic="3" navigation="2" arg0="/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v(240): " arg1="32" arg2="3" arg3="/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v" arg4="240"  />
+    <postMsg mid="35901209" type="Warning" dynamic="3" navigation="2" arg0="/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v(246): " arg1="32" arg2="3" arg3="/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v" arg4="246"  />
+    <postMsg mid="35901209" type="Warning" dynamic="3" navigation="2" arg0="/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v(252): " arg1="32" arg2="3" arg3="/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v" arg4="252"  />
+    <postMsg mid="35901209" type="Warning" dynamic="3" navigation="2" arg0="/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v(264): " arg1="32" arg2="3" arg3="/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v" arg4="264"  />
+    <postMsg mid="35901209" type="Warning" dynamic="3" navigation="2" arg0="/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v(265): " arg1="32" arg2="3" arg3="/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v" arg4="265"  />
     <postMsg mid="35901209" type="Warning" dynamic="3" navigation="2" arg0="/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v(266): " arg1="32" arg2="3" arg3="/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v" arg4="266"  />
-    <postMsg mid="35901209" type="Warning" dynamic="3" navigation="2" arg0="/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v(267): " arg1="32" arg2="3" arg3="/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v" arg4="267"  />
-    <postMsg mid="35901209" type="Warning" dynamic="3" navigation="2" arg0="/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v(268): " arg1="32" arg2="3" arg3="/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v" arg4="268"  />
     <postMsg mid="35901018" type="Info"    dynamic="2" navigation="2" arg0="/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/USB_SHOUT1.v(12): " arg1="usb1_shout" arg2="/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/USB_SHOUT1.v" arg3="12"  />
     <postMsg mid="35901209" type="Warning" dynamic="3" navigation="2" arg0="/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/USB_SHOUT1.v(80): " arg1="32" arg2="5" arg3="/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/USB_SHOUT1.v" arg4="80"  />
     <postMsg mid="35901209" type="Warning" dynamic="3" navigation="2" arg0="/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/USB_SHOUT1.v(86): " arg1="32" arg2="3" arg3="/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/USB_SHOUT1.v" arg4="86"  />
@@ -169,7 +169,7 @@ Top module name (Verilog): top1
     <postMsg mid="35901209" type="Warning" dynamic="3" navigation="2" arg0="/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/USB_SHOUT1.v(136): " arg1="32" arg2="11" arg3="/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/USB_SHOUT1.v" arg4="136"  />
     <postMsg mid="35901209" type="Warning" dynamic="3" navigation="2" arg0="/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/USB_SHOUT1.v(159): " arg1="32" arg2="2" arg3="/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/USB_SHOUT1.v" arg4="159"  />
     <postMsg mid="35901209" type="Warning" dynamic="3" navigation="2" arg0="/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/USB_SHOUT1.v(172): " arg1="32" arg2="5" arg3="/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/USB_SHOUT1.v" arg4="172"  />
-    <postMsg mid="35901330" type="Warning" dynamic="4" navigation="2" arg0="/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v(280): " arg1="2" arg2="4" arg3="debug1" arg4="/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v" arg5="280"  />
+    <postMsg mid="35901330" type="Warning" dynamic="4" navigation="2" arg0="/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v(278): " arg1="2" arg2="4" arg3="debug1" arg4="/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v" arg5="278"  />
     <postMsg mid="35901018" type="Info"    dynamic="2" navigation="2" arg0="/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/USB_SHOUT1.v(12): " arg1="usb1_shout(int_speed=1)" arg2="/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/USB_SHOUT1.v" arg3="12"  />
     <postMsg mid="35901209" type="Warning" dynamic="3" navigation="2" arg0="/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/USB_SHOUT1.v(80): " arg1="32" arg2="5" arg3="/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/USB_SHOUT1.v" arg4="80"  />
     <postMsg mid="35901209" type="Warning" dynamic="3" navigation="2" arg0="/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/USB_SHOUT1.v(86): " arg1="32" arg2="3" arg3="/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/USB_SHOUT1.v" arg4="86"  />
@@ -218,13 +218,14 @@ Top module name (Verilog): top1
     <postMsg mid="35901018" type="Info"    dynamic="2" navigation="2" arg0="/usr/local/diamond/3.11_x64/ispfpga/userware/unix/SYNTHESIS_HEADERS/machxo2.v(1730): " arg1="EHXPLLJ(CLKFB_DIV=12,CLKOP_DIV=2,CLKOS_DIV=2,CLKOS2_DIV=2,CLKOS3_DIV=2,CLKOP_CPHASE=1,CLKOS_CPHASE=1,CLKOS2_CPHASE=1,CLKOS3_CPHASE=1,CLKOS_FPHASE=2,CLKOS2_FPHASE=4,CLKOS3_FPHASE=6,PLL_LOCK_MODE=2)" arg2="/usr/local/diamond/3.11_x64/ispfpga/userware/unix/SYNTHESIS_HEADERS/machxo2.v" arg3="1730"  />
     <postMsg mid="35901018" type="Info"    dynamic="2" navigation="2" arg0="/usr/local/diamond/3.11_x64/ispfpga/userware/unix/SYNTHESIS_HEADERS/machxo2.v(1793): " arg1="OSCH(NOM_FREQ=2.08)" arg2="/usr/local/diamond/3.11_x64/ispfpga/userware/unix/SYNTHESIS_HEADERS/machxo2.v" arg3="1793"  />
     <postMsg mid="35901018" type="Info"    dynamic="2" navigation="2" arg0="/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/BRAIN_SHOUT.v(1): " arg1="brain_shout" arg2="/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/BRAIN_SHOUT.v" arg3="1"  />
-    <postMsg mid="35931002" type="Warning" dynamic="2" navigation="2" arg0="/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v(58): " arg1="clk100_r" arg2="/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v" arg3="58"  />
+    <postMsg mid="35908216" type="Warning" dynamic="5" navigation="2" arg0="/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v(322): " arg1="11" arg2="7" arg3="0" arg4="rng1_cnt" arg5="/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v" arg6="322"  />
+    <postMsg mid="35931002" type="Warning" dynamic="2" navigation="2" arg0="/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v(56): " arg1="clk100_r" arg2="/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v" arg3="56"  />
+    <postMsg mid="35931013" type="Warning" dynamic="2" navigation="2" arg0="/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v(278): " arg1="clk_pol" arg2="/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v" arg3="278"  />
+    <postMsg mid="35931013" type="Warning" dynamic="2" navigation="2" arg0="/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v(279): " arg1="clk_pol" arg2="/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v" arg3="279"  />
     <postMsg mid="35931013" type="Warning" dynamic="2" navigation="2" arg0="/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v(280): " arg1="clk_pol" arg2="/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v" arg3="280"  />
     <postMsg mid="35931013" type="Warning" dynamic="2" navigation="2" arg0="/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v(281): " arg1="clk_pol" arg2="/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v" arg3="281"  />
     <postMsg mid="35931013" type="Warning" dynamic="2" navigation="2" arg0="/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v(282): " arg1="clk_pol" arg2="/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v" arg3="282"  />
     <postMsg mid="35931013" type="Warning" dynamic="2" navigation="2" arg0="/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v(283): " arg1="clk_pol" arg2="/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v" arg3="283"  />
-    <postMsg mid="35931013" type="Warning" dynamic="2" navigation="2" arg0="/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v(284): " arg1="clk_pol" arg2="/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v" arg3="284"  />
-    <postMsg mid="35931013" type="Warning" dynamic="2" navigation="2" arg0="/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v(285): " arg1="clk_pol" arg2="/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v" arg3="285"  />
 Last elaborated design is top1()
 Loading NGL library '/usr/local/diamond/3.11_x64/ispfpga/xo2c00a/data/xo2alib.ngl'...
 Loading NGL library '/usr/local/diamond/3.11_x64/ispfpga/xo2c00/data/xo2clib.ngl'...
@@ -235,6 +236,9 @@ Package Status:                     Final          Version 1.39.
 Top-level module name = top1.
     <postMsg mid="35002005" type="Warning" dynamic="1" navigation="0" arg0="key1"  />
     <postMsg mid="35002005" type="Warning" dynamic="1" navigation="0" arg0="key2"  />
+    <postMsg mid="35002005" type="Warning" dynamic="1" navigation="0" arg0="br4_shin"  />
+    <postMsg mid="35002005" type="Warning" dynamic="1" navigation="0" arg0="br5_shin"  />
+    <postMsg mid="35002005" type="Warning" dynamic="1" navigation="0" arg0="br6_shin"  />
     <postMsg mid="35002005" type="Warning" dynamic="1" navigation="0" arg0="debug5"  />
     <postMsg mid="35002005" type="Warning" dynamic="1" navigation="0" arg0="debug6"  />
     <postMsg mid="35931002" type="Warning" dynamic="2" navigation="2" arg0="/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/USB_SHOUT1.v(13): " arg1="\usb_l1/clk_pol" arg2="/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/USB_SHOUT1.v" arg3="13"  />
@@ -253,7 +257,64 @@ Top-level module name = top1.
 
     <postMsg mid="35002005" type="Warning" dynamic="1" navigation="0" arg0="key1"  />
     <postMsg mid="35002005" type="Warning" dynamic="1" navigation="0" arg0="key2"  />
+    <postMsg mid="35002005" type="Warning" dynamic="1" navigation="0" arg0="br4_shin"  />
+    <postMsg mid="35002005" type="Warning" dynamic="1" navigation="0" arg0="br5_shin"  />
+    <postMsg mid="35002005" type="Warning" dynamic="1" navigation="0" arg0="br6_shin"  />
 Combinational loop found : 1
+
+	Net n8257 
+
+	Instance i3637 
+
+	Net \brain3/shout_N_658 
+
+	Instance \brain3/shout_I_36 
+
+	Net \brain3/shout_N_659 
+
+	Instance \brain3/fuzz_I_0 
+
+	Net n8266 
+
+	Instance i3640 
+
+Combinational loop found : 2
+
+	Net n8254 
+
+	Instance i3636 
+
+	Net \brain2/shout_N_658 
+
+	Instance \brain2/shout_I_36 
+
+	Net \brain2/shout_N_659 
+
+	Instance \brain2/fuzz_I_0 
+
+	Net n8263 
+
+	Instance i3639 
+
+Combinational loop found : 3
+
+	Net \brain1/shout_N_658 
+
+	Instance \brain1/shout_I_36 
+
+	Net \brain1/shout_N_659 
+
+	Instance \brain1/fuzz_I_0 
+
+	Net n8260 
+
+	Instance i3638 
+
+	Net n8251 
+
+	Instance i3635 
+
+Combinational loop found : 4
 
 	Net rng1_clk[0] 
 
@@ -267,7 +328,7 @@ Combinational loop found : 1
 
 	Instance \rng1/ref_clk[2]_I_keep_buf 
 
-	Net n1433 
+	Net n1465 
 
 	Instance \rng1/ref_clk[2]_keep_buf 
 
@@ -275,7 +336,7 @@ Combinational loop found : 1
 
 	Instance \rng1/r2_c3/mem_0_0 
 
-	Net n1435 
+	Net n1467 
 
 	Instance \rng1/ref_clk[1]_keep_buf 
 
@@ -283,7 +344,7 @@ Combinational loop found : 1
 
 	Instance \rng1/r2_c2/mem_0_0 
 
-Combinational loop found : 2
+Combinational loop found : 5
 
 	Net \rng1/r1_2_keep 
 
@@ -297,7 +358,7 @@ Combinational loop found : 2
 
 	Instance \rng1/ref_clk[2]_I_keep_buf 
 
-	Net n1433 
+	Net n1465 
 
 	Instance \rng1/ref_clk[2]_keep_buf 
 
@@ -305,7 +366,7 @@ Combinational loop found : 2
 
 	Instance \rng1/r2_c3/mem_0_0 
 
-	Net n1435 
+	Net n1467 
 
 	Instance \rng1/ref_clk[1]_keep_buf 
 
@@ -354,7 +415,7 @@ Combinational loop found : 2
 	Instance \rng1/r1_c3/mem_0_0 
 
     <postMsg mid="35935013" type="Warning" dynamic="2" navigation="2" arg0="/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/USB_SHOUT1.v(189): " arg1="\usb_l1/data_size_i0" arg2="/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/USB_SHOUT1.v" arg3="189"  />
-GSR instance connected to net \i2514/n1.
+GSR instance connected to net \i2539/n1.
 ######## Converted FF type for instance \leds_div12/FF_10 due to shared LSR/GSR.
 ######## Converted FF type for instance \leds_div12/FF_9 due to shared LSR/GSR.
 ######## Converted FF type for instance \leds_div12/FF_8 due to shared LSR/GSR.
@@ -383,38 +444,45 @@ Running DRC...
     <postMsg mid="1166064" type="Warning" dynamic="2" navigation="0" arg0="input" arg1="key1"  />
     <postMsg mid="1166052" type="Warning" dynamic="2" navigation="1" arg0="logical" arg1="key2" arg2="key2"  />
     <postMsg mid="1166064" type="Warning" dynamic="2" navigation="0" arg0="input" arg1="key2"  />
-    <postMsg mid="1166052" type="Warning" dynamic="2" navigation="1" arg0="logical" arg1="n1444" arg2="n1444"  />
-    <postMsg mid="1166052" type="Warning" dynamic="2" navigation="1" arg0="logical" arg1="n1450" arg2="n1450"  />
-    <postMsg mid="1166052" type="Warning" dynamic="2" navigation="1" arg0="logical" arg1="n1453" arg2="n1453"  />
-    <postMsg mid="1166052" type="Warning" dynamic="2" navigation="1" arg0="logical" arg1="n1455" arg2="n1455"  />
-    <postMsg mid="1163101" type="Warning" dynamic="1" navigation="0" arg0="8"  />
+    <postMsg mid="1166052" type="Warning" dynamic="2" navigation="1" arg0="logical" arg1="br4_shin" arg2="br4_shin"  />
+    <postMsg mid="1166064" type="Warning" dynamic="2" navigation="0" arg0="input" arg1="br4_shin"  />
+    <postMsg mid="1166052" type="Warning" dynamic="2" navigation="1" arg0="logical" arg1="br5_shin" arg2="br5_shin"  />
+    <postMsg mid="1166064" type="Warning" dynamic="2" navigation="0" arg0="input" arg1="br5_shin"  />
+    <postMsg mid="1166052" type="Warning" dynamic="2" navigation="1" arg0="logical" arg1="br6_shin" arg2="br6_shin"  />
+    <postMsg mid="1166064" type="Warning" dynamic="2" navigation="0" arg0="input" arg1="br6_shin"  />
+    <postMsg mid="1166052" type="Warning" dynamic="2" navigation="1" arg0="logical" arg1="n1482" arg2="n1482"  />
+    <postMsg mid="1166052" type="Warning" dynamic="2" navigation="1" arg0="logical" arg1="n1485" arg2="n1485"  />
+    <postMsg mid="1166052" type="Warning" dynamic="2" navigation="1" arg0="logical" arg1="n1487" arg2="n1487"  />
+    <postMsg mid="1166052" type="Warning" dynamic="2" navigation="1" arg0="logical" arg1="n1476" arg2="n1476"  />
+    <postMsg mid="1163101" type="Warning" dynamic="1" navigation="0" arg0="14"  />
 
 Design Results:
-   1680 blocks expanded
+   1748 blocks expanded
 completed the first expansion
 All blocks are expanded and NGD expansion is successful.
 Writing NGD file LOUD_BOX_impl1.ngd.
 
 ################### Begin Area Report (top1)######################
-Number of register bits => 485 of 7209 (6 % )
-CCU2D => 183
+Number of register bits => 518 of 7209 (7 % )
+CCU2D => 199
 CU2 => 6
 EHXPLLJ => 2
 FADD2B => 1
-FD1P3AX => 186
+FD1P3AX => 187
 FD1P3IX => 127
-FD1P3JX => 9
-FD1S3AX => 38
+FD1P3JX => 8
+FD1S3AX => 68
 FD1S3AY => 1
-FD1S3IX => 108
+FD1S3IX => 111
 FD1S3JX => 16
 GSR => 1
-IB => 5
+IB => 2
 INV => 6
-LUT4 => 870
-OB => 60
+LUT4 => 885
+OB => 54
+OBZ => 6
 OSCH => 1
-PFUMX => 49
+PFUMX => 56
 ROM16X1A => 8
 ################### End Area Report ##################
 
@@ -424,55 +492,60 @@ TSALL => 1
 
 ################### Begin Clock Report ######################
 Clock Nets
-Number of Clocks: 26
-  Net : main_pll/clk_266_0, loads : 54
+Number of Clocks: 31
+  Net : main_pll/clk_266_0, loads : 57
   Net : main_pll/clk_266_1, loads : 46
   Net : sec_pll/clk_240_0, loads : 45
   Net : debug2_c_0, loads : 41
-  Net : clk_in_p_adj_705, loads : 38
+  Net : clk_in_p_adj_755, loads : 38
   Net : usb_clo_2_2, loads : 37
   Net : sec_pll/clk_240_2, loads : 35
-  Net : clk_in_p_adj_706, loads : 36
-  Net : clk_in_p_adj_713, loads : 36
+  Net : clk_in_p_adj_769, loads : 36
+  Net : clk_in_p_adj_757, loads : 36
+  Net : rng1/rng1_out_0, loads : 23
+  Net : rng1_cnt_7, loads : 17
   Net : ps4_ck, loads : 15
   Net : clk60_cnt_1, loads : 13
+  Net : rng1/r2_c1/ref_clk_0, loads : 12
   Net : usb_clkf_2, loads : 10
-  Net : rng1/r2_c1/ref_clk_0, loads : 10
   Net : leds_div12/leds_div_10, loads : 9
+  Net : osc_out, loads : 8
   Net : main_pll/clk_400, loads : 8
+  Net : brain3/n8257, loads : 7
+  Net : brain2/n8254, loads : 7
   Net : pll1_cnt400_1, loads : 6
-  Net : osc_out, loads : 4
-  Net : ps1_ck, loads : 3
-  Net : rng1/r2_c2/ref_clk_1, loads : 3
-  Net : ps3_ck, loads : 3
+  Net : main_pll/clk_114, loads : 5
   Net : ps2_ck, loads : 3
-  Net : rng1/r2_c3/ref_clk_2, loads : 2
+  Net : ps3_ck, loads : 3
+  Net : ps1_ck, loads : 3
+  Net : brain1/shout_N_658_derived_1, loads : 3
+  Net : rng1/r2_c2/ref_clk_1, loads : 3
   Net : clk_in_c, loads : 2
-  Net : main_pll/clk_114, loads : 1
-  Net : sec_pll/n1450, loads : 0
-  Net : sec_pll/n1453, loads : 0
+  Net : rng1/r2_c3/ref_clk_2, loads : 2
+  Net : sec_pll/n1485, loads : 0
+  Net : sec_pll/n1482, loads : 0
 Clock Enable Nets
-Number of Clock Enables: 108
+Number of Clock Enables: 112
 Top 10 highest fanout Clock Enables:
   Net : dis1/clk_266_0_keep_enable_21, loads : 41
   Net : dis2/clk_266_1_keep_enable_21, loads : 41
-  Net : usb_l3/debug2_c_0_enable_12, loads : 6
-  Net : usb_f2/clk_in_p_enable_12, loads : 6
-  Net : usb_f1/clk_in_p_enable_16, loads : 6
-  Net : usb_l4/clk_in_p_enable_13, loads : 6
-  Net : usb_l2/clk_in_p_enable_12, loads : 6
-  Net : ps4/clk_dis_N_442, loads : 6
-  Net : usb_l1/clk_in_p_enable_14, loads : 6
-  Net : usb_l2/clk_in_p_enable_20, loads : 5
+  Net : ps3/clk_dis_N_475, loads : 6
+  Net : usb_f1/clk_in_p_enable_10, loads : 6
+  Net : usb_l3/debug2_c_0_enable_13, loads : 6
+  Net : usb_l2/clk_in_p_enable_16, loads : 6
+  Net : usb_f2/clk_in_p_enable_10, loads : 6
+  Net : usb_l4/clk_in_p_enable_16, loads : 6
+  Net : ps4/clk_dis_N_475, loads : 6
+  Net : usb_l3/debug2_c_0_enable_21, loads : 5
 Highest fanout non-clock nets
 Top 10 highest fanout non-clock nets:
-  Net : reset_N, loads : 324
-  Net : usb_l1/state_0, loads : 50
-  Net : usb_l2/state_0, loads : 48
-  Net : usb_l4/state_0_adj_687, loads : 46
+  Net : reset_N, loads : 330
+  Net : usb_l2/state_0_adj_663, loads : 49
+  Net : usb_l4/state_0, loads : 48
+  Net : usb_l1/state_0, loads : 47
+  Net : usb_l3/state_0, loads : 47
+  Net : usb_f2/state_0_adj_699, loads : 47
   Net : usb_f1/state_0, loads : 45
-  Net : usb_f2/state_0, loads : 45
-  Net : usb_l3/state_0, loads : 41
   Net : dis2/clk_266_1_keep_enable_21, loads : 41
   Net : dis1/clk_266_0_keep_enable_21, loads : 41
   Net : usb_l1/state_1, loads : 32
@@ -485,81 +558,99 @@ Constraint                              |   Constraint|       Actual|Levels
 --------------------------------------------------------------------------------
                                         |             |             |
 create_clock -period 5.000000 -name     |             |             |
-clk21 [get_nets \rng1/ref_clk[2]]       |            -|            -|     0  
+clk27 [get_nets n8257]                  |  200.000 MHz|  298.240 MHz|     2  
                                         |             |             |
 create_clock -period 5.000000 -name     |             |             |
-clk20 [get_nets pll1_cnt400[1]]         |  200.000 MHz|  192.790 MHz|     3 *
+clk26 [get_nets pll1_cnt400[1]]         |  200.000 MHz|  192.790 MHz|     3 *
                                         |             |             |
 create_clock -period 5.000000 -name     |             |             |
-clk19 [get_nets \rng1/ref_clk[1]]       |  200.000 MHz|  128.107 MHz|     2 *
+clk25 [get_nets n8254]                  |  200.000 MHz|  146.843 MHz|     5 *
                                         |             |             |
 create_clock -period 5.000000 -name     |             |             |
-clk18 [get_nets ps2_ck]                 |  200.000 MHz|  116.279 MHz|     5 *
+clk24 [get_nets shout_N_658_derived_1]  |  200.000 MHz|  150.489 MHz|     4 *
                                         |             |             |
 create_clock -period 5.000000 -name     |             |             |
-clk17 [get_nets clk_266_1]              |  200.000 MHz|   93.950 MHz|     6 *
+clk23 [get_nets clk_in_p_adj_769]       |  200.000 MHz|   88.316 MHz|     7 *
                                         |             |             |
 create_clock -period 5.000000 -name     |             |             |
-clk16 [get_nets ps1_ck]                 |  200.000 MHz|  117.398 MHz|     5 *
+clk22 [get_nets clk_400]                |  200.000 MHz|  220.167 MHz|     5  
                                         |             |             |
 create_clock -period 5.000000 -name     |             |             |
-clk15 [get_nets clk_in_p_adj_706]       |  200.000 MHz|   91.861 MHz|     6 *
+clk21 [get_nets rng1_cnt[7]]            |  200.000 MHz|  193.424 MHz|    10 *
                                         |             |             |
 create_clock -period 5.000000 -name     |             |             |
-clk14 [get_nets clk_in_p_adj_713]       |  200.000 MHz|   92.413 MHz|     6 *
+clk20 [get_nets clk_114]                |  200.000 MHz|  243.427 MHz|     4  
                                         |             |             |
 create_clock -period 5.000000 -name     |             |             |
-clk13 [get_nets clk_in_p_adj_705]       |  200.000 MHz|   96.348 MHz|     6 *
+clk19 [get_nets rng1_out[0]]            |  200.000 MHz|   97.116 MHz|     8 *
                                         |             |             |
 create_clock -period 5.000000 -name     |             |             |
-clk12 [get_nets clk_266_0]              |  200.000 MHz|   93.950 MHz|     6 *
+clk18 [get_nets \rng1/ref_clk[2]]       |            -|            -|     0  
                                         |             |             |
 create_clock -period 5.000000 -name     |             |             |
-clk11 [get_nets usb_clo[2][2]]          |  200.000 MHz|  129.232 MHz|     5 *
+clk17 [get_nets ps1_ck]                 |  200.000 MHz|  116.279 MHz|     5 *
                                         |             |             |
 create_clock -period 5.000000 -name     |             |             |
-clk10 [get_nets clk60_cnt[1]]           |  200.000 MHz|  261.986 MHz|     2  
+clk16 [get_nets clk_in_p_adj_755]       |  200.000 MHz|   91.424 MHz|     6 *
                                         |             |             |
 create_clock -period 5.000000 -name     |             |             |
-clk9 [get_nets clk_240_2]               |  200.000 MHz|   85.310 MHz|     7 *
+clk15 [get_nets clk60_cnt[1]]           |  200.000 MHz|  261.986 MHz|     2  
                                         |             |             |
 create_clock -period 5.000000 -name     |             |             |
-clk8 [get_nets osc_out]                 |  200.000 MHz|  232.288 MHz|     3  
+clk14 [get_nets clk_in_p_adj_757]       |  200.000 MHz|   74.660 MHz|     8 *
                                         |             |             |
 create_clock -period 5.000000 -name     |             |             |
-clk7 [get_nets clk_400]                 |  200.000 MHz|  220.167 MHz|     5  
+clk13 [get_nets usb_clo[2][2]]          |  200.000 MHz|  129.232 MHz|     5 *
                                         |             |             |
 create_clock -period 5.000000 -name     |             |             |
-clk6 [get_nets debug2_c_0]              |  200.000 MHz|   92.413 MHz|     6 *
+clk12 [get_nets osc_out]                |  200.000 MHz|  214.638 MHz|     5  
                                         |             |             |
 create_clock -period 5.000000 -name     |             |             |
-clk5 [get_nets clk_240_0]               |  200.000 MHz|   81.633 MHz|     7 *
+clk11 [get_nets ps3_ck]                 |  200.000 MHz|  116.279 MHz|     5 *
                                         |             |             |
 create_clock -period 5.000000 -name     |             |             |
-clk4 [get_nets usb_clkf[2]]             |  200.000 MHz|  298.240 MHz|     2  
+clk10 [get_nets ps2_ck]                 |  200.000 MHz|  117.398 MHz|     5 *
                                         |             |             |
 create_clock -period 5.000000 -name     |             |             |
-clk3 [get_nets \rng1/ref_clk[0]]        |  200.000 MHz|  220.167 MHz|     5  
+clk9 [get_nets debug2_c_0]              |  200.000 MHz|   91.962 MHz|     7 *
                                         |             |             |
 create_clock -period 5.000000 -name     |             |             |
-clk2 [get_nets leds_div[10]]            |  200.000 MHz|  181.719 MHz|     3 *
+clk8 [get_nets clk_266_1]               |  200.000 MHz|   93.950 MHz|     6 *
                                         |             |             |
 create_clock -period 5.000000 -name     |             |             |
-clk1 [get_nets ps4_ck]                  |  200.000 MHz|   98.532 MHz|     7 *
+clk7 [get_nets \rng1/ref_clk[0]]        |  200.000 MHz|  206.782 MHz|     6  
                                         |             |             |
 create_clock -period 5.000000 -name     |             |             |
-clk0 [get_nets ps3_ck]                  |  200.000 MHz|  117.398 MHz|     5 *
+clk6 [get_nets clk_240_0]               |  200.000 MHz|   92.413 MHz|     6 *
+                                        |             |             |
+create_clock -period 5.000000 -name     |             |             |
+clk5 [get_nets usb_clkf[2]]             |  200.000 MHz|  298.240 MHz|     2  
+                                        |             |             |
+create_clock -period 5.000000 -name     |             |             |
+clk4 [get_nets ps4_ck]                  |  200.000 MHz|   98.532 MHz|     7 *
+                                        |             |             |
+create_clock -period 5.000000 -name     |             |             |
+clk3 [get_nets leds_div[10]]            |  200.000 MHz|  181.719 MHz|     3 *
+                                        |             |             |
+create_clock -period 5.000000 -name     |             |             |
+clk2 [get_nets clk_240_2]               |  200.000 MHz|   75.341 MHz|     9 *
+                                        |             |             |
+create_clock -period 5.000000 -name     |             |             |
+clk1 [get_nets clk_266_0]               |  200.000 MHz|   93.950 MHz|     6 *
+                                        |             |             |
+create_clock -period 5.000000 -name     |             |             |
+clk0 [get_nets \rng1/ref_clk[1]]        |  200.000 MHz|  128.107 MHz|     2 *
                                         |             |             |
 --------------------------------------------------------------------------------
 
 
-16 constraints not met.
+20 constraints not met.
 
 
-Peak Memory Usage: 198.945  MB
+Peak Memory Usage: 200.059  MB
 
 --------------------------------------------------------------
-Elapsed CPU time for LSE flow : 3.372  secs
+Elapsed CPU time for LSE flow : 3.605  secs
 --------------------------------------------------------------
 
 map -a "MachXO2" -p LCMXO2-7000HE -t TQFP144 -s 4 -oc Commercial   "LOUD_BOX_impl1.ngd" -o "LOUD_BOX_impl1_map.ncd" -pr "LOUD_BOX_impl1.prf" -mp "LOUD_BOX_impl1.mrp" -lpf "/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/impl1/LOUD_BOX_impl1.lpf" -lpf "/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/LOUD_BOX.lpf" -c 0           
@@ -590,45 +681,54 @@ Loading device for application baspr from file 'xo2c7000.nph' in environment: /u
     <postMsg mid="1100644" type="Warning" dynamic="2" navigation="2" arg0="/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/LOUD_BOX.lpf(56): Semantic error in &quot;IOBUF PORT &quot;leds&quot; IO_TYPE=LVCMOS33 PULLMODE=NONE ;&quot;: " arg1="leds" arg2="/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/LOUD_BOX.lpf" arg3="56"  />
     <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/LOUD_BOX.lpf(57): Semantic error in &quot;LOCATE COMP &quot;leds&quot; BANK 0 ;&quot;: " arg1="leds" arg2="/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/LOUD_BOX.lpf" arg3="57"  />
     <postMsg mid="1100644" type="Warning" dynamic="2" navigation="2" arg0="/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/LOUD_BOX.lpf(65): Semantic error in &quot;IOBUF PORT &quot;leds[7]&quot; IO_TYPE=LVCMOS33 PULLMODE=NONE CLAMP=ON ;&quot;: " arg1="leds[7]" arg2="/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/LOUD_BOX.lpf" arg3="65"  />
-    <postMsg mid="1100644" type="Warning" dynamic="2" navigation="2" arg0="/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/LOUD_BOX.lpf(86): Semantic error in &quot;IOBUF PORT &quot;test1[0]&quot; IO_TYPE=LVCMOS33 ;&quot;: " arg1="test1[0]" arg2="/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/LOUD_BOX.lpf" arg3="86"  />
-    <postMsg mid="1100644" type="Warning" dynamic="2" navigation="2" arg0="/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/LOUD_BOX.lpf(87): Semantic error in &quot;IOBUF PORT &quot;test1[1]&quot; IO_TYPE=LVCMOS33 ;&quot;: " arg1="test1[1]" arg2="/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/LOUD_BOX.lpf" arg3="87"  />
-    <postMsg mid="1100644" type="Warning" dynamic="2" navigation="2" arg0="/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/LOUD_BOX.lpf(88): Semantic error in &quot;IOBUF PORT &quot;test1[2]&quot; IO_TYPE=LVCMOS33 ;&quot;: " arg1="test1[2]" arg2="/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/LOUD_BOX.lpf" arg3="88"  />
-    <postMsg mid="1100644" type="Warning" dynamic="2" navigation="2" arg0="/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/LOUD_BOX.lpf(89): Semantic error in &quot;IOBUF PORT &quot;test1[3]&quot; IO_TYPE=LVCMOS33 ;&quot;: " arg1="test1[3]" arg2="/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/LOUD_BOX.lpf" arg3="89"  />
-    <postMsg mid="1100644" type="Warning" dynamic="2" navigation="2" arg0="/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/LOUD_BOX.lpf(90): Semantic error in &quot;IOBUF PORT &quot;test1[4]&quot; IO_TYPE=LVCMOS33 ;&quot;: " arg1="test1[4]" arg2="/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/LOUD_BOX.lpf" arg3="90"  />
-    <postMsg mid="1100644" type="Warning" dynamic="2" navigation="2" arg0="/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/LOUD_BOX.lpf(91): Semantic error in &quot;IOBUF PORT &quot;test1[5]&quot; IO_TYPE=LVCMOS33 ;&quot;: " arg1="test1[5]" arg2="/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/LOUD_BOX.lpf" arg3="91"  />
-    <postMsg mid="1100644" type="Warning" dynamic="2" navigation="2" arg0="/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/LOUD_BOX.lpf(92): Semantic error in &quot;IOBUF PORT &quot;test1[6]&quot; IO_TYPE=LVCMOS33 ;&quot;: " arg1="test1[6]" arg2="/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/LOUD_BOX.lpf" arg3="92"  />
-    <postMsg mid="1100644" type="Warning" dynamic="2" navigation="2" arg0="/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/LOUD_BOX.lpf(93): Semantic error in &quot;IOBUF PORT &quot;test1[7]&quot; IO_TYPE=LVCMOS33 ;&quot;: " arg1="test1[7]" arg2="/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/LOUD_BOX.lpf" arg3="93"  />
-    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/LOUD_BOX.lpf(95): Semantic error in &quot;LOCATE COMP &quot;leds[7]&quot; BANK 0 ;&quot;: " arg1="leds[7]" arg2="/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/LOUD_BOX.lpf" arg3="95"  />
+    <postMsg mid="1100644" type="Warning" dynamic="2" navigation="2" arg0="/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/LOUD_BOX.lpf(81): Semantic error in &quot;IOBUF PORT &quot;test1[0]&quot; IO_TYPE=LVCMOS33 ;&quot;: " arg1="test1[0]" arg2="/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/LOUD_BOX.lpf" arg3="81"  />
+    <postMsg mid="1100644" type="Warning" dynamic="2" navigation="2" arg0="/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/LOUD_BOX.lpf(82): Semantic error in &quot;IOBUF PORT &quot;test1[1]&quot; IO_TYPE=LVCMOS33 ;&quot;: " arg1="test1[1]" arg2="/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/LOUD_BOX.lpf" arg3="82"  />
+    <postMsg mid="1100644" type="Warning" dynamic="2" navigation="2" arg0="/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/LOUD_BOX.lpf(83): Semantic error in &quot;IOBUF PORT &quot;test1[2]&quot; IO_TYPE=LVCMOS33 ;&quot;: " arg1="test1[2]" arg2="/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/LOUD_BOX.lpf" arg3="83"  />
+    <postMsg mid="1100644" type="Warning" dynamic="2" navigation="2" arg0="/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/LOUD_BOX.lpf(84): Semantic error in &quot;IOBUF PORT &quot;test1[3]&quot; IO_TYPE=LVCMOS33 ;&quot;: " arg1="test1[3]" arg2="/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/LOUD_BOX.lpf" arg3="84"  />
+    <postMsg mid="1100644" type="Warning" dynamic="2" navigation="2" arg0="/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/LOUD_BOX.lpf(85): Semantic error in &quot;IOBUF PORT &quot;test1[4]&quot; IO_TYPE=LVCMOS33 ;&quot;: " arg1="test1[4]" arg2="/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/LOUD_BOX.lpf" arg3="85"  />
+    <postMsg mid="1100644" type="Warning" dynamic="2" navigation="2" arg0="/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/LOUD_BOX.lpf(86): Semantic error in &quot;IOBUF PORT &quot;test1[5]&quot; IO_TYPE=LVCMOS33 ;&quot;: " arg1="test1[5]" arg2="/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/LOUD_BOX.lpf" arg3="86"  />
+    <postMsg mid="1100644" type="Warning" dynamic="2" navigation="2" arg0="/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/LOUD_BOX.lpf(87): Semantic error in &quot;IOBUF PORT &quot;test1[6]&quot; IO_TYPE=LVCMOS33 ;&quot;: " arg1="test1[6]" arg2="/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/LOUD_BOX.lpf" arg3="87"  />
+    <postMsg mid="1100644" type="Warning" dynamic="2" navigation="2" arg0="/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/LOUD_BOX.lpf(88): Semantic error in &quot;IOBUF PORT &quot;test1[7]&quot; IO_TYPE=LVCMOS33 ;&quot;: " arg1="test1[7]" arg2="/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/LOUD_BOX.lpf" arg3="88"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/LOUD_BOX.lpf(90): Semantic error in &quot;LOCATE COMP &quot;leds[7]&quot; BANK 0 ;&quot;: " arg1="leds[7]" arg2="/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/LOUD_BOX.lpf" arg3="90"  />
+    <postMsg mid="1100644" type="Warning" dynamic="2" navigation="2" arg0="/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/LOUD_BOX.lpf(132): Semantic error in &quot;IOBUF PORT &quot;br4_shin&quot; IO_TYPE=LVCMOS25R33 PULLMODE=NONE DIFFRESISTOR=OFF ;&quot;: " arg1="br4_shin" arg2="/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/LOUD_BOX.lpf" arg3="132"  />
+    <postMsg mid="1100644" type="Warning" dynamic="2" navigation="2" arg0="/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/LOUD_BOX.lpf(133): Semantic error in &quot;IOBUF PORT &quot;br5_shin&quot; IO_TYPE=LVCMOS25R33 PULLMODE=NONE ;&quot;: " arg1="br5_shin" arg2="/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/LOUD_BOX.lpf" arg3="133"  />
+    <postMsg mid="1100644" type="Warning" dynamic="2" navigation="2" arg0="/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/LOUD_BOX.lpf(134): Semantic error in &quot;IOBUF PORT &quot;br6_shin&quot; IO_TYPE=LVCMOS25R33 PULLMODE=NONE ;&quot;: " arg1="br6_shin" arg2="/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/LOUD_BOX.lpf" arg3="134"  />
 Package Status:                     Final          Version 1.39.
 
 Running general design DRC...
 
     <postMsg mid="1166064" type="Warning" dynamic="2" navigation="0" arg0="input" arg1="key1"  />
     <postMsg mid="1166064" type="Warning" dynamic="2" navigation="0" arg0="input" arg1="key2"  />
+    <postMsg mid="1166064" type="Warning" dynamic="2" navigation="0" arg0="input" arg1="br4_shin"  />
+    <postMsg mid="1166064" type="Warning" dynamic="2" navigation="0" arg0="input" arg1="br5_shin"  />
+    <postMsg mid="1166064" type="Warning" dynamic="2" navigation="0" arg0="input" arg1="br6_shin"  />
 Removing unused logic...
 
 Optimizing...
 
     <postMsg mid="51001046" type="Warning" dynamic="1" navigation="0" arg0="key1"  />
     <postMsg mid="51001046" type="Warning" dynamic="1" navigation="0" arg0="key2"  />
+    <postMsg mid="51001046" type="Warning" dynamic="1" navigation="0" arg0="br4_shin"  />
+    <postMsg mid="51001046" type="Warning" dynamic="1" navigation="0" arg0="br5_shin"  />
+    <postMsg mid="51001046" type="Warning" dynamic="1" navigation="0" arg0="br6_shin"  />
 
 
 
 Design Summary:
-   Number of registers:    485 out of  7209 (7%)
-      PFU registers:          485 out of  6864 (7%)
+   Number of registers:    518 out of  7209 (7%)
+      PFU registers:          518 out of  6864 (8%)
       PIO registers:            0 out of   345 (0%)
-   Number of SLICEs:       638 out of  3432 (19%)
-      SLICEs as Logic/ROM:    638 out of  3432 (19%)
+   Number of SLICEs:       661 out of  3432 (19%)
+      SLICEs as Logic/ROM:    661 out of  3432 (19%)
       SLICEs as RAM:            0 out of  2574 (0%)
-      SLICEs as Carry:        190 out of  3432 (6%)
-   Number of LUT4s:        1254 out of  6864 (18%)
-      Number used as logic LUTs:        874
+      SLICEs as Carry:        206 out of  3432 (6%)
+   Number of LUT4s:        1299 out of  6864 (19%)
+      Number used as logic LUTs:        887
       Number used as distributed RAM:     0
-      Number used as ripple logic:      380
+      Number used as ripple logic:      412
       Number used as shift registers:     0
-   Number of PIO sites used: 88 + 4(JTAG) out of 115 (80%)
-      Number of PIO sites used for single ended IOs: 46
+   Number of PIO sites used: 85 + 4(JTAG) out of 115 (77%)
+      Number of PIO sites used for single ended IOs: 43
       Number of PIO sites used for differential IOs: 46 (represented by 23 PIO comps in NCD)
    Number of block RAMs:  0 out of 26 (0%)
    Number of GSRs:        1 out of 1 (100%)
@@ -652,193 +752,196 @@ Design Summary:
    Notes:-
       1. Total number of LUT4s = (Number of logic LUT4s) + 2*(Number of distributed RAMs) + 2*(Number of ripple logic)
       2. Number of logic LUT4s does not include count of distributed RAM and ripple logic.
-   Number of clocks:  22
+   Number of clocks:  28
+     Net rng1_out[0]: 2 loads, 2 rising, 0 falling (Driver: rng1/rng_out_0__19 )
      Net leds_div[10]: 5 loads, 5 rising, 0 falling (Driver: leds_div12/FF_1 )
      Net usb_clkf[2]: 6 loads, 6 rising, 0 falling (Driver: usb_clkf__i3 )
-     Net ps4_ck: 19 loads, 6 rising, 13 falling (Driver: ps4_ck_169 )
-     Net n1435: 2 loads, 1 rising, 1 falling (Driver: rng1/r2_c2/mem_0_0 )
-     Net rng1_clk_0: 6 loads, 5 rising, 1 falling (Driver: rng1/r2_c1/mem_0_0 )
-     Net osc_out: 2 loads, 2 rising, 0 falling (Driver: int_osc )
-     Net usb_l1/clk_in_p: 24 loads, 24 rising, 0 falling (Driver: usb_clo_2__i9 )
-     Net clk_240_0: 31 loads, 31 rising, 0 falling (Driver: sec_pll/PLLInst_0 )
-     Net ps3_ck: 14 loads, 0 rising, 14 falling (Driver: ps3_ck_168 )
-     Net clk_400: 5 loads, 5 rising, 0 falling (Driver: main_pll/PLLInst_0 )
-     Net ps2_ck: 14 loads, 0 rising, 14 falling (Driver: ps2_ck_167 )
-     Net usb_l2/clk_in_p: 24 loads, 24 rising, 0 falling (Driver: usb_clo_2__i6 )
-     Net ps1_ck: 14 loads, 0 rising, 14 falling (Driver: ps1_ck_166 )
+     Net ps4_ck: 19 loads, 6 rising, 13 falling (Driver: ps4_ck_176 )
+     Net n1467: 2 loads, 1 rising, 1 falling (Driver: rng1/r2_c2/mem_0_0 )
+     Net rng1_clk_0: 7 loads, 6 rising, 1 falling (Driver: rng1/r2_c1/mem_0_0 )
+     Net osc_out: 4 loads, 4 rising, 0 falling (Driver: int_osc )
+     Net clk_240_0: 33 loads, 33 rising, 0 falling (Driver: sec_pll/PLLInst_0 )
+     Net debug2_c_0: 29 loads, 29 rising, 0 falling (Driver: usb_clkf__i1 )
      Net usb_clo[2][2]: 24 loads, 24 rising, 0 falling (Driver: usb_clo_2__i3 )
-     Net clk60_cnt[1]: 10 loads, 10 rising, 0 falling (Driver: clk60_cnt_2450__i1 )
-     Net debug2_c_0: 27 loads, 27 rising, 0 falling (Driver: usb_clkf__i1 )
-     Net clk_266_0: 29 loads, 29 rising, 0 falling (Driver: main_pll/PLLInst_0 )
-     Net usb_l4/clk_in_p: 25 loads, 25 rising, 0 falling (Driver: usb_clkf__i2 )
-     Net pll1_cnt400[1]: 3 loads, 3 rising, 0 falling (Driver: pll1_cnt400_2441_2597__i2 )
+     Net clk60_cnt[1]: 10 loads, 10 rising, 0 falling (Driver: clk60_cnt_2475__i1 )
+     Net usb_l4/clk_in_p: 24 loads, 24 rising, 0 falling (Driver: usb_clkf__i2 )
+     Net clk_266_0: 31 loads, 31 rising, 0 falling (Driver: main_pll/PLLInst_0 )
+     Net n8254: 1 loads, 1 rising, 0 falling (Driver: brain2/i3636_2_lut_4_lut )
+     Net usb_l1/clk_in_p: 24 loads, 24 rising, 0 falling (Driver: usb_clo_2__i9 )
+     Net n8257: 1 loads, 1 rising, 0 falling (Driver: brain3/i3637_2_lut_4_lut )
+     Net usb_l2/clk_in_p: 24 loads, 24 rising, 0 falling (Driver: usb_clo_2__i6 )
+     Net clk_114: 3 loads, 3 rising, 0 falling (Driver: main_pll/PLLInst_0 )
+     Net rng1_cnt[7]: 9 loads, 9 rising, 0 falling (Driver: rng1_cnt_2463__i7 )
+     Net ps3_ck: 13 loads, 0 rising, 13 falling (Driver: ps3_ck_175 )
+     Net ps2_ck: 14 loads, 0 rising, 14 falling (Driver: ps2_ck_174 )
+     Net ps1_ck: 14 loads, 0 rising, 14 falling (Driver: ps1_ck_173 )
+     Net clk_400: 5 loads, 5 rising, 0 falling (Driver: main_pll/PLLInst_0 )
      Net clk_in_c: 2 loads, 2 rising, 0 falling (Driver: PIO clk_in )
+     Net brain1/shout_N_658_derived_1: 1 loads, 1 rising, 0 falling (Driver: brain1/i3635_2_lut_rep_294 )
+     Net pll1_cnt400[1]: 3 loads, 3 rising, 0 falling (Driver: pll1_cnt400_2465_2629__i2 )
      Net clk_266_1: 26 loads, 26 rising, 0 falling (Driver: main_pll/PLLInst_0 )
-     Net clk_240_2: 25 loads, 25 rising, 0 falling (Driver: sec_pll/PLLInst_0 )
-   Number of Clock Enables:  108
+     Net clk_240_2: 24 loads, 24 rising, 0 falling (Driver: sec_pll/PLLInst_0 )
+   Number of Clock Enables:  112
      Net reset_N: 16 loads, 16 LSLICEs
-     Net clk_in_p_enable_29: 2 loads, 2 LSLICEs
-     Net usb_l4/clk_in_p_enable_1: 1 loads, 1 LSLICEs
-     Net usb_l4/clk_in_p_enable_21: 3 loads, 3 LSLICEs
-     Net usb_l4/clk_in_p_enable_13: 3 loads, 3 LSLICEs
-     Net usb_l4/clk_in_p_enable_7: 2 loads, 2 LSLICEs
-     Net usb_l4/clk_in_p_enable_30: 3 loads, 3 LSLICEs
-     Net clk_in_p_enable_3: 1 loads, 1 LSLICEs
-     Net usb_l4/clk_in_p_enable_22: 1 loads, 1 LSLICEs
-     Net usb_l4/clk_in_p_enable_17: 1 loads, 1 LSLICEs
-     Net usb_l4/clk_in_p_enable_27: 3 loads, 3 LSLICEs
-     Net usb_l4/clk_in_p_enable_16: 2 loads, 2 LSLICEs
+     Net usb_l4/clk_in_p_enable_24: 3 loads, 3 LSLICEs
+     Net usb_l4/clk_in_p_enable_20: 1 loads, 1 LSLICEs
+     Net usb_l4/clk_in_p_enable_2: 1 loads, 1 LSLICEs
+     Net usb_l4/clk_in_p_enable_30: 1 loads, 1 LSLICEs
+     Net usb_l4/clk_in_p_enable_4: 1 loads, 1 LSLICEs
+     Net usb_l4/clk_in_p_enable_5: 1 loads, 1 LSLICEs
+     Net usb_l4/clk_in_p_enable_33: 2 loads, 2 LSLICEs
+     Net usb_l4/clk_in_p_enable_29: 3 loads, 3 LSLICEs
+     Net usb_l4/clk_in_p_enable_7: 1 loads, 1 LSLICEs
      Net usb_l4/clk_in_p_enable_32: 1 loads, 1 LSLICEs
-     Net usb_l4/clk_in_p_enable_25: 1 loads, 1 LSLICEs
+     Net usb_l4/clk_in_p_enable_10: 2 loads, 2 LSLICEs
+     Net usb_l4/clk_in_p_enable_16: 3 loads, 3 LSLICEs
+     Net usb_l4/clk_in_p_enable_19: 2 loads, 2 LSLICEs
      Net usb_l4/clk_in_p_enable_26: 1 loads, 1 LSLICEs
      Net usb_l4/clk_in_p_enable_31: 1 loads, 1 LSLICEs
-     Net clk_in_p_enable_33: 1 loads, 1 LSLICEs
-     Net ps4/clk_in_N_414_enable_2: 1 loads, 1 LSLICEs
-     Net ps4/clk_dis_N_442: 3 loads, 3 LSLICEs
-     Net ps4/clk_in_N_414_enable_3: 1 loads, 1 LSLICEs
-     Net ps4/clk_in_N_414_enable_8: 1 loads, 1 LSLICEs
-     Net ps4/clk_in_N_414_enable_4: 1 loads, 1 LSLICEs
-     Net ps4/clk_in_N_414_enable_5: 1 loads, 1 LSLICEs
-     Net ps4/clk_in_N_414_enable_10: 2 loads, 2 LSLICEs
+     Net ps4/clk_dis_N_475: 3 loads, 3 LSLICEs
+     Net ps4/clk_in_N_447_enable_5: 1 loads, 1 LSLICEs
+     Net ps4/clk_in_N_447_enable_6: 1 loads, 1 LSLICEs
+     Net ps4/clk_in_N_447_enable_10: 2 loads, 2 LSLICEs
+     Net ps4/clk_in_N_447_enable_2: 1 loads, 1 LSLICEs
+     Net ps4/clk_in_N_447_enable_4: 1 loads, 1 LSLICEs
+     Net ps4/clk_in_N_447_enable_7: 1 loads, 1 LSLICEs
      Net dis2/clk_266_1_keep_enable_21: 11 loads, 11 LSLICEs
-     Net ps3/clk_in_N_414_enable_10: 3 loads, 3 LSLICEs
-     Net ps3/clk_in_N_414_enable_3: 1 loads, 1 LSLICEs
-     Net ps3/clk_in_N_414_enable_4: 1 loads, 1 LSLICEs
-     Net ps3/clk_in_N_414_enable_5: 1 loads, 1 LSLICEs
-     Net ps3/clk_in_N_414_enable_6: 1 loads, 1 LSLICEs
-     Net ps3/clk_in_N_414_enable_15: 1 loads, 1 LSLICEs
-     Net dis1/clk_266_0_keep_enable_21: 11 loads, 11 LSLICEs
-     Net clk_in_p_enable_5: 1 loads, 1 LSLICEs
-     Net debug2_c_0_enable_32: 1 loads, 1 LSLICEs
-     Net clk_in_p_enable_32: 3 loads, 3 LSLICEs
-     Net clk_in_p_enable_18: 1 loads, 1 LSLICEs
-     Net clk_in_p_enable_28: 1 loads, 1 LSLICEs
-     Net ps2/clk_in_N_414_enable_5: 3 loads, 3 LSLICEs
-     Net ps2/clk_in_N_414_enable_8: 1 loads, 1 LSLICEs
-     Net ps2/clk_in_N_414_enable_7: 1 loads, 1 LSLICEs
-     Net ps2/clk_in_N_414_enable_9: 1 loads, 1 LSLICEs
-     Net ps2/clk_in_N_414_enable_10: 1 loads, 1 LSLICEs
-     Net ps2/clk_in_N_414_enable_15: 1 loads, 1 LSLICEs
-     Net usb_f2/clk_in_p_enable_12: 3 loads, 3 LSLICEs
-     Net usb_f2/clk_in_p_enable_19: 3 loads, 3 LSLICEs
-     Net usb_f2/clk_in_p_enable_3: 2 loads, 2 LSLICEs
-     Net usb_f2/clk_in_p_enable_30: 3 loads, 3 LSLICEs
-     Net usb_f2/clk_in_p_enable_6: 2 loads, 2 LSLICEs
-     Net usb_f2/clk_in_p_enable_13: 1 loads, 1 LSLICEs
-     Net usb_f2/clk_in_p_enable_20: 1 loads, 1 LSLICEs
-     Net usb_f2/clk_in_p_enable_33: 3 loads, 3 LSLICEs
-     Net usb_f2/clk_in_p_enable_26: 3 loads, 3 LSLICEs
-     Net usb_f2/clk_in_p_enable_24: 1 loads, 1 LSLICEs
-     Net usb_f2/clk_in_p_enable_25: 1 loads, 1 LSLICEs
-     Net usb_f2/clk_in_p_enable_27: 1 loads, 1 LSLICEs
-     Net usb_f2/clk_in_p_enable_28: 1 loads, 1 LSLICEs
-     Net ps1/clk_in_N_414_enable_6: 3 loads, 3 LSLICEs
-     Net ps1/clk_in_N_414_enable_8: 1 loads, 1 LSLICEs
-     Net ps1/clk_in_N_414_enable_14_adj_665: 1 loads, 1 LSLICEs
-     Net ps1/clk_in_N_414_enable_13: 1 loads, 1 LSLICEs
-     Net ps1/clk_in_N_414_enable_15: 1 loads, 1 LSLICEs
-     Net ps1/clk_in_N_414_enable_7: 1 loads, 1 LSLICEs
-     Net usb_l2/clk_in_p_enable_20: 3 loads, 3 LSLICEs
-     Net usb_l2/clk_in_p_enable_33: 1 loads, 1 LSLICEs
-     Net clk_in_p_enable_2: 1 loads, 1 LSLICEs
-     Net usb_l2/clk_in_p_enable_25: 3 loads, 3 LSLICEs
-     Net usb_l2/clk_in_p_enable_28: 3 loads, 3 LSLICEs
-     Net usb_l2/clk_in_p_enable_6: 2 loads, 2 LSLICEs
-     Net usb_l2/clk_in_p_enable_12: 3 loads, 3 LSLICEs
-     Net usb_l2/clk_in_p_enable_15: 2 loads, 2 LSLICEs
-     Net usb_l2/clk_in_p_enable_30: 1 loads, 1 LSLICEs
-     Net usb_l2/clk_in_p_enable_21: 1 loads, 1 LSLICEs
-     Net usb_l2/clk_in_p_enable_31: 1 loads, 1 LSLICEs
-     Net clk_in_p_enable_24: 1 loads, 1 LSLICEs
-     Net usb_l2/clk_in_p_enable_29: 1 loads, 1 LSLICEs
-     Net usb_l2/clk_in_p_enable_32: 1 loads, 1 LSLICEs
-     Net usb_l1/clk_in_p_enable_1: 1 loads, 1 LSLICEs
-     Net usb_l1/clk_in_p_enable_19: 1 loads, 1 LSLICEs
-     Net clk_in_p_enable_20: 1 loads, 1 LSLICEs
-     Net usb_l1/clk_in_p_enable_6: 1 loads, 1 LSLICEs
-     Net clk_in_p_enable_33_adj_725: 4 loads, 4 LSLICEs
-     Net usb_l1/clk_in_p_enable_33_adj_651: 2 loads, 2 LSLICEs
-     Net usb_l1/clk_in_p_enable_32: 1 loads, 1 LSLICEs
-     Net usb_l1/clk_in_p_enable_17: 2 loads, 2 LSLICEs
-     Net usb_l1/clk_in_p_enable_34: 1 loads, 1 LSLICEs
-     Net usb_l1/clk_in_p_enable_23: 3 loads, 3 LSLICEs
-     Net usb_l1/clk_in_p_enable_28: 4 loads, 4 LSLICEs
-     Net usb_l1/clk_in_p_enable_14: 3 loads, 3 LSLICEs
-     Net usb_l1/clk_in_p_enable_30: 1 loads, 1 LSLICEs
-     Net usb_l1/clk_in_p_enable_35: 1 loads, 1 LSLICEs
+     Net ps3/clk_dis_N_475: 3 loads, 3 LSLICEs
+     Net ps3/clk_in_N_447_enable_4: 1 loads, 1 LSLICEs
+     Net ps3/clk_in_N_447_enable_5: 1 loads, 1 LSLICEs
+     Net ps3/clk_in_N_447_enable_2: 1 loads, 1 LSLICEs
+     Net ps3/clk_in_N_447_enable_3: 1 loads, 1 LSLICEs
+     Net ps3/clk_in_N_447_enable_10: 1 loads, 1 LSLICEs
+     Net ps2/clk_in_N_447_enable_5: 3 loads, 3 LSLICEs
+     Net ps2/clk_in_N_447_enable_7: 1 loads, 1 LSLICEs
+     Net ps2/clk_in_N_447_enable_8: 1 loads, 1 LSLICEs
+     Net ps2/clk_in_N_447_enable_9: 1 loads, 1 LSLICEs
+     Net ps2/clk_in_N_447_enable_10: 1 loads, 1 LSLICEs
+     Net ps2/clk_in_N_447_enable_15: 1 loads, 1 LSLICEs
+     Net clk_in_p_enable_18: 3 loads, 3 LSLICEs
      Net clk_in_p_enable_25: 2 loads, 2 LSLICEs
-     Net debug2_c_0_enable_23: 1 loads, 1 LSLICEs
-     Net usb_l3/debug2_c_0_enable_20: 3 loads, 3 LSLICEs
+     Net clk_in_p_enable_4: 2 loads, 2 LSLICEs
+     Net usb_f1/clk_in_p_enable_10: 3 loads, 3 LSLICEs
+     Net usb_f1/clk_in_p_enable_11: 1 loads, 1 LSLICEs
+     Net clk_in_p_enable_19: 1 loads, 1 LSLICEs
+     Net usb_f1/clk_in_p_enable_33: 1 loads, 1 LSLICEs
+     Net clk_in_p_enable_28_adj_761: 3 loads, 3 LSLICEs
+     Net clk_in_p_enable_31: 4 loads, 4 LSLICEs
+     Net usb_f1/clk_in_p_enable_32: 3 loads, 3 LSLICEs
+     Net usb_f1/clk_in_p_enable_23: 1 loads, 1 LSLICEs
+     Net usb_f1/clk_in_p_enable_24: 1 loads, 1 LSLICEs
+     Net usb_f1/clk_in_p_enable_26: 1 loads, 1 LSLICEs
+     Net ps1/clk_in_N_447_enable_6: 3 loads, 3 LSLICEs
+     Net ps1/clk_in_N_447_enable_13: 1 loads, 1 LSLICEs
+     Net ps1/clk_in_N_447_enable_14_adj_730: 1 loads, 1 LSLICEs
+     Net ps1/clk_in_N_447_enable_7: 1 loads, 1 LSLICEs
+     Net ps1/clk_in_N_447_enable_12: 1 loads, 1 LSLICEs
+     Net ps1/clk_in_N_447_enable_15: 1 loads, 1 LSLICEs
+     Net usb_l3/debug2_c_0_enable_21: 3 loads, 3 LSLICEs
+     Net usb_l3/debug2_c_0_enable_2: 1 loads, 1 LSLICEs
+     Net usb_l3/debug2_c_0_enable_16: 2 loads, 2 LSLICEs
+     Net usb_l3/debug2_c_0_enable_7: 2 loads, 2 LSLICEs
+     Net usb_l3/debug2_c_0_enable_13: 3 loads, 3 LSLICEs
      Net usb_l3/debug2_c_0_enable_33: 1 loads, 1 LSLICEs
-     Net usb_l3/debug2_c_0_enable_29: 3 loads, 3 LSLICEs
-     Net usb_l3/debug2_c_0_enable_28: 5 loads, 5 LSLICEs
-     Net usb_l3/debug2_c_0_enable_6: 2 loads, 2 LSLICEs
-     Net usb_l3/debug2_c_0_enable_12: 3 loads, 3 LSLICEs
-     Net usb_l3/debug2_c_0_enable_30: 1 loads, 1 LSLICEs
-     Net usb_l3/debug2_c_0_enable_15: 2 loads, 2 LSLICEs
+     Net debug2_c_0_enable_23: 2 loads, 2 LSLICEs
+     Net usb_l3/debug2_c_0_enable_28: 3 loads, 3 LSLICEs
+     Net usb_l3/debug2_c_0_enable_27: 4 loads, 4 LSLICEs
      Net usb_l3/debug2_c_0_enable_31: 1 loads, 1 LSLICEs
      Net usb_l3/debug2_c_0_enable_22: 1 loads, 1 LSLICEs
-     Net usb_f1/clk_in_p_enable_24: 3 loads, 3 LSLICEs
-     Net usb_f1/clk_in_p_enable_27: 2 loads, 2 LSLICEs
-     Net usb_f1/clk_in_p_enable_10: 2 loads, 2 LSLICEs
-     Net usb_f1/clk_in_p_enable_16: 3 loads, 3 LSLICEs
-     Net usb_f1/clk_in_p_enable_19: 1 loads, 1 LSLICEs
-     Net usb_f1/clk_in_p_enable_17: 1 loads, 1 LSLICEs
-   Number of LSRs:  16
-     Net reset_N: 111 loads, 111 LSLICEs
-     Net n6056: 2 loads, 2 LSLICEs
-     Net n2274: 5 loads, 5 LSLICEs
-     Net n8218: 2 loads, 2 LSLICEs
-     Net ps4/n10836: 2 loads, 2 LSLICEs
-     Net n2276: 5 loads, 5 LSLICEs
-     Net n2278: 5 loads, 5 LSLICEs
-     Net n2280: 5 loads, 5 LSLICEs
-     Net n8619: 1 loads, 1 LSLICEs
-     Net n10808: 3 loads, 3 LSLICEs
+     Net usb_l3/debug2_c_0_enable_32: 2 loads, 2 LSLICEs
+     Net usb_l3/debug2_c_0_enable_30: 1 loads, 1 LSLICEs
+     Net usb_f2/clk_in_p_enable_18: 3 loads, 3 LSLICEs
+     Net clk_in_p_enable_2: 1 loads, 1 LSLICEs
+     Net usb_f2/clk_in_p_enable_4: 2 loads, 2 LSLICEs
+     Net usb_f2/clk_in_p_enable_10: 3 loads, 3 LSLICEs
+     Net usb_f2/clk_in_p_enable_11: 1 loads, 1 LSLICEs
+     Net usb_f2/clk_in_p_enable_20: 1 loads, 1 LSLICEs
+     Net usb_f2/clk_in_p_enable_25: 1 loads, 1 LSLICEs
+     Net usb_f2/clk_in_p_enable_33: 3 loads, 3 LSLICEs
+     Net usb_f2/clk_in_p_enable_32: 2 loads, 2 LSLICEs
+     Net usb_f2/clk_in_p_enable_19: 1 loads, 1 LSLICEs
+     Net usb_f2/clk_in_p_enable_27: 3 loads, 3 LSLICEs
+     Net usb_f2/clk_in_p_enable_24: 1 loads, 1 LSLICEs
+     Net usb_f2/clk_in_p_enable_26: 1 loads, 1 LSLICEs
+     Net usb_f2/clk_in_p_enable_28: 1 loads, 1 LSLICEs
+     Net usb_l1/clk_in_p_enable_33: 2 loads, 2 LSLICEs
+     Net usb_l1/clk_in_p_enable_32: 1 loads, 1 LSLICEs
+     Net clk_in_p_enable_1: 1 loads, 1 LSLICEs
+     Net usb_l1/clk_in_p_enable_23: 3 loads, 3 LSLICEs
+     Net usb_l1/clk_in_p_enable_29: 2 loads, 2 LSLICEs
+     Net clk_in_p_enable_27: 3 loads, 3 LSLICEs
+     Net clk_in_p_enable_5: 1 loads, 1 LSLICEs
+     Net clk_in_p_enable_13: 3 loads, 3 LSLICEs
+     Net usb_l1/clk_in_p_enable_16: 2 loads, 2 LSLICEs
+     Net usb_l1/clk_in_p_enable_30: 1 loads, 1 LSLICEs
+     Net usb_l1/clk_in_p_enable_18: 1 loads, 1 LSLICEs
+     Net clk_in_p_enable_19_adj_795: 1 loads, 1 LSLICEs
+     Net usb_l1/clk_in_p_enable_34: 1 loads, 1 LSLICEs
+     Net clk_in_p_enable_28: 1 loads, 1 LSLICEs
+     Net usb_l1/clk_in_p_enable_35: 1 loads, 1 LSLICEs
+     Net dis1/clk_266_0_keep_enable_21: 11 loads, 11 LSLICEs
+     Net usb_l2/clk_in_p_enable_5: 3 loads, 3 LSLICEs
+     Net usb_l2/clk_in_p_enable_32: 1 loads, 1 LSLICEs
+     Net usb_l2/clk_in_p_enable_33: 1 loads, 1 LSLICEs
+     Net usb_l2/clk_in_p_enable_23: 3 loads, 3 LSLICEs
+     Net usb_l2/clk_in_p_enable_10: 2 loads, 2 LSLICEs
+     Net usb_l2/clk_in_p_enable_26: 3 loads, 3 LSLICEs
+     Net usb_l2/clk_in_p_enable_8: 1 loads, 1 LSLICEs
+     Net usb_l2/clk_in_p_enable_16: 3 loads, 3 LSLICEs
+     Net usb_l2/clk_in_p_enable_28: 1 loads, 1 LSLICEs
+     Net usb_l2/clk_in_p_enable_30: 1 loads, 1 LSLICEs
+     Net usb_l2/clk_in_p_enable_19: 2 loads, 2 LSLICEs
+     Net usb_l2/clk_in_p_enable_29: 1 loads, 1 LSLICEs
+     Net usb_l2/clk_in_p_enable_25: 1 loads, 1 LSLICEs
+     Net usb_l2/clk_in_p_enable_31_adj_672: 1 loads, 1 LSLICEs
+   Number of LSRs:  19
+     Net reset_N: 109 loads, 109 LSLICEs
+     Net n11276: 3 loads, 3 LSLICEs
+     Net n2324: 5 loads, 5 LSLICEs
+     Net n2326: 5 loads, 5 LSLICEs
+     Net n6106: 2 loads, 2 LSLICEs
+     Net n8513: 2 loads, 2 LSLICEs
+     Net ps4/n11317: 2 loads, 2 LSLICEs
+     Net n2328: 5 loads, 5 LSLICEs
+     Net n9016: 1 loads, 1 LSLICEs
+     Net shout_N_658_adj_810: 1 loads, 1 LSLICEs
+     Net shout_N_658_adj_812: 1 loads, 1 LSLICEs
+     Net n2330: 5 loads, 5 LSLICEs
+     Net n22561: 1 loads, 1 LSLICEs
      Net dis2/clk_266_1_keep_enable_21: 11 loads, 11 LSLICEs
-     Net dis2/n18897: 1 loads, 1 LSLICEs
+     Net dis2/n19883: 1 loads, 1 LSLICEs
      Net dis2/pix_cnt_5: 1 loads, 1 LSLICEs
      Net dis1/clk_266_0_keep_enable_21: 11 loads, 11 LSLICEs
+     Net dis1/n19831: 1 loads, 1 LSLICEs
      Net dis1/pix_cnt_5: 1 loads, 1 LSLICEs
-     Net dis1/n18896: 1 loads, 1 LSLICEs
    Number of nets driven by tri-state buffers:  0
    Top 10 highest fanout non-clock nets:
-     Net reset_N: 285 loads
-     Net state_0: 51 loads
-     Net state_0_adj_709: 49 loads
-     Net state_0_adj_716: 47 loads
-     Net state_0_adj_719: 46 loads
-     Net state_0_adj_724: 46 loads
-     Net state_0_adj_712: 42 loads
+     Net reset_N: 290 loads
+     Net state_0_adj_760: 50 loads
+     Net state_0: 48 loads
+     Net state_0_adj_766: 48 loads
+     Net state_0_adj_781: 48 loads
+     Net usb_l4/state_0: 48 loads
+     Net state_0_adj_777: 46 loads
      Net state_1: 33 loads
-     Net state_1_adj_715: 28 loads
-     Net state_1_adj_718: 28 loads
+     Net state_1_adj_780: 33 loads
+     Net state_1_adj_765: 31 loads
     <postMsg mid="51001104" type="Warning" dynamic="1" navigation="0" arg0="107"  />
-    <postMsg mid="51001104" type="Warning" dynamic="1" navigation="0" arg0="105"  />
-    <postMsg mid="51001104" type="Warning" dynamic="1" navigation="0" arg0="100"  />
     <postMsg mid="51001104" type="Warning" dynamic="1" navigation="0" arg0="143"  />
     <postMsg mid="51001104" type="Warning" dynamic="1" navigation="0" arg0="141"  />
-    <postMsg mid="51001104" type="Warning" dynamic="1" navigation="0" arg0="106"  />
-    <postMsg mid="51001104" type="Warning" dynamic="1" navigation="0" arg0="104"  />
-    <postMsg mid="51001104" type="Warning" dynamic="1" navigation="0" arg0="99"  />
     <postMsg mid="1103737" type="Warning" dynamic="3" navigation="0" arg0="" arg1="LOCATE COMP &quot;led7&quot; SITE &quot;107&quot; ;&#xA;" arg2="LOCATE COMP &quot;br4_shout&quot; SITE &quot;107&quot; ;&#xA;"  />
-    <postMsg mid="1103737" type="Warning" dynamic="3" navigation="0" arg0="" arg1="LOCATE COMP &quot;leds[2]&quot; SITE &quot;99&quot; ;&#xA;" arg2="LOCATE COMP &quot;br6_shin&quot; SITE &quot;99&quot; ;&#xA;"  />
-    <postMsg mid="1103737" type="Warning" dynamic="3" navigation="0" arg0="" arg1="LOCATE COMP &quot;leds[3]&quot; SITE &quot;100&quot; ;&#xA;" arg2="LOCATE COMP &quot;br6_shout&quot; SITE &quot;100&quot; ;&#xA;"  />
-    <postMsg mid="1103737" type="Warning" dynamic="3" navigation="0" arg0="" arg1="LOCATE COMP &quot;leds[4]&quot; SITE &quot;104&quot; ;&#xA;" arg2="LOCATE COMP &quot;br5_shin&quot; SITE &quot;104&quot; ;&#xA;"  />
-    <postMsg mid="1103737" type="Warning" dynamic="3" navigation="0" arg0="" arg1="LOCATE COMP &quot;leds[5]&quot; SITE &quot;105&quot; ;&#xA;" arg2="LOCATE COMP &quot;br5_shout&quot; SITE &quot;105&quot; ;&#xA;"  />
-    <postMsg mid="1103737" type="Warning" dynamic="3" navigation="0" arg0="" arg1="LOCATE COMP &quot;leds[6]&quot; SITE &quot;106&quot; ;&#xA;" arg2="LOCATE COMP &quot;br4_shin&quot; SITE &quot;106&quot; ;&#xA;"  />
     <postMsg mid="1103737" type="Warning" dynamic="3" navigation="0" arg0="" arg1="LOCATE COMP &quot;br2_shout&quot; SITE &quot;141&quot; ;&#xA;" arg2="LOCATE COMP &quot;debug6&quot; SITE &quot;141&quot; ;&#xA;"  />
     <postMsg mid="1103737" type="Warning" dynamic="3" navigation="0" arg0="" arg1="LOCATE COMP &quot;br3_shout&quot; SITE &quot;143&quot; ;&#xA;" arg2="LOCATE COMP &quot;debug5&quot; SITE &quot;143&quot; ;&#xA;"  />
  
 
-   Number of warnings:  35
+   Number of warnings:  34
    Number of errors:    0
 
 
 
 Total CPU Time: 0 secs  
 Total REAL Time: 0 secs  
-Peak Memory Usage: 192 MB
+Peak Memory Usage: 193 MB
 
 Dumping design to file LOUD_BOX_impl1_map.ncd.
 
@@ -853,7 +956,7 @@ Removing old design directory at request of -rem command line option to this pro
 Running par. Please wait . . .
 
 Lattice Place and Route Report for Design "LOUD_BOX_impl1_map.ncd"
-Thu Oct 29 15:47:12 2020
+Mon Nov  9 03:09:27 2020
 
 PAR: Place And Route Diamond (64-bit) 3.11.3.469.
 Command Line: par -w -l 5 -i 6 -t 1 -c 0 -e 0 -gui -msgset /home/brane2/LATT_DEMO_PROJ/LOUD_BOX/promote.xml -exp parUseNBR=1:parCDP=0:parCDR=0:parPathBased=OFF LOUD_BOX_impl1_map.ncd LOUD_BOX_impl1.dir/5_1.ncd LOUD_BOX_impl1.prf
@@ -877,63 +980,63 @@ License checked out.
 Ignore Preference Error(s):  True
 Device utilization summary:
 
-   PIO (prelim)   88+4(JTAG)/336     27% used
-                  88+4(JTAG)/115     80% bonded
+   PIO (prelim)   85+4(JTAG)/336     26% used
+                  85+4(JTAG)/115     77% bonded
 
-   SLICE            638/3432         18% used
+   SLICE            661/3432         19% used
 
    GSR                1/1           100% used
    OSC                1/1           100% used
    PLL                2/2           100% used
 
 
-2 potential circuit loops found in timing analysis.
-Number of Signals: 1706
-Number of Connections: 4854
+8 potential circuit loops found in timing analysis.
+Number of Signals: 1786
+Number of Connections: 5011
     <postMsg mid="61001101" type="Warning" dynamic="0" navigation="0"  />
 
 Pin Constraint Summary:
-   49 out of 65 pins locked (75% locked).
+   46 out of 62 pins locked (74% locked).
 
     <postMsg mid="61091062" type="Warning" dynamic="0" navigation="0"  />
-    <postMsg mid="61091050" type="Warning" dynamic="4" navigation="0" arg0="clk_in" arg1="main_pll/PLLInst_0" arg2="5" arg3="PL6A"  />
     <postMsg mid="61091050" type="Warning" dynamic="4" navigation="0" arg0="clk_in" arg1="sec_pll/PLLInst_0" arg2="5" arg3="PL6A"  />
+    <postMsg mid="61091050" type="Warning" dynamic="4" navigation="0" arg0="clk_in" arg1="main_pll/PLLInst_0" arg2="5" arg3="PL6A"  />
 The following 8 signals are selected to use the primary clock routing resources:
+    clk_240_0 (driver: sec_pll/PLLInst_0, clk load #: 32)
     clk_400 (driver: main_pll/PLLInst_0, clk load #: 4)
-    clk_240_0 (driver: sec_pll/PLLInst_0, clk load #: 30)
-    clk_266_0 (driver: main_pll/PLLInst_0, clk load #: 29)
-    debug2_c_0 (driver: SLICE_196, clk load #: 27)
+    clk_266_0 (driver: main_pll/PLLInst_0, clk load #: 31)
+    debug2_c_0 (driver: SLICE_214, clk load #: 29)
     clk_266_1 (driver: main_pll/PLLInst_0, clk load #: 26)
-    usb_l4/clk_in_p (driver: SLICE_437, clk load #: 25)
-    clk_240_2 (driver: sec_pll/PLLInst_0, clk load #: 25)
-    usb_l1/clk_in_p (driver: SLICE_373, clk load #: 24)
+    usb_clo[2][2] (driver: SLICE_351, clk load #: 24)
+    usb_l4/clk_in_p (driver: SLICE_458, clk load #: 24)
+    usb_l1/clk_in_p (driver: SLICE_395, clk load #: 24)
 
 
 The following 8 signals are selected to use the secondary clock routing resources:
-    reset_N (driver: reset, clk load #: 0, sr load #: 111, ce load #: 16)
-    usb_l2/clk_in_p (driver: SLICE_394, clk load #: 24, sr load #: 0, ce load #: 0)
-    usb_clo[2][2] (driver: SLICE_330, clk load #: 24, sr load #: 0, ce load #: 0)
-    ps4_ck (driver: SLICE_295, clk load #: 19, sr load #: 0, ce load #: 0)
-    ps3_ck (driver: SLICE_281, clk load #: 14, sr load #: 0, ce load #: 0)
-    ps2_ck (driver: SLICE_266, clk load #: 14, sr load #: 0, ce load #: 0)
-    ps1_ck (driver: SLICE_251, clk load #: 14, sr load #: 0, ce load #: 0)
-    dis2/clk_266_1_keep_enable_21 (driver: dis2/SLICE_522, clk load #: 0, sr load #: 11, ce load #: 11)
+    reset_N (driver: reset, clk load #: 0, sr load #: 109, ce load #: 16)
+    usb_l2/clk_in_p (driver: SLICE_414, clk load #: 24, sr load #: 0, ce load #: 0)
+    clk_240_2 (driver: sec_pll/PLLInst_0, clk load #: 24, sr load #: 0, ce load #: 0)
+    ps4_ck (driver: SLICE_312, clk load #: 19, sr load #: 0, ce load #: 0)
+    ps2_ck (driver: SLICE_284, clk load #: 14, sr load #: 0, ce load #: 0)
+    ps1_ck (driver: SLICE_269, clk load #: 14, sr load #: 0, ce load #: 0)
+    ps3_ck (driver: SLICE_298, clk load #: 13, sr load #: 0, ce load #: 0)
+    dis2/clk_266_1_keep_enable_21 (driver: dis2/SLICE_553, clk load #: 0, sr load #: 11, ce load #: 11)
 
     <postMsg mid="61061008" type="Warning" dynamic="5" navigation="0" arg0="reset_N" arg1="Secondary" arg2="reset" arg3="1" arg4="Secondary"  />
 Signal reset_N is selected as Global Set/Reset.
 .
 Starting Placer Phase 0.
-...............
-Finished Placer Phase 0.  REAL time: 2 secs 
+..............
+Finished Placer Phase 0.  REAL time: 0 secs 
 
 Starting Placer Phase 1.
-.................
-Placer score = 1122632.
-Finished Placer Phase 1.  REAL time: 5 secs 
+..................
+Placer score = 1220094.
+Finished Placer Phase 1.  REAL time: 4 secs 
 
 Starting Placer Phase 2.
 .
-Placer score =  1074655
+Placer score =  1203345
 Finished Placer Phase 2.  REAL time: 5 secs 
 
 
@@ -947,22 +1050,22 @@ Global Clock Resources:
   DCC        : 0 out of 8 (0%)
 
 Global Clocks:
-  PRIMARY "clk_400" from CLKOP on comp "main_pll/PLLInst_0" on PLL site "LPLL", clk load = 4
-  PRIMARY "clk_240_0" from CLKOP on comp "sec_pll/PLLInst_0" on PLL site "RPLL", clk load = 30
-  PRIMARY "clk_266_0" from CLKOS on comp "main_pll/PLLInst_0" on PLL site "LPLL", clk load = 29
-  PRIMARY "debug2_c_0" from Q0 on comp "SLICE_196" on site "R2C19C", clk load = 27
-  PRIMARY "clk_266_1" from CLKOS2 on comp "main_pll/PLLInst_0" on PLL site "LPLL", clk load = 26
-  PRIMARY "usb_l4/clk_in_p" from Q0 on comp "SLICE_437" on site "R25C19D", clk load = 25
-  PRIMARY "clk_240_2" from CLKOS2 on comp "sec_pll/PLLInst_0" on PLL site "RPLL", clk load = 25
-  PRIMARY "usb_l1/clk_in_p" from Q0 on comp "SLICE_373" on site "R21C19D", clk load = 24
-  SECONDARY "reset_N" from comp "reset" on PIO site "1 (PL3A)", clk load = 0, ce load = 16, sr load = 111
-  SECONDARY "usb_l2/clk_in_p" from Q0 on comp "SLICE_394" on site "R14C20B", clk load = 24, ce load = 0, sr load = 0
-  SECONDARY "usb_clo[2][2]" from Q0 on comp "SLICE_330" on site "R21C20D", clk load = 24, ce load = 0, sr load = 0
-  SECONDARY "ps4_ck" from Q0 on comp "SLICE_295" on site "R4C40D", clk load = 19, ce load = 0, sr load = 0
-  SECONDARY "ps3_ck" from Q0 on comp "SLICE_281" on site "R14C20C", clk load = 14, ce load = 0, sr load = 0
-  SECONDARY "ps2_ck" from Q0 on comp "SLICE_266" on site "R21C18A", clk load = 14, ce load = 0, sr load = 0
-  SECONDARY "ps1_ck" from Q0 on comp "SLICE_251" on site "R14C20D", clk load = 14, ce load = 0, sr load = 0
-  SECONDARY "dis2/clk_266_1_keep_enable_21" from F0 on comp "dis2/SLICE_522" on site "R7C40C", clk load = 0, ce load = 11, sr load = 11
+  PRIMARY "clk_240_0" from CLKOP on comp "sec_pll/PLLInst_0" on PLL site "LPLL", clk load = 32
+  PRIMARY "clk_400" from CLKOP on comp "main_pll/PLLInst_0" on PLL site "RPLL", clk load = 4
+  PRIMARY "clk_266_0" from CLKOS on comp "main_pll/PLLInst_0" on PLL site "RPLL", clk load = 31
+  PRIMARY "debug2_c_0" from Q0 on comp "SLICE_214" on site "R2C19B", clk load = 29
+  PRIMARY "clk_266_1" from CLKOS2 on comp "main_pll/PLLInst_0" on PLL site "RPLL", clk load = 26
+  PRIMARY "usb_clo[2][2]" from Q0 on comp "SLICE_351" on site "R21C19A", clk load = 24
+  PRIMARY "usb_l4/clk_in_p" from Q0 on comp "SLICE_458" on site "R14C40A", clk load = 24
+  PRIMARY "usb_l1/clk_in_p" from Q0 on comp "SLICE_395" on site "R21C2D", clk load = 24
+  SECONDARY "reset_N" from comp "reset" on PIO site "1 (PL3A)", clk load = 0, ce load = 16, sr load = 109
+  SECONDARY "usb_l2/clk_in_p" from Q0 on comp "SLICE_414" on site "R12C20D", clk load = 24, ce load = 0, sr load = 0
+  SECONDARY "clk_240_2" from CLKOS2 on comp "sec_pll/PLLInst_0" on PLL site "LPLL", clk load = 24, ce load = 0, sr load = 0
+  SECONDARY "ps4_ck" from Q0 on comp "SLICE_312" on site "R14C18B", clk load = 19, ce load = 0, sr load = 0
+  SECONDARY "ps2_ck" from Q0 on comp "SLICE_284" on site "R21C18A", clk load = 14, ce load = 0, sr load = 0
+  SECONDARY "ps1_ck" from Q0 on comp "SLICE_269" on site "R14C20B", clk load = 14, ce load = 0, sr load = 0
+  SECONDARY "ps3_ck" from Q0 on comp "SLICE_298" on site "R21C20B", clk load = 13, ce load = 0, sr load = 0
+  SECONDARY "dis2/clk_266_1_keep_enable_21" from F1 on comp "dis2/SLICE_553" on site "R10C20B", clk load = 0, ce load = 11, sr load = 11
 
   PRIMARY  : 8 out of 8 (100%)
   SECONDARY: 8 out of 8 (100%)
@@ -974,38 +1077,38 @@ Edge Clocks:
 
 
 I/O Usage Summary (final):
-   89 + 4(JTAG) out of 336 (27.7%) PIO sites used.
-   89 + 4(JTAG) out of 115 (80.9%) bonded PIO sites used.
-   Number of PIO comps: 65; differential: 23.
-   Number of Vref pins used: 1.
+   85 + 4(JTAG) out of 336 (26.5%) PIO sites used.
+   85 + 4(JTAG) out of 115 (77.4%) bonded PIO sites used.
+   Number of PIO comps: 62; differential: 23.
+   Number of Vref pins used: 0.
 
 I/O Bank Usage Summary:
-+----------+----------------+------------+-------------+
-| I/O Bank | Usage          | Bank Vccio | Bank Vref   |
-+----------+----------------+------------+-------------+
-| 0        | 22 / 28 ( 78%) | 3.3V       | -           |
-| 1        | 28 / 29 ( 96%) | 3.3V       | 1.25V@VREF1 |
-| 2        | 21 / 29 ( 72%) | 3.3V       | -           |
-| 3        | 8 / 9 ( 88%)   | 3.3V       | -           |
-| 4        | 8 / 10 ( 80%)  | 3.3V       | -           |
-| 5        | 2 / 10 ( 20%)  | 3.3V       | -           |
-+----------+----------------+------------+-------------+
++----------+----------------+------------+-----------+
+| I/O Bank | Usage          | Bank Vccio | Bank Vref |
++----------+----------------+------------+-----------+
+| 0        | 22 / 28 ( 78%) | 3.3V       | -         |
+| 1        | 25 / 29 ( 86%) | 3.3V       | -         |
+| 2        | 20 / 29 ( 68%) | 3.3V       | -         |
+| 3        | 8 / 9 ( 88%)   | 3.3V       | -         |
+| 4        | 8 / 10 ( 80%)  | 3.3V       | -         |
+| 5        | 2 / 10 ( 20%)  | 3.3V       | -         |
++----------+----------------+------------+-----------+
 
 Total placer CPU time: 5 secs 
 
 Dumping design to file LOUD_BOX_impl1.dir/5_1.ncd.
 
-2 potential circuit loops found in timing analysis.
-0 connections routed; 4854 unrouted.
+8 potential circuit loops found in timing analysis.
+0 connections routed; 5011 unrouted.
 Starting router resource preassignment
     <postMsg mid="62061005" type="Warning" dynamic="2" navigation="0" arg0="CLKI" arg1="clk_in_c"  />
     <postMsg mid="62061005" type="Warning" dynamic="2" navigation="0" arg0="CLKI" arg1="clk_in_c"  />
 
-    <postMsg mid="66011008" type="Warning" dynamic="1" navigation="0" arg0="&#xA;   Signal=leds_div[10] loads=6 clock_loads=5&#xA;   Signal=usb_clkf[2] loads=7 clock_loads=6&#xA;   Signal=n1435 loads=3 clock_loads=2&#xA;   Signal=rng1_clk_0 loads=8 clock_loads=6&#xA;   Signal=osc_out loads=3 clock_loads=2&#xA;   Signal=clk60_cnt[1] loads=11 clock_loads=10&#xA;   Signal=pll1_cnt400[1] loads=4 clock_loads=3"  />
+    <postMsg mid="66011008" type="Warning" dynamic="1" navigation="0" arg0="&#xA;   Signal=rng1_out[0] loads=24 clock_loads=2&#xA;   Signal=leds_div[10] loads=6 clock_loads=5&#xA;   Signal=usb_clkf[2] loads=7 clock_loads=6&#xA;   Signal=n1467 loads=3 clock_loads=2&#xA;   Signal=rng1_clk_0 loads=9 clock_loads=7&#xA;   Signal=osc_out loads=5 clock_loads=4&#xA;   Signal=clk60_cnt[1] loads=11 clock_loads=10&#xA;   Signal=n8254 loads=   ....   lock_loads=3&#xA;   Signal=rng1_cnt[7] loads=10 clock_loads=9&#xA;   Signal=brain1/shout_N_658_derived_1 loads=3 clock_loads=1&#xA;   Signal=pll1_cnt400[1] loads=4 clock_loads=3"  />
 
-Completed router resource preassignment. Real time: 8 secs 
+Completed router resource preassignment. Real time: 7 secs 
 
-Start NBR router at Thu Oct 29 15:47:20 -00 2020
+Start NBR router at Mon Nov 09 03:09:34 -00 2020
 
 *****************************************************************
 Info: NBR allows conflicts(one node used by more than one signal)
@@ -1020,153 +1123,117 @@ Note: NBR uses a different method to calculate timing slacks. The
       your design.                                               
 *****************************************************************
 
-2 potential circuit loops found in timing analysis.
-Start NBR special constraint process at Thu Oct 29 15:47:20 -00 2020
+8 potential circuit loops found in timing analysis.
+Start NBR special constraint process at Mon Nov 09 03:09:34 -00 2020
 
-Start NBR section for initial routing at Thu Oct 29 15:47:20 -00 2020
+Start NBR section for initial routing at Mon Nov 09 03:09:35 -00 2020
 Level 1, iteration 1
-26(0.01%) conflicts; 3717(76.58%) untouched conns; 3005995 (nbr) score; 
-Estimated worst slack/total negative slack<setup>: -8.283ns/-3005.996ns; real time: 9 secs 
+1(0.00%) conflict; 3848(76.79%) untouched conns; 4343709 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: -77.418ns/-4343.710ns; real time: 8 secs 
 Level 2, iteration 1
-23(0.01%) conflicts; 3501(72.13%) untouched conns; 2939378 (nbr) score; 
-Estimated worst slack/total negative slack<setup>: -8.314ns/-2939.378ns; real time: 9 secs 
+1(0.00%) conflict; 3848(76.79%) untouched conns; 4343709 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: -77.418ns/-4343.710ns; real time: 8 secs 
 Level 3, iteration 1
-34(0.01%) conflicts; 2564(52.82%) untouched conns; 2987701 (nbr) score; 
-Estimated worst slack/total negative slack<setup>: -6.052ns/-2987.702ns; real time: 10 secs 
+1(0.00%) conflict; 3848(76.79%) untouched conns; 4343709 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: -77.418ns/-4343.710ns; real time: 8 secs 
 Level 4, iteration 1
-67(0.02%) conflicts; 0(0.00%) untouched conn; 2944917 (nbr) score; 
-Estimated worst slack/total negative slack<setup>: -5.430ns/-2944.918ns; real time: 11 secs 
+75(0.02%) conflicts; 0(0.00%) untouched conn; 4408077 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: -78.559ns/-4408.077ns; real time: 9 secs 
 
 Info: Initial congestion level at 75% usage is 0
 Info: Initial congestion area  at 75% usage is 0 (0.00%)
 
-Start NBR section for normal routing at Thu Oct 29 15:47:23 -00 2020
+Start NBR section for normal routing at Mon Nov 09 03:09:36 -00 2020
 Level 4, iteration 1
-42(0.01%) conflicts; 0(0.00%) untouched conn; 2954875 (nbr) score; 
-Estimated worst slack/total negative slack<setup>: -5.170ns/-2954.876ns; real time: 11 secs 
+43(0.01%) conflicts; 0(0.00%) untouched conn; 3870585 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: -58.614ns/-3870.585ns; real time: 9 secs 
 Level 4, iteration 2
-40(0.01%) conflicts; 0(0.00%) untouched conn; 2954200 (nbr) score; 
-Estimated worst slack/total negative slack<setup>: -5.111ns/-2954.201ns; real time: 11 secs 
+29(0.01%) conflicts; 0(0.00%) untouched conn; 3829074 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: -53.405ns/-3829.074ns; real time: 9 secs 
 Level 4, iteration 3
-22(0.01%) conflicts; 0(0.00%) untouched conn; 2957917 (nbr) score; 
-Estimated worst slack/total negative slack<setup>: -5.125ns/-2957.918ns; real time: 11 secs 
+14(0.00%) conflicts; 0(0.00%) untouched conn; 3846824 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: -53.405ns/-3846.824ns; real time: 9 secs 
 Level 4, iteration 4
-9(0.00%) conflicts; 0(0.00%) untouched conn; 2957917 (nbr) score; 
-Estimated worst slack/total negative slack<setup>: -5.125ns/-2957.918ns; real time: 11 secs 
+9(0.00%) conflicts; 0(0.00%) untouched conn; 3846824 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: -53.405ns/-3846.824ns; real time: 9 secs 
 Level 4, iteration 5
-6(0.00%) conflicts; 0(0.00%) untouched conn; 2963746 (nbr) score; 
-Estimated worst slack/total negative slack<setup>: -5.192ns/-2963.747ns; real time: 11 secs 
+7(0.00%) conflicts; 0(0.00%) untouched conn; 3845071 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: -53.405ns/-3845.071ns; real time: 9 secs 
 Level 4, iteration 6
-6(0.00%) conflicts; 0(0.00%) untouched conn; 2963746 (nbr) score; 
-Estimated worst slack/total negative slack<setup>: -5.192ns/-2963.747ns; real time: 11 secs 
+4(0.00%) conflicts; 0(0.00%) untouched conn; 3845071 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: -53.405ns/-3845.071ns; real time: 9 secs 
 Level 4, iteration 7
-3(0.00%) conflicts; 0(0.00%) untouched conn; 2971260 (nbr) score; 
-Estimated worst slack/total negative slack<setup>: -5.305ns/-2971.261ns; real time: 11 secs 
+4(0.00%) conflicts; 0(0.00%) untouched conn; 3856267 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: -53.405ns/-3856.267ns; real time: 9 secs 
 Level 4, iteration 8
-2(0.00%) conflicts; 0(0.00%) untouched conn; 2971260 (nbr) score; 
-Estimated worst slack/total negative slack<setup>: -5.305ns/-2971.261ns; real time: 11 secs 
+4(0.00%) conflicts; 0(0.00%) untouched conn; 3856267 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: -53.405ns/-3856.267ns; real time: 9 secs 
 Level 4, iteration 9
-1(0.00%) conflict; 0(0.00%) untouched conn; 2971049 (nbr) score; 
-Estimated worst slack/total negative slack<setup>: -5.306ns/-2971.050ns; real time: 11 secs 
+1(0.00%) conflict; 0(0.00%) untouched conn; 3871387 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: -53.405ns/-3871.387ns; real time: 10 secs 
 Level 4, iteration 10
-1(0.00%) conflict; 0(0.00%) untouched conn; 2971049 (nbr) score; 
-Estimated worst slack/total negative slack<setup>: -5.306ns/-2971.050ns; real time: 11 secs 
+1(0.00%) conflict; 0(0.00%) untouched conn; 3871387 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: -53.405ns/-3871.387ns; real time: 10 secs 
 Level 4, iteration 11
-1(0.00%) conflict; 0(0.00%) untouched conn; 2971486 (nbr) score; 
-Estimated worst slack/total negative slack<setup>: -5.306ns/-2971.487ns; real time: 12 secs 
+1(0.00%) conflict; 0(0.00%) untouched conn; 3604532 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: -24.211ns/-3604.532ns; real time: 10 secs 
 Level 4, iteration 12
-1(0.00%) conflict; 0(0.00%) untouched conn; 2971486 (nbr) score; 
-Estimated worst slack/total negative slack<setup>: -5.306ns/-2971.487ns; real time: 12 secs 
-Level 4, iteration 13
-1(0.00%) conflict; 0(0.00%) untouched conn; 2972188 (nbr) score; 
-Estimated worst slack/total negative slack<setup>: -5.306ns/-2972.189ns; real time: 12 secs 
-Level 4, iteration 14
-1(0.00%) conflict; 0(0.00%) untouched conn; 2972188 (nbr) score; 
-Estimated worst slack/total negative slack<setup>: -5.306ns/-2972.189ns; real time: 12 secs 
-Level 4, iteration 15
-1(0.00%) conflict; 0(0.00%) untouched conn; 2971049 (nbr) score; 
-Estimated worst slack/total negative slack<setup>: -5.306ns/-2971.050ns; real time: 12 secs 
-Level 4, iteration 16
-1(0.00%) conflict; 0(0.00%) untouched conn; 2971049 (nbr) score; 
-Estimated worst slack/total negative slack<setup>: -5.306ns/-2971.050ns; real time: 12 secs 
-Level 4, iteration 17
-1(0.00%) conflict; 0(0.00%) untouched conn; 2971325 (nbr) score; 
-Estimated worst slack/total negative slack<setup>: -5.306ns/-2971.326ns; real time: 12 secs 
-Level 4, iteration 18
-1(0.00%) conflict; 0(0.00%) untouched conn; 2971325 (nbr) score; 
-Estimated worst slack/total negative slack<setup>: -5.306ns/-2971.326ns; real time: 12 secs 
-Level 4, iteration 19
-1(0.00%) conflict; 0(0.00%) untouched conn; 2971955 (nbr) score; 
-Estimated worst slack/total negative slack<setup>: -5.306ns/-2971.956ns; real time: 12 secs 
-Level 4, iteration 20
-1(0.00%) conflict; 0(0.00%) untouched conn; 2971955 (nbr) score; 
-Estimated worst slack/total negative slack<setup>: -5.306ns/-2971.956ns; real time: 12 secs 
-Level 4, iteration 21
-2(0.00%) conflicts; 0(0.00%) untouched conn; 2971486 (nbr) score; 
-Estimated worst slack/total negative slack<setup>: -5.306ns/-2971.487ns; real time: 12 secs 
-Level 4, iteration 22
-1(0.00%) conflict; 0(0.00%) untouched conn; 2971486 (nbr) score; 
-Estimated worst slack/total negative slack<setup>: -5.306ns/-2971.487ns; real time: 12 secs 
-Level 4, iteration 23
-0(0.00%) conflict; 0(0.00%) untouched conn; 2971324 (nbr) score; 
-Estimated worst slack/total negative slack<setup>: -5.306ns/-2971.325ns; real time: 12 secs 
+0(0.00%) conflict; 0(0.00%) untouched conn; 3604532 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: -24.211ns/-3604.532ns; real time: 10 secs 
 
-Start NBR section for performance tuning (iteration 1) at Thu Oct 29 15:47:24 -00 2020
+Start NBR section for performance tuning (iteration 1) at Mon Nov 09 03:09:37 -00 2020
 Level 4, iteration 1
-1(0.00%) conflict; 0(0.00%) untouched conn; 2970887 (nbr) score; 
-Estimated worst slack/total negative slack<setup>: -5.306ns/-2970.888ns; real time: 12 secs 
-Level 4, iteration 2
-0(0.00%) conflict; 0(0.00%) untouched conn; 2972108 (nbr) score; 
-Estimated worst slack/total negative slack<setup>: -5.316ns/-2972.109ns; real time: 12 secs 
+0(0.00%) conflict; 0(0.00%) untouched conn; 3604532 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: -24.211ns/-3604.532ns; real time: 10 secs 
 
-Start NBR section for re-routing at Thu Oct 29 15:47:24 -00 2020
+Start NBR section for re-routing at Mon Nov 09 03:09:37 -00 2020
 Level 4, iteration 1
-0(0.00%) conflict; 0(0.00%) untouched conn; 2971324 (nbr) score; 
-Estimated worst slack/total negative slack<setup>: -5.306ns/-2971.325ns; real time: 12 secs 
+0(0.00%) conflict; 0(0.00%) untouched conn; 3601384 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: -24.021ns/-3601.384ns; real time: 10 secs 
 
-Start NBR section for post-routing at Thu Oct 29 15:47:24 -00 2020
-2 potential circuit loops found in timing analysis.
+Start NBR section for post-routing at Mon Nov 09 03:09:37 -00 2020
+8 potential circuit loops found in timing analysis.
 
 End NBR router with 0 unrouted connection
 
 NBR Summary
 -----------
   Number of unrouted connections : 0 (0.00%)
-  Number of connections with timing violations : 1173 (24.17%)
-  Estimated worst slack<setup> : -5.306ns
-  Timing score<setup> : 10110653
+  Number of connections with timing violations : 1223 (24.41%)
+  Estimated worst slack<setup> : -24.021ns
+  Timing score<setup> : 11443300
 -----------
 Notes: The timing info is calculated for SETUP only and all PAR_ADJs are ignored.
 
 
 
-    <postMsg mid="66011008" type="Warning" dynamic="1" navigation="0" arg0="&#xA;   Signal=leds_div[10] loads=6 clock_loads=5&#xA;   Signal=usb_clkf[2] loads=7 clock_loads=6&#xA;   Signal=n1435 loads=3 clock_loads=2&#xA;   Signal=rng1_clk_0 loads=8 clock_loads=6&#xA;   Signal=osc_out loads=3 clock_loads=2&#xA;   Signal=clk60_cnt[1] loads=11 clock_loads=10&#xA;   Signal=pll1_cnt400[1] loads=4 clock_loads=3"  />
+    <postMsg mid="66011008" type="Warning" dynamic="1" navigation="0" arg0="&#xA;   Signal=rng1_out[0] loads=24 clock_loads=2&#xA;   Signal=leds_div[10] loads=6 clock_loads=5&#xA;   Signal=usb_clkf[2] loads=7 clock_loads=6&#xA;   Signal=n1467 loads=3 clock_loads=2&#xA;   Signal=rng1_clk_0 loads=9 clock_loads=7&#xA;   Signal=osc_out loads=5 clock_loads=4&#xA;   Signal=clk60_cnt[1] loads=11 clock_loads=10&#xA;   Signal=n8254 loads=   ....   lock_loads=3&#xA;   Signal=rng1_cnt[7] loads=10 clock_loads=9&#xA;   Signal=brain1/shout_N_658_derived_1 loads=3 clock_loads=1&#xA;   Signal=pll1_cnt400[1] loads=4 clock_loads=3"  />
 
-2 potential circuit loops found in timing analysis.
-2 potential circuit loops found in timing analysis.
-2 potential circuit loops found in timing analysis.
-Total CPU time 12 secs 
-Total REAL time: 13 secs 
+8 potential circuit loops found in timing analysis.
+8 potential circuit loops found in timing analysis.
+8 potential circuit loops found in timing analysis.
+Total CPU time 11 secs 
+Total REAL time: 11 secs 
 Completely routed.
-End of route.  4854 routed (100.00%); 0 unrouted.
+End of route.  5011 routed (100.00%); 0 unrouted.
 
-Hold time timing score: 0, hold timing errors: 0
+Hold time timing score: 150, hold timing errors: 60
 
-Timing score: 10110653 
+Timing score: 11443300 
 
 Dumping design to file LOUD_BOX_impl1.dir/5_1.ncd.
 
 
 PAR_SUMMARY::Run status = Completed
 PAR_SUMMARY::Number of unrouted conns = 0
-PAR_SUMMARY::Worst  slack<setup/<ns>> = -5.306
-PAR_SUMMARY::Timing score<setup/<ns>> = 10110.653
-PAR_SUMMARY::Worst  slack<hold /<ns>> = 0.377
-PAR_SUMMARY::Timing score<hold /<ns>> = 0.000
+PAR_SUMMARY::Worst  slack<setup/<ns>> = -24.022
+PAR_SUMMARY::Timing score<setup/<ns>> = 11443.300
+PAR_SUMMARY::Worst  slack<hold /<ns>> = -4.943
+PAR_SUMMARY::Timing score<hold /<ns>> = 150.957
 PAR_SUMMARY::Number of errors = 0
 
-Total CPU  time to completion: 13 secs 
-Total REAL time to completion: 13 secs 
+Total CPU  time to completion: 11 secs 
+Total REAL time to completion: 11 secs 
 
 par done!
 
@@ -1203,7 +1270,7 @@ Setup and Hold Report
 
 --------------------------------------------------------------------------------
 Lattice TRACE Report - Setup, Version Diamond (64-bit) 3.11.3.469
-Thu Oct 29 15:47:28 2020
+Mon Nov  9 03:09:39 2020
 
 Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
 Copyright (c) 1995 AT&T Corp.   All rights reserved.
@@ -1220,7 +1287,7 @@ Device,speed:    LCMXO2-7000HE,4
 Report level:    verbose report, limited to 10 items per preference
 --------------------------------------------------------------------------------
 
-2 potential circuit loops found in timing analysis.
+8 potential circuit loops found in timing analysis.
 BLOCK ASYNCPATHS
 BLOCK RESETPATHS
 --------------------------------------------------------------------------------
@@ -1241,14 +1308,14 @@ VCCIO Voltage:
 Timing summary (Setup):
 ---------------
 
-Timing errors: 4528  Score: 10110653
-Cumulative negative slack: 10110653
+Timing errors: 4556  Score: 11443300
+Cumulative negative slack: 11443300
 
-Constraints cover 5340 paths, 19 nets, and 1892 connections (38.98% coverage)
+Constraints cover 5417 paths, 26 nets, and 1964 connections (39.19% coverage)
 
 --------------------------------------------------------------------------------
 Lattice TRACE Report - Hold, Version Diamond (64-bit) 3.11.3.469
-Thu Oct 29 15:47:28 2020
+Mon Nov  9 03:09:39 2020
 
 Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
 Copyright (c) 1995 AT&T Corp.   All rights reserved.
@@ -1265,7 +1332,7 @@ Device,speed:    LCMXO2-7000HE,m
 Report level:    verbose report, limited to 10 items per preference
 --------------------------------------------------------------------------------
 
-2 potential circuit loops found in timing analysis.
+8 potential circuit loops found in timing analysis.
 BLOCK ASYNCPATHS
 BLOCK RESETPATHS
 --------------------------------------------------------------------------------
@@ -1286,26 +1353,26 @@ VCCIO Voltage:
 Timing summary (Hold):
 ---------------
 
-Timing errors: 0  Score: 0
-Cumulative negative slack: 0
+Timing errors: 60  Score: 150957
+Cumulative negative slack: 150957
 
-Constraints cover 5340 paths, 19 nets, and 1892 connections (38.98% coverage)
+Constraints cover 5417 paths, 26 nets, and 1961 connections (39.13% coverage)
 
 
 
 Timing summary (Setup and Hold):
 ---------------
 
-Timing errors: 4528 (setup), 0 (hold)
-Score: 10110653 (setup), 0 (hold)
-Cumulative negative slack: 10110653 (10110653+0)
+Timing errors: 4556 (setup), 60 (hold)
+Score: 11443300 (setup), 150957 (hold)
+Cumulative negative slack: 11594257 (11443300+150957)
 --------------------------------------------------------------------------------
 
 --------------------------------------------------------------------------------
 
 Total CPU Time: 0 secs 
 Total REAL Time: 0 secs 
-Peak Memory Usage: 155 MB
+Peak Memory Usage: 156 MB
 
 
 tmcheck -par "LOUD_BOX_impl1.par" 
@@ -1394,5 +1461,5 @@ Available General Purpose Flash Memory: 2046 Pages (Page 0 to Page 2045).
 Initialized UFM Pages:                     0 Page.
  
 Total CPU Time: 3 secs 
-Total REAL Time: 3 secs 
+Total REAL Time: 4 secs 
 Peak Memory Usage: 428 MB

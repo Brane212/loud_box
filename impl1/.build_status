@@ -6,37 +6,37 @@
             <Task name="TimingSimFileVlg" build_result="0" update_result="2" update_time="1603864284"/>
             <Task name="TimingSimFileVHD" build_result="0" update_result="3" update_time="0"/>
             <Task name="Bitgen" build_result="0" update_result="2" update_time="1603864296"/>
-            <Task name="Jedecgen" build_result="2" update_result="0" update_time="1603986494"/>
+            <Task name="Jedecgen" build_result="2" update_result="0" update_time="1604891564"/>
         </Milestone>
-        <Milestone name="Map" build_result="2" build_time="1603986432">
-            <Task name="Map" build_result="2" update_result="0" update_time="1603986432"/>
+        <Milestone name="Map" build_result="2" build_time="1604891366">
+            <Task name="Map" build_result="2" update_result="0" update_time="1604891366"/>
             <Task name="MapTrace" build_result="0" update_result="3" update_time="0"/>
             <Task name="MapVerilogSimFile" build_result="0" update_result="3" update_time="0"/>
             <Task name="MapVHDLSimFile" build_result="0" update_result="3" update_time="0"/>
         </Milestone>
-        <Milestone name="PAR" build_result="2" build_time="1603986447">
-            <Task name="PAR" build_result="2" update_result="0" update_time="1603986447"/>
-            <Task name="PARTrace" build_result="2" update_result="0" update_time="1603986448"/>
+        <Milestone name="PAR" build_result="2" build_time="1604891379">
+            <Task name="PAR" build_result="2" update_result="0" update_time="1604891379"/>
+            <Task name="PARTrace" build_result="2" update_result="0" update_time="1604891379"/>
             <Task name="IOTiming" build_result="0" update_result="3" update_time="0"/>
         </Milestone>
-        <Milestone name="Synthesis" build_result="2" build_time="1603986431">
-            <Task name="Lattice_Synthesis" build_result="2" update_result="0" update_time="1603986431"/>
-            <Task name="LSE_Compile" build_result="2" update_result="0" update_time="1603986494"/>
+        <Milestone name="Synthesis" build_result="2" build_time="1604891365">
+            <Task name="Lattice_Synthesis" build_result="2" update_result="0" update_time="1604891365"/>
+            <Task name="LSE_Compile" build_result="2" update_result="0" update_time="1604891564"/>
         </Milestone>
         <Milestone name="TOOL_Report" build_result="0" build_time="0">
-            <Task name="HDLE" build_result="2" update_result="0" update_time="1603986421"/>
+            <Task name="HDLE" build_result="2" update_result="0" update_time="1604891354"/>
             <Task name="SSO" build_result="0" update_result="3" update_time="0"/>
             <Task name="PIODRC" build_result="0" update_result="3" update_time="0"/>
         </Milestone>
-        <Report name=".vdbs/LOUD_BOX_impl1_map.vdb" last_build_time="1603986432" last_build_size="340113"/>
-        <Report name="LOUD_BOX_impl1.bgn" last_build_time="1603986494" last_build_size="4264"/>
+        <Report name=".vdbs/LOUD_BOX_impl1_map.vdb" last_build_time="1604891366" last_build_size="346693"/>
+        <Report name="LOUD_BOX_impl1.bgn" last_build_time="1604891564" last_build_size="4264"/>
         <Report name="LOUD_BOX_impl1.bit" last_build_time="1603864296" last_build_size="37813"/>
-        <Report name="LOUD_BOX_impl1.jed" last_build_time="1603986494" last_build_size="1455208"/>
-        <Report name="LOUD_BOX_impl1.lsedata" last_build_time="1603986428" last_build_size="1613359"/>
-        <Report name="LOUD_BOX_impl1.ncd" last_build_time="1603986447" last_build_size="1206171"/>
-        <Report name="LOUD_BOX_impl1.ngd" last_build_time="1603986431" last_build_size="946349"/>
-        <Report name="LOUD_BOX_impl1.twr" last_build_time="1603986448" last_build_size="245391"/>
-        <Report name="LOUD_BOX_impl1_map.ncd" last_build_time="1603986432" last_build_size="845912"/>
+        <Report name="LOUD_BOX_impl1.jed" last_build_time="1604891564" last_build_size="1455065"/>
+        <Report name="LOUD_BOX_impl1.lsedata" last_build_time="1604891362" last_build_size="1649627"/>
+        <Report name="LOUD_BOX_impl1.ncd" last_build_time="1604891379" last_build_size="1245754"/>
+        <Report name="LOUD_BOX_impl1.ngd" last_build_time="1604891365" last_build_size="988583"/>
+        <Report name="LOUD_BOX_impl1.twr" last_build_time="1604891379" last_build_size="348708"/>
+        <Report name="LOUD_BOX_impl1_map.ncd" last_build_time="1604891366" last_build_size="874458"/>
         <Report name="LOUD_BOX_impl1_vo.sdf" last_build_time="1603864284" last_build_size="919532"/>
         <Report name="LOUD_BOX_impl1_vo.vo" last_build_time="1603864284" last_build_size="885461"/>
     </Strategy>

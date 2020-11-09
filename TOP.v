@@ -27,9 +27,7 @@ wire pll2_lock;
 
 wire [7:0] xor_out;
 
-assign br4_shout = ~ br4_shin;
-assign br5_shout = ~ br5_shin;
-assign br6_shout = ~ br6_shin;
+
 wire reset;
 
 
@@ -304,8 +302,6 @@ iot_shout iot_114(.reset(reset), .rand(rng1_out), .clk_in(1'b0), .shout(iot_out_
 iot_shout iot_100(.reset(reset), .rand(rng1_out), .clk_in(clk_100), .shout(iot_out_100));
 
 
-
-
 ring_rnd rng1( .reset(reset), .rng_out(rng1_out), .ref_clk(rng1_clk)) /* synthesis syn_noprune = 1 */ ;
 
 LEDS_DIV12 leds_div12(.Clock(ps4_ck),.Clk_En(1'b1), .Aclr(reset), .Q(leds_div));
@@ -320,6 +316,10 @@ OSCH #(.NOM_FREQ(2.08)) int_osc(.STDBY(1'b0), .OSC(osc_out));
 brain_shout brain1(.clkin(rng1_out[0]), .invert(osc_cnt[0]), .fuzz(br4_shout), .shout(br1_shout));
 brain_shout	brain2(.clkin(	clk_266_0), .invert(rng1_out[4]), .fuzz(br5_shout), .shout(br2_shout));
 brain_shout	brain3(.clkin(rng1_out[0]), .invert(rng1_out[1]), .fuzz(br6_shout), .shout(br3_shout));
+
+brain_shout brain4(.clkin(br1_shout), .invert(osc_cnt[6] ^ br2_shout ), .fuzz(rng1_cnt[0] ^ rng1_cnt2[15] ^ ~pll1_cnt114[3] ), .shout(br4_shout));
+brain_shout	brain5(.clkin( br2_shout), .invert(rng1_cnt[6] ^ br3_shout ), .fuzz(rng1_cnt[4] ^ rng1_cnt2[14] ^ pll2_cnt240[4] ), .shout(br5_shout));
+brain_shout	brain6(.clkin( br3_shout), .invert(rng1_cnt[11] ^ br1_shout ), .fuzz(pll1_cnt114[3] ^ rng1_cnt2[13] ^ ~pll1_cnt266[5]), .shout(br6_shout));
 
 endmodule
 

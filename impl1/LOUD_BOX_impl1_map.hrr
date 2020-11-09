@@ -3,28 +3,31 @@ Report for cell top1
    Instance path: top1
                      Cell usage:
                                   cell	      count    Res Usage(%)
-                                  SLIC	     638.00        100.0
-                                  LUT4	     874.00        100.0
-                                 IOBUF	         65        100.0
-                                PFUREG	        485        100.0
-                                RIPPLE	        190        100.0
+                                  SLIC	     661.00        100.0
+                                  LUT4	     887.00        100.0
+                                 IOBUF	         62        100.0
+                                PFUREG	        518        100.0
+                                RIPPLE	        206        100.0
 SUB MODULES
                                   cell	      count    SLC Usage(%)
-                         usb1_shout_U7	          1         7.4
-                         usb1_shout_U8	          1         8.1
-                         usb1_shout_U9	          1         9.5
-               usb1_shout(int_speed=1)	          1         8.1
-           usb1_shout(int_speed=1)_U10	          1         7.3
-                            usb1_shout	          1         8.6
-                              ring_rnd	          1         0.7
-                          ps_shout_U12	          1         2.6
+           usb1_shout(int_speed=1)_U10	          1         6.1
+                         usb1_shout_U8	          1         9.1
+                         usb1_shout_U9	          1         7.8
+                         usb1_shout_U7	          1         8.1
+                            usb1_shout	          1         8.1
+               usb1_shout(int_speed=1)	          1         9.0
+                              ring_rnd	          1         0.6
+                              ps_shout	          1         2.5
                           ps_shout_U13	          1         2.5
-                              ps_shout	          1         2.8
-                          ps_shout_U11	          1         2.6
+                          ps_shout_U12	          1         2.5
+                          ps_shout_U11	          1         2.4
                              iot_shout	          1         0.5
-                         dis_shout_U14	          1        13.8
-                             dis_shout	          1        12.3
-                       brain_shout_U16	          1         0.1
+                             dis_shout	          1        11.8
+                         dis_shout_U14	          1        12.7
+                       brain_shout_U16	          1         0.2
+                       brain_shout_U18	          1         0.2
+                       brain_shout_U19	          1         0.1
+                       brain_shout_U17	          1         0.1
                            brain_shout	          1         0.1
                        brain_shout_U15	          1         0.1
                                   PLL2	          1         0.0
@@ -36,26 +39,26 @@ Report for cell LEDS_DIV12
                      Cell usage:
                                   cell	      count    Res Usage(%)
                                   SLIC	       6.50         1.0
-                                PFUREG	         12         2.5
-                                RIPPLE	          7         3.7
+                                PFUREG	         12         2.3
+                                RIPPLE	          7         3.4
 ---------------------------------------------------
 Report for cell ring_rnd
    Instance path: top1/rng1
                      Cell usage:
                                   cell	      count    Res Usage(%)
-                                  SLIC	       4.28         0.7
+                                  SLIC	       4.28         0.6
                                   LUT4	       9.00         1.0
                                 PFUREG	          5         1.0
 SUB MODULES
                                   cell	      count    SLC Usage(%)
-                          TABLE_3_1_U4	          1         0.1
-                          TABLE_3_1_U6	          1         0.0
                           TABLE_3_1_U5	          1         0.0
-                          TABLE_3_1_U0	          1         0.0
-                          TABLE_3_1_U2	          1         0.0
-                          TABLE_3_1_U3	          1         0.0
+                          TABLE_3_1_U6	          1         0.0
                           TABLE_3_1_U1	          1         0.0
+                          TABLE_3_1_U3	          1         0.0
+                          TABLE_3_1_U4	          1         0.1
+                          TABLE_3_1_U2	          1         0.0
                              TABLE_3_1	          1         0.0
+                          TABLE_3_1_U0	          1         0.0
 ---------------------------------------------------
 Report for cell TABLE_3_1
    Instance path: top1/rng1/r2_c3
@@ -113,32 +116,50 @@ Report for cell usb1_shout
    Instance path: top1/usb_l4
                      Cell usage:
                                   cell	      count    Res Usage(%)
-                                  SLIC	      54.58         8.6
-                                  LUT4	      96.00        11.0
-                                PFUREG	         33         6.8
-                                RIPPLE	          6         3.2
+                                  SLIC	      53.83         8.1
+                                  LUT4	      95.00        10.7
+                                PFUREG	         33         6.4
+                                RIPPLE	          6         2.9
 ---------------------------------------------------
 Report for cell ps_shout
    Instance path: top1/ps4
                      Cell usage:
                                   cell	      count    Res Usage(%)
-                                  SLIC	      17.80         2.8
-                                  LUT4	      35.00         4.0
-                                PFUREG	         19         3.9
+                                  SLIC	      16.80         2.5
+                                  LUT4	      35.00         3.9
+                                PFUREG	         19         3.7
 ---------------------------------------------------
 Report for cell brain_shout_U16
    Instance path: top1/brain1
                      Cell usage:
                                   cell	      count    Res Usage(%)
-                                  SLIC	       0.50         0.1
+                                  SLIC	       1.50         0.2
+                                  LUT4	       3.00         0.3
+                                PFUREG	          1         0.2
+---------------------------------------------------
+Report for cell brain_shout_U19
+   Instance path: top1/br4_shout_I_0
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.67         0.1
                                   LUT4	       1.00         0.1
+                                PFUREG	          1         0.2
+---------------------------------------------------
+Report for cell brain_shout_U18
+   Instance path: top1/br5_shout_I_0
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       1.25         0.2
+                                  LUT4	       3.00         0.3
+                                PFUREG	          1         0.2
 ---------------------------------------------------
 Report for cell brain_shout_U15
    Instance path: top1/brain2
                      Cell usage:
                                   cell	      count    Res Usage(%)
-                                  SLIC	       0.50         0.1
+                                  SLIC	       0.67         0.1
                                   LUT4	       1.00         0.1
+                                PFUREG	          1         0.2
 ---------------------------------------------------
 Report for cell iot_shout
    Instance path: top1/iot_100
@@ -148,106 +169,115 @@ Report for cell iot_shout
                                   LUT4	       6.00         0.7
                                 PFUREG	          5         1.0
 ---------------------------------------------------
+Report for cell brain_shout_U17
+   Instance path: top1/br6_shout_I_0
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.83         0.1
+                                  LUT4	       1.00         0.1
+                                PFUREG	          1         0.2
+---------------------------------------------------
 Report for cell dis_shout
    Instance path: top1/dis2
                      Cell usage:
                                   cell	      count    Res Usage(%)
-                                  SLIC	      78.33        12.3
-                                  LUT4	      47.00         5.4
-                                PFUREG	         45         9.3
-                                RIPPLE	         55        28.9
+                                  SLIC	      78.00        11.8
+                                  LUT4	      47.00         5.3
+                                PFUREG	         45         8.7
+                                RIPPLE	         55        26.7
 ---------------------------------------------------
 Report for cell ps_shout_U11
    Instance path: top1/ps3
                      Cell usage:
                                   cell	      count    Res Usage(%)
-                                  SLIC	      16.67         2.6
-                                  LUT4	      33.00         3.8
-                                PFUREG	         19         3.9
+                                  SLIC	      16.00         2.4
+                                  LUT4	      32.00         3.6
+                                PFUREG	         19         3.7
 ---------------------------------------------------
-Report for cell dis_shout_U14
-   Instance path: top1/dis1
+Report for cell ps_shout_U12
+   Instance path: top1/ps2
                      Cell usage:
                                   cell	      count    Res Usage(%)
-                                  SLIC	      87.92        13.8
-                                  LUT4	      69.67         8.0
-                                PFUREG	         45         9.3
-                                RIPPLE	         55        28.9
+                                  SLIC	      16.83         2.5
+                                  LUT4	      34.00         3.8
+                                PFUREG	         19         3.7
 ---------------------------------------------------
-Report for cell PLL1
-   Instance path: top1/main_pll
+Report for cell usb1_shout(int_speed=1)_U10
+   Instance path: top1/usb_f1
                      Cell usage:
                                   cell	      count    Res Usage(%)
+                                  SLIC	      40.42         6.1
+                                  LUT4	      60.67         6.8
+                                PFUREG	         33         6.4
+                                RIPPLE	          6         2.9
 ---------------------------------------------------
 Report for cell PLL2
    Instance path: top1/sec_pll
                      Cell usage:
                                   cell	      count    Res Usage(%)
 ---------------------------------------------------
-Report for cell ps_shout_U12
-   Instance path: top1/ps2
-                     Cell usage:
-                                  cell	      count    Res Usage(%)
-                                  SLIC	      16.50         2.6
-                                  LUT4	      32.00         3.7
-                                PFUREG	         19         3.9
----------------------------------------------------
-Report for cell brain_shout
-   Instance path: top1/brain3
-                     Cell usage:
-                                  cell	      count    Res Usage(%)
-                                  SLIC	       0.50         0.1
-                                  LUT4	       1.00         0.1
----------------------------------------------------
-Report for cell usb1_shout(int_speed=1)
-   Instance path: top1/usb_f2
-                     Cell usage:
-                                  cell	      count    Res Usage(%)
-                                  SLIC	      51.75         8.1
-                                  LUT4	      90.33        10.3
-                                PFUREG	         33         6.8
-                                RIPPLE	          6         3.2
----------------------------------------------------
 Report for cell ps_shout_U13
    Instance path: top1/ps1
                      Cell usage:
                                   cell	      count    Res Usage(%)
-                                  SLIC	      16.17         2.5
-                                  LUT4	      33.00         3.8
-                                PFUREG	         19         3.9
----------------------------------------------------
-Report for cell usb1_shout_U8
-   Instance path: top1/usb_l2
-                     Cell usage:
-                                  cell	      count    Res Usage(%)
-                                  SLIC	      51.92         8.1
-                                  LUT4	      89.00        10.2
-                                PFUREG	         33         6.8
-                                RIPPLE	          6         3.2
----------------------------------------------------
-Report for cell usb1_shout_U9
-   Instance path: top1/usb_l1
-                     Cell usage:
-                                  cell	      count    Res Usage(%)
-                                  SLIC	      60.50         9.5
-                                  LUT4	     110.00        12.6
-                                PFUREG	         35         7.2
-                                RIPPLE	          6         3.2
+                                  SLIC	      16.58         2.5
+                                  LUT4	      33.00         3.7
+                                PFUREG	         19         3.7
 ---------------------------------------------------
 Report for cell usb1_shout_U7
    Instance path: top1/usb_l3
                      Cell usage:
                                   cell	      count    Res Usage(%)
-                                  SLIC	      47.33         7.4
-                                  LUT4	      79.00         9.0
-                                PFUREG	         33         6.8
-                                RIPPLE	          6         3.2
+                                  SLIC	      53.83         8.1
+                                  LUT4	      90.00        10.1
+                                PFUREG	         33         6.4
+                                RIPPLE	          6         2.9
 ---------------------------------------------------
-Report for cell usb1_shout(int_speed=1)_U10
-   Instance path: top1/usb_f1
+Report for cell usb1_shout(int_speed=1)
+   Instance path: top1/usb_f2
                      Cell usage:
                                   cell	      count    Res Usage(%)
-                                  SLIC	      46.58         7.3
-                                  LUT4	      73.00         8.4
-                                PFUREG	         33         6.8
-                                RIPPLE	          6         3.2
+                                  SLIC	      59.67         9.0
+                                  LUT4	     109.67        12.4
+                                PFUREG	         33         6.4
+                                RIPPLE	          6         2.9
+---------------------------------------------------
+Report for cell brain_shout
+   Instance path: top1/brain3
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.67         0.1
+                                  LUT4	       1.00         0.1
+                                PFUREG	          1         0.2
+---------------------------------------------------
+Report for cell PLL1
+   Instance path: top1/main_pll
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+---------------------------------------------------
+Report for cell usb1_shout_U9
+   Instance path: top1/usb_l1
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      51.42         7.8
+                                  LUT4	      89.00        10.0
+                                PFUREG	         35         6.8
+                                RIPPLE	          6         2.9
+---------------------------------------------------
+Report for cell dis_shout_U14
+   Instance path: top1/dis1
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      84.00        12.7
+                                  LUT4	      59.67         6.7
+                                PFUREG	         45         8.7
+                                RIPPLE	         55        26.7
+---------------------------------------------------
+Report for cell usb1_shout_U8
+   Instance path: top1/usb_l2
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      60.25         9.1
+                                  LUT4	     105.00        11.8
+                                PFUREG	         33         6.4
+                                RIPPLE	          6         2.9

@@ -5,7 +5,7 @@ Copyright (c) 1995 AT&T Corp.   All rights reserved.
 Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
 Copyright (c) 2001 Agere Systems   All rights reserved.
 Copyright (c) 2002-2020 Lattice Semiconductor Corporation,  All rights reserved.
-Thu Oct 29 15:47:07 2020
+Mon Nov  9 03:09:21 2020
 
 
 Command Line:  synthesis -f LOUD_BOX_impl1_lattice.synproj -gui -msgset /home/brane2/LATT_DEMO_PROJ/LOUD_BOX/promote.xml 
@@ -94,18 +94,18 @@ WARNING - synthesis: /home/brane2/LATT_DEMO_PROJ/LOUD_BOX/RING_MOD.v(19): redecl
 WARNING - synthesis: /home/brane2/LATT_DEMO_PROJ/LOUD_BOX/RING_MOD.v(20): redeclaration of ansi port rng_out is not allowed. VERI-1372
 Analyzing Verilog file /home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v. VERI-1482
 WARNING - synthesis: /home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v(28): redeclaration of ansi port xor_out is not allowed. VERI-1372
-WARNING - synthesis: /home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v(33): redeclaration of ansi port reset is not allowed. VERI-1372
-WARNING - synthesis: /home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v(37): redeclaration of ansi port leds is not allowed. VERI-1372
-WARNING - synthesis: /home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v(38): redeclaration of ansi port led7 is not allowed. VERI-1372
-WARNING - synthesis: /home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v(63): clk_120 is already declared. VERI-1116
-WARNING - synthesis: /home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v(63): second declaration of clk_120 ignored. VERI-1329
-INFO - synthesis: /home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v(61): clk_120 is declared here. VERI-1310
-WARNING - synthesis: /home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v(117): redeclaration of ansi port debug1 is not allowed. VERI-1372
+WARNING - synthesis: /home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v(31): redeclaration of ansi port reset is not allowed. VERI-1372
+WARNING - synthesis: /home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v(35): redeclaration of ansi port leds is not allowed. VERI-1372
+WARNING - synthesis: /home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v(36): redeclaration of ansi port led7 is not allowed. VERI-1372
+WARNING - synthesis: /home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v(61): clk_120 is already declared. VERI-1116
+WARNING - synthesis: /home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v(61): second declaration of clk_120 ignored. VERI-1329
+INFO - synthesis: /home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v(59): clk_120 is declared here. VERI-1310
+WARNING - synthesis: /home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v(115): redeclaration of ansi port debug1 is not allowed. VERI-1372
+WARNING - synthesis: /home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v(128): literal value truncated to fit in 2 bits. VERI-1208
 WARNING - synthesis: /home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v(130): literal value truncated to fit in 2 bits. VERI-1208
-WARNING - synthesis: /home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v(132): literal value truncated to fit in 2 bits. VERI-1208
-WARNING - synthesis: /home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v(46): identifier clk_240_0 is used before its declaration. VERI-1875
-WARNING - synthesis: /home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v(118): identifier usb_clkf is used before its declaration. VERI-1875
-WARNING - synthesis: /home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v(126): identifier usb_clkf is used before its declaration. VERI-1875
+WARNING - synthesis: /home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v(44): identifier clk_240_0 is used before its declaration. VERI-1875
+WARNING - synthesis: /home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v(116): identifier usb_clkf is used before its declaration. VERI-1875
+WARNING - synthesis: /home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v(124): identifier usb_clkf is used before its declaration. VERI-1875
 Analyzing Verilog file /home/brane2/LATT_DEMO_PROJ/LOUD_BOX/SHOUT1.v. VERI-1482
 Analyzing Verilog file /home/brane2/LATT_DEMO_PROJ/LOUD_BOX/USB_SHOUT1.v. VERI-1482
 WARNING - synthesis: /home/brane2/LATT_DEMO_PROJ/LOUD_BOX/USB_SHOUT1.v(20): redeclaration of ansi port debug1 is not allowed. VERI-1372
@@ -133,28 +133,28 @@ Analyzing Verilog file /home/brane2/LATT_DEMO_PROJ/LOUD_BOX/BRAIN_SHOUT.v. VERI-
 Analyzing Verilog file /usr/local/diamond/3.11_x64/ispfpga/userware/unix/SYNTHESIS_HEADERS/machxo2.v. VERI-1482
 Top module name (Verilog): top1
 INFO - synthesis: /home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v(1): compiling module top1. VERI-1018
-WARNING - synthesis: /home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v(47): expression size 32 truncated to fit in target size 2. VERI-1209
-WARNING - synthesis: /home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v(83): expression size 32 truncated to fit in target size 8. VERI-1209
-WARNING - synthesis: /home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v(86): expression size 32 truncated to fit in target size 16. VERI-1209
-WARNING - synthesis: /home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v(89): expression size 32 truncated to fit in target size 8. VERI-1209
-WARNING - synthesis: /home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v(92): expression size 32 truncated to fit in target size 8. VERI-1209
-WARNING - synthesis: /home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v(95): expression size 32 truncated to fit in target size 8. VERI-1209
-WARNING - synthesis: /home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v(98): expression size 32 truncated to fit in target size 8. VERI-1209
-WARNING - synthesis: /home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v(101): expression size 32 truncated to fit in target size 8. VERI-1209
-WARNING - synthesis: /home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v(114): index 8 is out of range [7:0] for xor_out. VERI-1216
-WARNING - synthesis: /home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v(115): index 9 is out of range [7:0] for xor_out. VERI-1216
-WARNING - synthesis: /home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v(127): expression size 32 truncated to fit in target size 3. VERI-1209
+WARNING - synthesis: /home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v(45): expression size 32 truncated to fit in target size 2. VERI-1209
+WARNING - synthesis: /home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v(81): expression size 32 truncated to fit in target size 8. VERI-1209
+WARNING - synthesis: /home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v(84): expression size 32 truncated to fit in target size 16. VERI-1209
+WARNING - synthesis: /home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v(87): expression size 32 truncated to fit in target size 8. VERI-1209
+WARNING - synthesis: /home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v(90): expression size 32 truncated to fit in target size 8. VERI-1209
+WARNING - synthesis: /home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v(93): expression size 32 truncated to fit in target size 8. VERI-1209
+WARNING - synthesis: /home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v(96): expression size 32 truncated to fit in target size 8. VERI-1209
+WARNING - synthesis: /home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v(99): expression size 32 truncated to fit in target size 8. VERI-1209
+WARNING - synthesis: /home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v(112): index 8 is out of range [7:0] for xor_out. VERI-1216
+WARNING - synthesis: /home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v(113): index 9 is out of range [7:0] for xor_out. VERI-1216
+WARNING - synthesis: /home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v(125): expression size 32 truncated to fit in target size 3. VERI-1209
+WARNING - synthesis: /home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v(193): expression size 32 truncated to fit in target size 8. VERI-1209
+WARNING - synthesis: /home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v(194): expression size 32 truncated to fit in target size 8. VERI-1209
 WARNING - synthesis: /home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v(195): expression size 32 truncated to fit in target size 8. VERI-1209
 WARNING - synthesis: /home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v(196): expression size 32 truncated to fit in target size 8. VERI-1209
-WARNING - synthesis: /home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v(197): expression size 32 truncated to fit in target size 8. VERI-1209
-WARNING - synthesis: /home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v(198): expression size 32 truncated to fit in target size 8. VERI-1209
-WARNING - synthesis: /home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v(236): expression size 32 truncated to fit in target size 3. VERI-1209
-WARNING - synthesis: /home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v(242): expression size 32 truncated to fit in target size 3. VERI-1209
-WARNING - synthesis: /home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v(248): expression size 32 truncated to fit in target size 3. VERI-1209
-WARNING - synthesis: /home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v(254): expression size 32 truncated to fit in target size 3. VERI-1209
+WARNING - synthesis: /home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v(234): expression size 32 truncated to fit in target size 3. VERI-1209
+WARNING - synthesis: /home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v(240): expression size 32 truncated to fit in target size 3. VERI-1209
+WARNING - synthesis: /home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v(246): expression size 32 truncated to fit in target size 3. VERI-1209
+WARNING - synthesis: /home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v(252): expression size 32 truncated to fit in target size 3. VERI-1209
+WARNING - synthesis: /home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v(264): expression size 32 truncated to fit in target size 3. VERI-1209
+WARNING - synthesis: /home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v(265): expression size 32 truncated to fit in target size 3. VERI-1209
 WARNING - synthesis: /home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v(266): expression size 32 truncated to fit in target size 3. VERI-1209
-WARNING - synthesis: /home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v(267): expression size 32 truncated to fit in target size 3. VERI-1209
-WARNING - synthesis: /home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v(268): expression size 32 truncated to fit in target size 3. VERI-1209
 INFO - synthesis: /home/brane2/LATT_DEMO_PROJ/LOUD_BOX/USB_SHOUT1.v(12): compiling module usb1_shout. VERI-1018
 WARNING - synthesis: /home/brane2/LATT_DEMO_PROJ/LOUD_BOX/USB_SHOUT1.v(80): expression size 32 truncated to fit in target size 5. VERI-1209
 WARNING - synthesis: /home/brane2/LATT_DEMO_PROJ/LOUD_BOX/USB_SHOUT1.v(86): expression size 32 truncated to fit in target size 3. VERI-1209
@@ -166,7 +166,7 @@ WARNING - synthesis: /home/brane2/LATT_DEMO_PROJ/LOUD_BOX/USB_SHOUT1.v(131): exp
 WARNING - synthesis: /home/brane2/LATT_DEMO_PROJ/LOUD_BOX/USB_SHOUT1.v(136): expression size 32 truncated to fit in target size 11. VERI-1209
 WARNING - synthesis: /home/brane2/LATT_DEMO_PROJ/LOUD_BOX/USB_SHOUT1.v(159): expression size 32 truncated to fit in target size 2. VERI-1209
 WARNING - synthesis: /home/brane2/LATT_DEMO_PROJ/LOUD_BOX/USB_SHOUT1.v(172): expression size 32 truncated to fit in target size 5. VERI-1209
-WARNING - synthesis: /home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v(280): actual bit length 2 differs from formal bit length 4 for port debug1. VERI-1330
+WARNING - synthesis: /home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v(278): actual bit length 2 differs from formal bit length 4 for port debug1. VERI-1330
 INFO - synthesis: /home/brane2/LATT_DEMO_PROJ/LOUD_BOX/USB_SHOUT1.v(12): compiling module usb1_shout(int_speed=1). VERI-1018
 WARNING - synthesis: /home/brane2/LATT_DEMO_PROJ/LOUD_BOX/USB_SHOUT1.v(80): expression size 32 truncated to fit in target size 5. VERI-1209
 WARNING - synthesis: /home/brane2/LATT_DEMO_PROJ/LOUD_BOX/USB_SHOUT1.v(86): expression size 32 truncated to fit in target size 3. VERI-1209
@@ -215,13 +215,14 @@ INFO - synthesis: /home/brane2/LATT_DEMO_PROJ/LOUD_BOX/PLL2.v(8): compiling modu
 INFO - synthesis: /usr/local/diamond/3.11_x64/ispfpga/userware/unix/SYNTHESIS_HEADERS/machxo2.v(1730): compiling module EHXPLLJ(CLKFB_DIV=12,CLKOP_DIV=2,CLKOS_DIV=2,CLKOS2_DIV=2,CLKOS3_DIV=2,CLKOP_CPHASE=1,CLKOS_CPHASE=1,CLKOS2_CPHASE=1,CLKOS3_CPHASE=1,CLKOS_FPHASE=2,CLKOS2_FPHASE=4,CLKOS3_FPHASE=6,PLL_LOCK_MODE=2). VERI-1018
 INFO - synthesis: /usr/local/diamond/3.11_x64/ispfpga/userware/unix/SYNTHESIS_HEADERS/machxo2.v(1793): compiling module OSCH(NOM_FREQ=2.08). VERI-1018
 INFO - synthesis: /home/brane2/LATT_DEMO_PROJ/LOUD_BOX/BRAIN_SHOUT.v(1): compiling module brain_shout. VERI-1018
-WARNING - synthesis: /home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v(58): net clk100_r does not have a driver. VDB-1002
+WARNING - synthesis: /home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v(322): index 11 is out of range [7:0] for rng1_cnt. VERI-1216
+WARNING - synthesis: /home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v(56): net clk100_r does not have a driver. VDB-1002
+WARNING - synthesis: /home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v(278): input port clk_pol is not connected on this instance. VDB-1013
+WARNING - synthesis: /home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v(279): input port clk_pol is not connected on this instance. VDB-1013
 WARNING - synthesis: /home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v(280): input port clk_pol is not connected on this instance. VDB-1013
 WARNING - synthesis: /home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v(281): input port clk_pol is not connected on this instance. VDB-1013
 WARNING - synthesis: /home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v(282): input port clk_pol is not connected on this instance. VDB-1013
 WARNING - synthesis: /home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v(283): input port clk_pol is not connected on this instance. VDB-1013
-WARNING - synthesis: /home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v(284): input port clk_pol is not connected on this instance. VDB-1013
-WARNING - synthesis: /home/brane2/LATT_DEMO_PROJ/LOUD_BOX/TOP.v(285): input port clk_pol is not connected on this instance. VDB-1013
 Loading NGL library '/usr/local/diamond/3.11_x64/ispfpga/xo2c00a/data/xo2alib.ngl'...
 Loading NGL library '/usr/local/diamond/3.11_x64/ispfpga/xo2c00/data/xo2clib.ngl'...
 Loading NGL library '/usr/local/diamond/3.11_x64/ispfpga/mg5g00/data/mg5glib.ngl'...
@@ -231,6 +232,9 @@ Package Status:                     Final          Version 1.39.
 Top-level module name = top1.
 WARNING - synthesis: I/O Port key1 's net has no driver and is unused.
 WARNING - synthesis: I/O Port key2 's net has no driver and is unused.
+WARNING - synthesis: I/O Port br4_shin 's net has no driver and is unused.
+WARNING - synthesis: I/O Port br5_shin 's net has no driver and is unused.
+WARNING - synthesis: I/O Port br6_shin 's net has no driver and is unused.
 WARNING - synthesis: I/O Port debug5 's net has no driver and is unused.
 WARNING - synthesis: I/O Port debug6 's net has no driver and is unused.
 WARNING - synthesis: /home/brane2/LATT_DEMO_PROJ/LOUD_BOX/USB_SHOUT1.v(13): net \usb_l1/clk_pol does not have a driver. VDB-1002
@@ -249,7 +253,64 @@ WARNING - synthesis: /home/brane2/LATT_DEMO_PROJ/LOUD_BOX/IOT_SHOUT.v(57): Regis
 
 WARNING - synthesis: I/O Port key1 's net has no driver and is unused.
 WARNING - synthesis: I/O Port key2 's net has no driver and is unused.
+WARNING - synthesis: I/O Port br4_shin 's net has no driver and is unused.
+WARNING - synthesis: I/O Port br5_shin 's net has no driver and is unused.
+WARNING - synthesis: I/O Port br6_shin 's net has no driver and is unused.
 Combinational loop found : 1
+
+	Net n8257 
+
+	Instance i3637 
+
+	Net \brain3/shout_N_658 
+
+	Instance \brain3/shout_I_36 
+
+	Net \brain3/shout_N_659 
+
+	Instance \brain3/fuzz_I_0 
+
+	Net n8266 
+
+	Instance i3640 
+
+Combinational loop found : 2
+
+	Net n8254 
+
+	Instance i3636 
+
+	Net \brain2/shout_N_658 
+
+	Instance \brain2/shout_I_36 
+
+	Net \brain2/shout_N_659 
+
+	Instance \brain2/fuzz_I_0 
+
+	Net n8263 
+
+	Instance i3639 
+
+Combinational loop found : 3
+
+	Net \brain1/shout_N_658 
+
+	Instance \brain1/shout_I_36 
+
+	Net \brain1/shout_N_659 
+
+	Instance \brain1/fuzz_I_0 
+
+	Net n8260 
+
+	Instance i3638 
+
+	Net n8251 
+
+	Instance i3635 
+
+Combinational loop found : 4
 
 	Net rng1_clk[0] 
 
@@ -263,7 +324,7 @@ Combinational loop found : 1
 
 	Instance \rng1/ref_clk[2]_I_keep_buf 
 
-	Net n1433 
+	Net n1465 
 
 	Instance \rng1/ref_clk[2]_keep_buf 
 
@@ -271,7 +332,7 @@ Combinational loop found : 1
 
 	Instance \rng1/r2_c3/mem_0_0 
 
-	Net n1435 
+	Net n1467 
 
 	Instance \rng1/ref_clk[1]_keep_buf 
 
@@ -279,7 +340,7 @@ Combinational loop found : 1
 
 	Instance \rng1/r2_c2/mem_0_0 
 
-Combinational loop found : 2
+Combinational loop found : 5
 
 	Net \rng1/r1_2_keep 
 
@@ -293,7 +354,7 @@ Combinational loop found : 2
 
 	Instance \rng1/ref_clk[2]_I_keep_buf 
 
-	Net n1433 
+	Net n1465 
 
 	Instance \rng1/ref_clk[2]_keep_buf 
 
@@ -301,7 +362,7 @@ Combinational loop found : 2
 
 	Instance \rng1/r2_c3/mem_0_0 
 
-	Net n1435 
+	Net n1467 
 
 	Instance \rng1/ref_clk[1]_keep_buf 
 
@@ -350,7 +411,7 @@ Combinational loop found : 2
 	Instance \rng1/r1_c3/mem_0_0 
 
 WARNING - synthesis: /home/brane2/LATT_DEMO_PROJ/LOUD_BOX/USB_SHOUT1.v(189): Register \usb_l1/data_size_i0 is stuck at Zero. VDB-5013
-GSR instance connected to net \i2514/n1.
+GSR instance connected to net \i2539/n1.
 ######## Converted FF type for instance \leds_div12/FF_10 due to shared LSR/GSR.
 ######## Converted FF type for instance \leds_div12/FF_9 due to shared LSR/GSR.
 ######## Converted FF type for instance \leds_div12/FF_8 due to shared LSR/GSR.
@@ -375,34 +436,41 @@ WARNING - synthesis: logical net 'key1' has no load.
 WARNING - synthesis: input pad net 'key1' has no legal load.
 WARNING - synthesis: logical net 'key2' has no load.
 WARNING - synthesis: input pad net 'key2' has no legal load.
-WARNING - synthesis: logical net 'n1444' has no load.
-WARNING - synthesis: logical net 'n1450' has no load.
-WARNING - synthesis: logical net 'n1453' has no load.
-WARNING - synthesis: logical net 'n1455' has no load.
-WARNING - synthesis: DRC complete with 8 warnings.
+WARNING - synthesis: logical net 'br4_shin' has no load.
+WARNING - synthesis: input pad net 'br4_shin' has no legal load.
+WARNING - synthesis: logical net 'br5_shin' has no load.
+WARNING - synthesis: input pad net 'br5_shin' has no legal load.
+WARNING - synthesis: logical net 'br6_shin' has no load.
+WARNING - synthesis: input pad net 'br6_shin' has no legal load.
+WARNING - synthesis: logical net 'n1482' has no load.
+WARNING - synthesis: logical net 'n1485' has no load.
+WARNING - synthesis: logical net 'n1487' has no load.
+WARNING - synthesis: logical net 'n1476' has no load.
+WARNING - synthesis: DRC complete with 14 warnings.
 All blocks are expanded and NGD expansion is successful.
 Writing NGD file LOUD_BOX_impl1.ngd.
 
 ################### Begin Area Report (top1)######################
-Number of register bits => 485 of 7209 (6 % )
-CCU2D => 183
+Number of register bits => 518 of 7209 (7 % )
+CCU2D => 199
 CU2 => 6
 EHXPLLJ => 2
 FADD2B => 1
-FD1P3AX => 186
+FD1P3AX => 187
 FD1P3IX => 127
-FD1P3JX => 9
-FD1S3AX => 38
+FD1P3JX => 8
+FD1S3AX => 68
 FD1S3AY => 1
-FD1S3IX => 108
+FD1S3IX => 111
 FD1S3JX => 16
 GSR => 1
-IB => 5
+IB => 2
 INV => 6
-LUT4 => 870
-OB => 60
+LUT4 => 885
+OB => 54
+OBZ => 6
 OSCH => 1
-PFUMX => 49
+PFUMX => 56
 ROM16X1A => 8
 ################### End Area Report ##################
 
@@ -412,55 +480,60 @@ TSALL => 1
 
 ################### Begin Clock Report ######################
 Clock Nets
-Number of Clocks: 26
-  Net : main_pll/clk_266_0, loads : 54
+Number of Clocks: 31
+  Net : main_pll/clk_266_0, loads : 57
   Net : main_pll/clk_266_1, loads : 46
   Net : sec_pll/clk_240_0, loads : 45
   Net : debug2_c_0, loads : 41
-  Net : clk_in_p_adj_705, loads : 38
+  Net : clk_in_p_adj_755, loads : 38
   Net : usb_clo_2_2, loads : 37
   Net : sec_pll/clk_240_2, loads : 35
-  Net : clk_in_p_adj_706, loads : 36
-  Net : clk_in_p_adj_713, loads : 36
+  Net : clk_in_p_adj_769, loads : 36
+  Net : clk_in_p_adj_757, loads : 36
+  Net : rng1/rng1_out_0, loads : 23
+  Net : rng1_cnt_7, loads : 17
   Net : ps4_ck, loads : 15
   Net : clk60_cnt_1, loads : 13
+  Net : rng1/r2_c1/ref_clk_0, loads : 12
   Net : usb_clkf_2, loads : 10
-  Net : rng1/r2_c1/ref_clk_0, loads : 10
   Net : leds_div12/leds_div_10, loads : 9
+  Net : osc_out, loads : 8
   Net : main_pll/clk_400, loads : 8
+  Net : brain3/n8257, loads : 7
+  Net : brain2/n8254, loads : 7
   Net : pll1_cnt400_1, loads : 6
-  Net : osc_out, loads : 4
-  Net : ps1_ck, loads : 3
-  Net : rng1/r2_c2/ref_clk_1, loads : 3
-  Net : ps3_ck, loads : 3
+  Net : main_pll/clk_114, loads : 5
   Net : ps2_ck, loads : 3
-  Net : rng1/r2_c3/ref_clk_2, loads : 2
+  Net : ps3_ck, loads : 3
+  Net : ps1_ck, loads : 3
+  Net : brain1/shout_N_658_derived_1, loads : 3
+  Net : rng1/r2_c2/ref_clk_1, loads : 3
   Net : clk_in_c, loads : 2
-  Net : main_pll/clk_114, loads : 1
-  Net : sec_pll/n1450, loads : 0
-  Net : sec_pll/n1453, loads : 0
+  Net : rng1/r2_c3/ref_clk_2, loads : 2
+  Net : sec_pll/n1485, loads : 0
+  Net : sec_pll/n1482, loads : 0
 Clock Enable Nets
-Number of Clock Enables: 108
+Number of Clock Enables: 112
 Top 10 highest fanout Clock Enables:
   Net : dis1/clk_266_0_keep_enable_21, loads : 41
   Net : dis2/clk_266_1_keep_enable_21, loads : 41
-  Net : usb_l3/debug2_c_0_enable_12, loads : 6
-  Net : usb_f2/clk_in_p_enable_12, loads : 6
-  Net : usb_f1/clk_in_p_enable_16, loads : 6
-  Net : usb_l4/clk_in_p_enable_13, loads : 6
-  Net : usb_l2/clk_in_p_enable_12, loads : 6
-  Net : ps4/clk_dis_N_442, loads : 6
-  Net : usb_l1/clk_in_p_enable_14, loads : 6
-  Net : usb_l2/clk_in_p_enable_20, loads : 5
+  Net : ps3/clk_dis_N_475, loads : 6
+  Net : usb_f1/clk_in_p_enable_10, loads : 6
+  Net : usb_l3/debug2_c_0_enable_13, loads : 6
+  Net : usb_l2/clk_in_p_enable_16, loads : 6
+  Net : usb_f2/clk_in_p_enable_10, loads : 6
+  Net : usb_l4/clk_in_p_enable_16, loads : 6
+  Net : ps4/clk_dis_N_475, loads : 6
+  Net : usb_l3/debug2_c_0_enable_21, loads : 5
 Highest fanout non-clock nets
 Top 10 highest fanout non-clock nets:
-  Net : reset_N, loads : 324
-  Net : usb_l1/state_0, loads : 50
-  Net : usb_l2/state_0, loads : 48
-  Net : usb_l4/state_0_adj_687, loads : 46
+  Net : reset_N, loads : 330
+  Net : usb_l2/state_0_adj_663, loads : 49
+  Net : usb_l4/state_0, loads : 48
+  Net : usb_l1/state_0, loads : 47
+  Net : usb_l3/state_0, loads : 47
+  Net : usb_f2/state_0_adj_699, loads : 47
   Net : usb_f1/state_0, loads : 45
-  Net : usb_f2/state_0, loads : 45
-  Net : usb_l3/state_0, loads : 41
   Net : dis2/clk_266_1_keep_enable_21, loads : 41
   Net : dis1/clk_266_0_keep_enable_21, loads : 41
   Net : usb_l1/state_1, loads : 32
@@ -473,79 +546,97 @@ Constraint                              |   Constraint|       Actual|Levels
 --------------------------------------------------------------------------------
                                         |             |             |
 create_clock -period 5.000000 -name     |             |             |
-clk21 [get_nets \rng1/ref_clk[2]]       |            -|            -|     0  
+clk27 [get_nets n8257]                  |  200.000 MHz|  298.240 MHz|     2  
                                         |             |             |
 create_clock -period 5.000000 -name     |             |             |
-clk20 [get_nets pll1_cnt400[1]]         |  200.000 MHz|  192.790 MHz|     3 *
+clk26 [get_nets pll1_cnt400[1]]         |  200.000 MHz|  192.790 MHz|     3 *
                                         |             |             |
 create_clock -period 5.000000 -name     |             |             |
-clk19 [get_nets \rng1/ref_clk[1]]       |  200.000 MHz|  128.107 MHz|     2 *
+clk25 [get_nets n8254]                  |  200.000 MHz|  146.843 MHz|     5 *
                                         |             |             |
 create_clock -period 5.000000 -name     |             |             |
-clk18 [get_nets ps2_ck]                 |  200.000 MHz|  116.279 MHz|     5 *
+clk24 [get_nets shout_N_658_derived_1]  |  200.000 MHz|  150.489 MHz|     4 *
                                         |             |             |
 create_clock -period 5.000000 -name     |             |             |
-clk17 [get_nets clk_266_1]              |  200.000 MHz|   93.950 MHz|     6 *
+clk23 [get_nets clk_in_p_adj_769]       |  200.000 MHz|   88.316 MHz|     7 *
                                         |             |             |
 create_clock -period 5.000000 -name     |             |             |
-clk16 [get_nets ps1_ck]                 |  200.000 MHz|  117.398 MHz|     5 *
+clk22 [get_nets clk_400]                |  200.000 MHz|  220.167 MHz|     5  
                                         |             |             |
 create_clock -period 5.000000 -name     |             |             |
-clk15 [get_nets clk_in_p_adj_706]       |  200.000 MHz|   91.861 MHz|     6 *
+clk21 [get_nets rng1_cnt[7]]            |  200.000 MHz|  193.424 MHz|    10 *
                                         |             |             |
 create_clock -period 5.000000 -name     |             |             |
-clk14 [get_nets clk_in_p_adj_713]       |  200.000 MHz|   92.413 MHz|     6 *
+clk20 [get_nets clk_114]                |  200.000 MHz|  243.427 MHz|     4  
                                         |             |             |
 create_clock -period 5.000000 -name     |             |             |
-clk13 [get_nets clk_in_p_adj_705]       |  200.000 MHz|   96.348 MHz|     6 *
+clk19 [get_nets rng1_out[0]]            |  200.000 MHz|   97.116 MHz|     8 *
                                         |             |             |
 create_clock -period 5.000000 -name     |             |             |
-clk12 [get_nets clk_266_0]              |  200.000 MHz|   93.950 MHz|     6 *
+clk18 [get_nets \rng1/ref_clk[2]]       |            -|            -|     0  
                                         |             |             |
 create_clock -period 5.000000 -name     |             |             |
-clk11 [get_nets usb_clo[2][2]]          |  200.000 MHz|  129.232 MHz|     5 *
+clk17 [get_nets ps1_ck]                 |  200.000 MHz|  116.279 MHz|     5 *
                                         |             |             |
 create_clock -period 5.000000 -name     |             |             |
-clk10 [get_nets clk60_cnt[1]]           |  200.000 MHz|  261.986 MHz|     2  
+clk16 [get_nets clk_in_p_adj_755]       |  200.000 MHz|   91.424 MHz|     6 *
                                         |             |             |
 create_clock -period 5.000000 -name     |             |             |
-clk9 [get_nets clk_240_2]               |  200.000 MHz|   85.310 MHz|     7 *
+clk15 [get_nets clk60_cnt[1]]           |  200.000 MHz|  261.986 MHz|     2  
                                         |             |             |
 create_clock -period 5.000000 -name     |             |             |
-clk8 [get_nets osc_out]                 |  200.000 MHz|  232.288 MHz|     3  
+clk14 [get_nets clk_in_p_adj_757]       |  200.000 MHz|   74.660 MHz|     8 *
                                         |             |             |
 create_clock -period 5.000000 -name     |             |             |
-clk7 [get_nets clk_400]                 |  200.000 MHz|  220.167 MHz|     5  
+clk13 [get_nets usb_clo[2][2]]          |  200.000 MHz|  129.232 MHz|     5 *
                                         |             |             |
 create_clock -period 5.000000 -name     |             |             |
-clk6 [get_nets debug2_c_0]              |  200.000 MHz|   92.413 MHz|     6 *
+clk12 [get_nets osc_out]                |  200.000 MHz|  214.638 MHz|     5  
                                         |             |             |
 create_clock -period 5.000000 -name     |             |             |
-clk5 [get_nets clk_240_0]               |  200.000 MHz|   81.633 MHz|     7 *
+clk11 [get_nets ps3_ck]                 |  200.000 MHz|  116.279 MHz|     5 *
                                         |             |             |
 create_clock -period 5.000000 -name     |             |             |
-clk4 [get_nets usb_clkf[2]]             |  200.000 MHz|  298.240 MHz|     2  
+clk10 [get_nets ps2_ck]                 |  200.000 MHz|  117.398 MHz|     5 *
                                         |             |             |
 create_clock -period 5.000000 -name     |             |             |
-clk3 [get_nets \rng1/ref_clk[0]]        |  200.000 MHz|  220.167 MHz|     5  
+clk9 [get_nets debug2_c_0]              |  200.000 MHz|   91.962 MHz|     7 *
                                         |             |             |
 create_clock -period 5.000000 -name     |             |             |
-clk2 [get_nets leds_div[10]]            |  200.000 MHz|  181.719 MHz|     3 *
+clk8 [get_nets clk_266_1]               |  200.000 MHz|   93.950 MHz|     6 *
                                         |             |             |
 create_clock -period 5.000000 -name     |             |             |
-clk1 [get_nets ps4_ck]                  |  200.000 MHz|   98.532 MHz|     7 *
+clk7 [get_nets \rng1/ref_clk[0]]        |  200.000 MHz|  206.782 MHz|     6  
                                         |             |             |
 create_clock -period 5.000000 -name     |             |             |
-clk0 [get_nets ps3_ck]                  |  200.000 MHz|  117.398 MHz|     5 *
+clk6 [get_nets clk_240_0]               |  200.000 MHz|   92.413 MHz|     6 *
+                                        |             |             |
+create_clock -period 5.000000 -name     |             |             |
+clk5 [get_nets usb_clkf[2]]             |  200.000 MHz|  298.240 MHz|     2  
+                                        |             |             |
+create_clock -period 5.000000 -name     |             |             |
+clk4 [get_nets ps4_ck]                  |  200.000 MHz|   98.532 MHz|     7 *
+                                        |             |             |
+create_clock -period 5.000000 -name     |             |             |
+clk3 [get_nets leds_div[10]]            |  200.000 MHz|  181.719 MHz|     3 *
+                                        |             |             |
+create_clock -period 5.000000 -name     |             |             |
+clk2 [get_nets clk_240_2]               |  200.000 MHz|   75.341 MHz|     9 *
+                                        |             |             |
+create_clock -period 5.000000 -name     |             |             |
+clk1 [get_nets clk_266_0]               |  200.000 MHz|   93.950 MHz|     6 *
+                                        |             |             |
+create_clock -period 5.000000 -name     |             |             |
+clk0 [get_nets \rng1/ref_clk[1]]        |  200.000 MHz|  128.107 MHz|     2 *
                                         |             |             |
 --------------------------------------------------------------------------------
 
 
-16 constraints not met.
+20 constraints not met.
 
 
-Peak Memory Usage: 198.945  MB
+Peak Memory Usage: 200.059  MB
 
 --------------------------------------------------------------
-Elapsed CPU time for LSE flow : 3.372  secs
+Elapsed CPU time for LSE flow : 3.605  secs
 --------------------------------------------------------------

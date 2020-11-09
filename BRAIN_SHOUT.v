@@ -2,9 +2,20 @@ module brain_shout(
 input 	clkin,
 		invert,
 		fuzz,
-output	shout);
+inout	shout);
 
-assign shout = invert ^ clkin ;
+reg sh_state;
+reg	shout_r;
+
+assign shout = clkin? ( fuzz ^ invert ^ sh_state): 1'bZ;
+
+always @(  posedge clkin ) 	begin
+		
+		sh_state = shout ^ fuzz; 
+	
+end
+	
+
 
 
 endmodule

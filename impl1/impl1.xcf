@@ -20,8 +20,8 @@
 				<BScanVal>0</BScanVal>
 			</Bypass>
 			<File>/home/brane2/LATT_DEMO_PROJ/LOUD_BOX/impl1/LOUD_BOX_impl1.jed</File>
-			<FileTime>10/28/20 05:51:41</FileTime>
-			<JedecChecksum>0xD624</JedecChecksum>
+			<FileTime>11/07/20 10:26:32</FileTime>
+			<JedecChecksum>0xA65B</JedecChecksum>
 			<Operation>FLASH Erase,Program,Verify</Operation>
 			<Option>
 				<SVFVendor>JTAG STANDARD</SVFVendor>

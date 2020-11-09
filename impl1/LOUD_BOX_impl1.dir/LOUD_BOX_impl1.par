@@ -4,7 +4,7 @@ Copyright (c) 1995 AT&T Corp.   All rights reserved.
 Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
 Copyright (c) 2001 Agere Systems   All rights reserved.
 Copyright (c) 2002-2020 Lattice Semiconductor Corporation,  All rights reserved.
-Thu Oct 29 15:47:12 2020
+Mon Nov  9 03:09:27 2020
 
 /usr/local/diamond/3.11_x64/ispfpga/bin/lin64/par -f LOUD_BOX_impl1.p2t
 LOUD_BOX_impl1_map.ncd LOUD_BOX_impl1.dir LOUD_BOX_impl1.prf -gui -msgset
@@ -16,11 +16,11 @@ Preference file: LOUD_BOX_impl1.prf.
 Level/       Number       Worst        Timing       Worst        Timing       Run          NCD
 Cost [ncd]   Unrouted     Slack        Score        Slack(hold)  Score(hold)  Time         Status
 ----------   --------     -----        ------       -----------  -----------  ----         ------
-5_1   *      0            -5.306       10110653     0.377        0            13           Completed
+5_1   *      0            -24.022      11443300     -4.943       150957       11           Completed
 
 * : Design saved.
 
-Total (real) run time for 1-seed: 13 secs 
+Total (real) run time for 1-seed: 11 secs 
 
 par done!
 

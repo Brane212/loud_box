@@ -102,18 +102,15 @@ Then it feels like being in the same room with old CRT TV with loud deflection c
 high frequency wave (16kHz+, somewhat assymetric and interspersed with LF frames/ vertical blank/)
   
   
-Basic, starting idea for cheap countermeasure is simple:
+BAsic, starting idea for cheap countermeasure is simple:
 
 - use input signal opamp ( which is very fast amplifier/comparator) as a radio input
 - try to put it in or near linear region by connecting its inverting ouput to input ( as when you make a simple quartz oscillator)  
 - this should make it readily available to serve for mixing incoming signals
 - along with cacophony of noise coming from all othe routputs, this could inject enough randomness to smear the signal in reflections
-- deactivate output temporarily and latch the state of the antenna input for the next cycle.
   
-Without  knowing more in about what exactly we should emulate this is it. 
+WIth knowng more in about what exactly we should emulate this is it. 
 I hope someone can reveal more about the tech and the nature of relfected signal so that we can do more.
-
-
 
 Still, not halfbad for a friggin $40 board and McGyver methods.  
   

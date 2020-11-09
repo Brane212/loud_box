@@ -11,14 +11,20 @@ WARNING - synthesis: logical net 'key1' has no load.
 WARNING - synthesis: input pad net 'key1' has no legal load.
 WARNING - synthesis: logical net 'key2' has no load.
 WARNING - synthesis: input pad net 'key2' has no legal load.
-WARNING - synthesis: logical net 'n1444' has no load.
-WARNING - synthesis: logical net 'n1450' has no load.
-WARNING - synthesis: logical net 'n1453' has no load.
-WARNING - synthesis: logical net 'n1455' has no load.
-WARNING - synthesis: DRC complete with 8 warnings.
+WARNING - synthesis: logical net 'br4_shin' has no load.
+WARNING - synthesis: input pad net 'br4_shin' has no legal load.
+WARNING - synthesis: logical net 'br5_shin' has no load.
+WARNING - synthesis: input pad net 'br5_shin' has no legal load.
+WARNING - synthesis: logical net 'br6_shin' has no load.
+WARNING - synthesis: input pad net 'br6_shin' has no legal load.
+WARNING - synthesis: logical net 'n1482' has no load.
+WARNING - synthesis: logical net 'n1485' has no load.
+WARNING - synthesis: logical net 'n1487' has no load.
+WARNING - synthesis: logical net 'n1476' has no load.
+WARNING - synthesis: DRC complete with 14 warnings.
 
 Design Results:
-   1680 blocks expanded
+   1748 blocks expanded
 completed the first expansion
 All blocks are expanded and NGD expansion is successful.
 Writing NGD file LOUD_BOX_impl1.ngd.
